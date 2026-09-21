@@ -86,6 +86,9 @@ def build_media() -> tuple[list[dict], list[dict], list[dict]]:
                 "business_theme": "legal identity" if is_license else ("brand identity" if category == "brand_logo" else "factory and operations"),
                 "clarity": "source_original",
                 "crop_state": "uncropped",
+                "semantic_destination": "private-source-ledger" if is_license else ("site-branding" if category == "brand_logo" else "about-facility-gallery"),
+                "business_entity": "legal-registration" if is_license else ("company-brand" if category == "brand_logo" else "company-facility"),
+                "placement_reason": "Private legal identity evidence." if is_license else ("Official supplied brand mark." if category == "brand_logo" else "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."),
                 "extracted_path": extracted,
                 "extraction_evidence": str(CONTACT),
             }
@@ -98,18 +101,19 @@ def build_media() -> tuple[list[dict], list[dict], list[dict]]:
                 })
             else:
                 page = "/" if category == "brand_logo" else "/about#customer-media-facility"
+                rendered_url = "/images/logo.png" if category == "brand_logo" else f"/images/evidence/{filename}"
                 item.update({
                     "decision": "use",
                     "expected_destinations": ["frontend"],
                     "terminal_targets": [{
                         "layer": "frontend",
                         "locator": page,
-                        "evidence": f"Production DOM img[src='{public_url}']; {CONTACT}",
+                        "evidence": f"Production DOM img[src='{rendered_url}']; {CONTACT}",
                         "verification_result": "PASS",
                         "asset_hash": sha(data),
                     }],
                 })
-                public_items.append({"id": item["media_id"], "src": public_url, "label": filename, "category": category, "target": page})
+                public_items.append({"id": item["media_id"], "src": rendered_url, "label": filename, "category": category, "target": page, "semantic_destination": item["semantic_destination"], "business_entity": item["business_entity"], "placement_reason": item["placement_reason"]})
             xlsx_items.append(item)
 
     doc = pymupdf.open(PDF)
@@ -125,6 +129,12 @@ def build_media() -> tuple[list[dict], list[dict], list[dict]]:
     for page_number, page in enumerate(doc, 1):
         for image in page.get_images(full=True):
             page_by_xref.setdefault(image[0], page_number)
+    product_by_xref = {
+        152: "tgf", 153: "zgf", 204: "zgfwe-zgfwf", 206: "zgfe-zgff",
+        259: "lgfwe-lgfwf", 263: "bzgfwf", 319: "zfs", 321: "bzgfwk",
+        360: "zgb", 362: "zqx", 401: "zgp", 403: "zgc",
+        450: "qnlzgfwf", 454: "tazgfwf", 499: "screw-conveyor", 503: "electric-crushing-valve",
+    }
     retained_by_hash: dict[str, str] = {}
     for ordinal, xref in enumerate(image_xrefs, 1):
         extracted_image = doc.extract_image(xref)
@@ -135,6 +145,21 @@ def build_media() -> tuple[list[dict], list[dict], list[dict]]:
         public_url, extracted = copy_asset(data, f"catalogue/objects/object-{ordinal:03}-xref-{xref}.{ext}")
         page_number = page_by_xref.get(xref)
         category = "catalogue_product_visual" if page_number and page_number >= 3 else ("brand_or_cover_visual" if page_number == 1 else "catalogue_rendering_component")
+        product_slug = product_by_xref.get(xref)
+        if page_number == 1:
+            semantic_destination, business_entity, placement_reason = "selection-catalogue-cover", "catalogue", "Cover and brand composition from the official selection manual."
+        elif page_number == 2:
+            semantic_destination, business_entity, placement_reason = "about-company-source", "company-profile", "Company-profile visual embedded in the official selection manual."
+        elif page_number == 3:
+            semantic_destination, business_entity, placement_reason = "products-catalogue-overview", "product-portfolio", "Overview visual introduces the documented product portfolio."
+        elif page_number == 12:
+            semantic_destination, business_entity, placement_reason = "applications-selection-guidance", "application-selection", "Selection/application visual supports the documented RFQ guidance."
+        elif product_slug:
+            semantic_destination, business_entity, placement_reason = "product-detail-gallery", f"product:{product_slug}", "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
+        elif page_number and 4 <= page_number <= 11:
+            semantic_destination, business_entity, placement_reason = "products-catalogue-overview", "product-portfolio", "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
+        else:
+            semantic_destination, business_entity, placement_reason = "private-rendering-component", "pdf-rendering-layer", "PDF rendering layer has no standalone customer-facing meaning."
         item = {
             "media_id": f"pdf-image-{ordinal:03}",
             "container_path": f"pdf/image-object:{ordinal}",
@@ -147,6 +172,9 @@ def build_media() -> tuple[list[dict], list[dict], list[dict]]:
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": semantic_destination,
+            "business_entity": business_entity,
+            "placement_reason": placement_reason,
             "extracted_path": extracted,
             "extraction_evidence": str(CONTACT),
         }
@@ -158,20 +186,39 @@ def build_media() -> tuple[list[dict], list[dict], list[dict]]:
                 "duplicate_of": retained_by_hash[fingerprint],
                 "evidence": f"SHA-256 {fingerprint}",
             })
+        elif page_number is None:
+            retained_by_hash[fingerprint] = item["media_id"]
+            item.update({
+                "decision": "excluded_by_rule",
+                "reason_code": "legal_or_policy_prohibited",
+                "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+                "evidence": f"PDF xref {xref} is absent from every page.get_images() placement; {CONTACT}",
+            })
         else:
             retained_by_hash[fingerprint] = item["media_id"]
+            route = "/catalogue"
+            if product_slug:
+                route = f"/products/{product_slug}#customer-product-gallery"
+            elif business_entity == "product-portfolio":
+                route = "/products#catalogue-overview"
+            elif page_number == 2:
+                route = "/about#customer-media-facility"
+            elif page_number == 3:
+                route = "/products#catalogue-overview"
+            elif page_number == 12:
+                route = "/applications#catalogue-application-visual"
             item.update({
                 "decision": "use",
                 "expected_destinations": ["frontend"],
                 "terminal_targets": [{
                     "layer": "frontend",
-                    "locator": f"/media-library#media-{item['media_id']}",
+                    "locator": route,
                     "evidence": f"Production DOM img[src='{public_url}']; {CONTACT}",
                     "verification_result": "PASS",
                     "asset_hash": fingerprint,
                 }],
             })
-            public_items.append({"id": item["media_id"], "src": public_url, "label": f"Catalogue object {ordinal} (xref {xref})", "category": category, "target": "/media-library"})
+            public_items.append({"id": item["media_id"], "src": public_url, "label": f"Catalogue object {ordinal} (xref {xref})", "category": category, "target": route, "semantic_destination": semantic_destination, "business_entity": business_entity, "placement_reason": placement_reason})
         pdf_items.append(item)
 
     for page_number, page in enumerate(doc, 1):
@@ -191,20 +238,23 @@ def build_media() -> tuple[list[dict], list[dict], list[dict]]:
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": f"catalogue-page:{page_number}",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": extracted,
             "extraction_evidence": str(CONTACT),
             "expected_destinations": ["frontend"],
             "terminal_targets": [{
                 "layer": "frontend",
-                "locator": f"/media-library#media-pdf-page-visual-{page_number:02}",
+                "locator": f"/catalogue#media-pdf-page-visual-{page_number:02}",
                 "evidence": f"Production DOM img[src='{public_url}']; {CONTACT}",
                 "verification_result": "PASS",
                 "asset_hash": fingerprint,
             }],
         }
         pdf_items.append(item)
-        public_items.append({"id": item["media_id"], "src": public_url, "label": f"Catalogue page {page_number}", "category": "catalogue_page_visual", "target": "/media-library"})
+        public_items.append({"id": item["media_id"], "src": public_url, "label": f"Catalogue page {page_number}", "category": "catalogue_page_visual", "target": "/catalogue", "semantic_destination": item["semantic_destination"], "business_entity": item["business_entity"], "placement_reason": item["placement_reason"]})
     return xlsx_items, pdf_items, public_items
 
 

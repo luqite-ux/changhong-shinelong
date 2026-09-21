@@ -1,541 +1,552 @@
 [
   {
     "id": "xlsx-media-01",
-    "src": "/customer-media/workbook/image1.png",
+    "src": "/images/logo.png",
     "label": "image1.png",
     "category": "brand_logo",
-    "target": "/"
+    "target": "/",
+    "semantic_destination": "site-branding",
+    "business_entity": "company-brand",
+    "placement_reason": "Official supplied brand mark."
   },
   {
     "id": "xlsx-media-02",
-    "src": "/customer-media/workbook/image10.jpeg",
+    "src": "/images/evidence/image10.jpeg",
     "label": "image10.jpeg",
     "category": "facility",
-    "target": "/about#customer-media-facility"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-facility-gallery",
+    "business_entity": "company-facility",
+    "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."
   },
   {
     "id": "xlsx-media-03",
-    "src": "/customer-media/workbook/image11.jpeg",
+    "src": "/images/evidence/image11.jpeg",
     "label": "image11.jpeg",
     "category": "facility",
-    "target": "/about#customer-media-facility"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-facility-gallery",
+    "business_entity": "company-facility",
+    "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."
   },
   {
     "id": "xlsx-media-05",
-    "src": "/customer-media/workbook/image3.jpeg",
+    "src": "/images/evidence/image3.jpeg",
     "label": "image3.jpeg",
     "category": "facility",
-    "target": "/about#customer-media-facility"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-facility-gallery",
+    "business_entity": "company-facility",
+    "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."
   },
   {
     "id": "xlsx-media-06",
-    "src": "/customer-media/workbook/image4.jpeg",
+    "src": "/images/evidence/image4.jpeg",
     "label": "image4.jpeg",
     "category": "facility",
-    "target": "/about#customer-media-facility"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-facility-gallery",
+    "business_entity": "company-facility",
+    "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."
   },
   {
     "id": "xlsx-media-07",
-    "src": "/customer-media/workbook/image5.jpeg",
+    "src": "/images/evidence/image5.jpeg",
     "label": "image5.jpeg",
     "category": "facility",
-    "target": "/about#customer-media-facility"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-facility-gallery",
+    "business_entity": "company-facility",
+    "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."
   },
   {
     "id": "xlsx-media-08",
-    "src": "/customer-media/workbook/image6.jpeg",
+    "src": "/images/evidence/image6.jpeg",
     "label": "image6.jpeg",
     "category": "facility",
-    "target": "/about#customer-media-facility"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-facility-gallery",
+    "business_entity": "company-facility",
+    "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."
   },
   {
     "id": "xlsx-media-09",
-    "src": "/customer-media/workbook/image7.jpeg",
+    "src": "/images/evidence/image7.jpeg",
     "label": "image7.jpeg",
     "category": "facility",
-    "target": "/about#customer-media-facility"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-facility-gallery",
+    "business_entity": "company-facility",
+    "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."
   },
   {
     "id": "xlsx-media-10",
-    "src": "/customer-media/workbook/image8.jpeg",
+    "src": "/images/evidence/image8.jpeg",
     "label": "image8.jpeg",
     "category": "facility",
-    "target": "/about#customer-media-facility"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-facility-gallery",
+    "business_entity": "company-facility",
+    "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."
   },
   {
     "id": "xlsx-media-11",
-    "src": "/customer-media/workbook/image9.jpeg",
+    "src": "/images/evidence/image9.jpeg",
     "label": "image9.jpeg",
     "category": "facility",
-    "target": "/about#customer-media-facility"
-  },
-  {
-    "id": "pdf-image-001",
-    "src": "/customer-media/catalogue/objects/object-001-xref-45.png",
-    "label": "Catalogue object 1 (xref 45)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-facility-gallery",
+    "business_entity": "company-facility",
+    "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity."
   },
   {
     "id": "pdf-image-002",
     "src": "/customer-media/catalogue/objects/object-002-xref-46.png",
     "label": "Catalogue object 2 (xref 46)",
     "category": "brand_or_cover_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-cover",
+    "business_entity": "catalogue",
+    "placement_reason": "Cover and brand composition from the official selection manual."
   },
   {
     "id": "pdf-image-004",
     "src": "/customer-media/catalogue/objects/object-004-xref-48.png",
     "label": "Catalogue object 4 (xref 48)",
     "category": "brand_or_cover_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-cover",
+    "business_entity": "catalogue",
+    "placement_reason": "Cover and brand composition from the official selection manual."
   },
   {
     "id": "pdf-image-005",
     "src": "/customer-media/catalogue/objects/object-005-xref-49.jpeg",
     "label": "Catalogue object 5 (xref 49)",
     "category": "brand_or_cover_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-006",
-    "src": "/customer-media/catalogue/objects/object-006-xref-50.jpeg",
-    "label": "Catalogue object 6 (xref 50)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-cover",
+    "business_entity": "catalogue",
+    "placement_reason": "Cover and brand composition from the official selection manual."
   },
   {
     "id": "pdf-image-007",
     "src": "/customer-media/catalogue/objects/object-007-xref-85.jpeg",
     "label": "Catalogue object 7 (xref 85)",
     "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/about#customer-media-facility",
+    "semantic_destination": "about-company-source",
+    "business_entity": "company-profile",
+    "placement_reason": "Company-profile visual embedded in the official selection manual."
   },
   {
     "id": "pdf-image-008",
     "src": "/customer-media/catalogue/objects/object-008-xref-101.jpeg",
     "label": "Catalogue object 8 (xref 101)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-009",
-    "src": "/customer-media/catalogue/objects/object-009-xref-102.png",
-    "label": "Catalogue object 9 (xref 102)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Overview visual introduces the documented product portfolio."
   },
   {
     "id": "pdf-image-010",
     "src": "/customer-media/catalogue/objects/object-010-xref-152.jpeg",
     "label": "Catalogue object 10 (xref 152)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
+    "target": "/products/tgf#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:tgf",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-011",
     "src": "/customer-media/catalogue/objects/object-011-xref-153.jpeg",
     "label": "Catalogue object 11 (xref 153)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
+    "target": "/products/zgf#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:zgf",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-012",
     "src": "/customer-media/catalogue/objects/object-012-xref-154.jpeg",
     "label": "Catalogue object 12 (xref 154)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-013",
     "src": "/customer-media/catalogue/objects/object-013-xref-204.jpeg",
     "label": "Catalogue object 13 (xref 204)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
+    "target": "/products/zgfwe-zgfwf#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:zgfwe-zgfwf",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-014",
     "src": "/customer-media/catalogue/objects/object-014-xref-205.jpeg",
     "label": "Catalogue object 14 (xref 205)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-015",
     "src": "/customer-media/catalogue/objects/object-015-xref-206.jpeg",
     "label": "Catalogue object 15 (xref 206)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-016",
-    "src": "/customer-media/catalogue/objects/object-016-xref-207.png",
-    "label": "Catalogue object 16 (xref 207)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/zgfe-zgff#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:zgfe-zgff",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-017",
     "src": "/customer-media/catalogue/objects/object-017-xref-208.jpeg",
     "label": "Catalogue object 17 (xref 208)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-018",
-    "src": "/customer-media/catalogue/objects/object-018-xref-209.png",
-    "label": "Catalogue object 18 (xref 209)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-019",
     "src": "/customer-media/catalogue/objects/object-019-xref-259.jpeg",
     "label": "Catalogue object 19 (xref 259)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-020",
-    "src": "/customer-media/catalogue/objects/object-020-xref-260.png",
-    "label": "Catalogue object 20 (xref 260)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/lgfwe-lgfwf#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:lgfwe-lgfwf",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-021",
     "src": "/customer-media/catalogue/objects/object-021-xref-261.jpeg",
     "label": "Catalogue object 21 (xref 261)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-022",
-    "src": "/customer-media/catalogue/objects/object-022-xref-262.png",
-    "label": "Catalogue object 22 (xref 262)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-023",
     "src": "/customer-media/catalogue/objects/object-023-xref-263.jpeg",
     "label": "Catalogue object 23 (xref 263)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-024",
-    "src": "/customer-media/catalogue/objects/object-024-xref-264.png",
-    "label": "Catalogue object 24 (xref 264)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/bzgfwf#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:bzgfwf",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-025",
     "src": "/customer-media/catalogue/objects/object-025-xref-319.jpeg",
     "label": "Catalogue object 25 (xref 319)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-026",
-    "src": "/customer-media/catalogue/objects/object-026-xref-320.png",
-    "label": "Catalogue object 26 (xref 320)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/zfs#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:zfs",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-027",
     "src": "/customer-media/catalogue/objects/object-027-xref-321.jpeg",
     "label": "Catalogue object 27 (xref 321)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-028",
-    "src": "/customer-media/catalogue/objects/object-028-xref-322.png",
-    "label": "Catalogue object 28 (xref 322)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/bzgfwk#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:bzgfwk",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-029",
     "src": "/customer-media/catalogue/objects/object-029-xref-360.jpeg",
     "label": "Catalogue object 29 (xref 360)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
+    "target": "/products/zgb#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:zgb",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-030",
     "src": "/customer-media/catalogue/objects/object-030-xref-361.jpeg",
     "label": "Catalogue object 30 (xref 361)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-031",
     "src": "/customer-media/catalogue/objects/object-031-xref-362.jpeg",
     "label": "Catalogue object 31 (xref 362)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-032",
-    "src": "/customer-media/catalogue/objects/object-032-xref-363.png",
-    "label": "Catalogue object 32 (xref 363)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/zqx#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:zqx",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-033",
     "src": "/customer-media/catalogue/objects/object-033-xref-401.jpeg",
     "label": "Catalogue object 33 (xref 401)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-034",
-    "src": "/customer-media/catalogue/objects/object-034-xref-402.png",
-    "label": "Catalogue object 34 (xref 402)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/zgp#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:zgp",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-035",
     "src": "/customer-media/catalogue/objects/object-035-xref-403.jpeg",
     "label": "Catalogue object 35 (xref 403)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-036",
-    "src": "/customer-media/catalogue/objects/object-036-xref-404.png",
-    "label": "Catalogue object 36 (xref 404)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/zgc#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:zgc",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-037",
     "src": "/customer-media/catalogue/objects/object-037-xref-450.jpeg",
     "label": "Catalogue object 37 (xref 450)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-038",
-    "src": "/customer-media/catalogue/objects/object-038-xref-451.png",
-    "label": "Catalogue object 38 (xref 451)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/qnlzgfwf#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:qnlzgfwf",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-039",
     "src": "/customer-media/catalogue/objects/object-039-xref-452.jpeg",
     "label": "Catalogue object 39 (xref 452)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-040",
-    "src": "/customer-media/catalogue/objects/object-040-xref-453.png",
-    "label": "Catalogue object 40 (xref 453)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-041",
     "src": "/customer-media/catalogue/objects/object-041-xref-454.jpeg",
     "label": "Catalogue object 41 (xref 454)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-042",
-    "src": "/customer-media/catalogue/objects/object-042-xref-455.png",
-    "label": "Catalogue object 42 (xref 455)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/tazgfwf#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:tazgfwf",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-043",
     "src": "/customer-media/catalogue/objects/object-043-xref-456.jpeg",
     "label": "Catalogue object 43 (xref 456)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-044",
-    "src": "/customer-media/catalogue/objects/object-044-xref-457.png",
-    "label": "Catalogue object 44 (xref 457)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-045",
     "src": "/customer-media/catalogue/objects/object-045-xref-499.jpeg",
     "label": "Catalogue object 45 (xref 499)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-046",
-    "src": "/customer-media/catalogue/objects/object-046-xref-500.png",
-    "label": "Catalogue object 46 (xref 500)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/screw-conveyor#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:screw-conveyor",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-047",
     "src": "/customer-media/catalogue/objects/object-047-xref-501.jpeg",
     "label": "Catalogue object 47 (xref 501)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-048",
-    "src": "/customer-media/catalogue/objects/object-048-xref-502.png",
-    "label": "Catalogue object 48 (xref 502)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-049",
     "src": "/customer-media/catalogue/objects/object-049-xref-503.jpeg",
     "label": "Catalogue object 49 (xref 503)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-050",
-    "src": "/customer-media/catalogue/objects/object-050-xref-504.png",
-    "label": "Catalogue object 50 (xref 504)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products/electric-crushing-valve#customer-product-gallery",
+    "semantic_destination": "product-detail-gallery",
+    "business_entity": "product:electric-crushing-valve",
+    "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route."
   },
   {
     "id": "pdf-image-051",
     "src": "/customer-media/catalogue/objects/object-051-xref-505.jpeg",
     "label": "Catalogue object 51 (xref 505)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-052",
-    "src": "/customer-media/catalogue/objects/object-052-xref-506.png",
-    "label": "Catalogue object 52 (xref 506)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-053",
     "src": "/customer-media/catalogue/objects/object-053-xref-507.jpeg",
     "label": "Catalogue object 53 (xref 507)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-054",
     "src": "/customer-media/catalogue/objects/object-054-xref-508.png",
     "label": "Catalogue object 54 (xref 508)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
-  },
-  {
-    "id": "pdf-image-055",
-    "src": "/customer-media/catalogue/objects/object-055-xref-561.png",
-    "label": "Catalogue object 55 (xref 561)",
-    "category": "catalogue_rendering_component",
-    "target": "/media-library"
+    "target": "/products#catalogue-overview",
+    "semantic_destination": "products-catalogue-overview",
+    "business_entity": "product-portfolio",
+    "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record."
   },
   {
     "id": "pdf-image-056",
     "src": "/customer-media/catalogue/objects/object-056-xref-562.jpeg",
     "label": "Catalogue object 56 (xref 562)",
     "category": "catalogue_product_visual",
-    "target": "/media-library"
+    "target": "/applications#catalogue-application-visual",
+    "semantic_destination": "applications-selection-guidance",
+    "business_entity": "application-selection",
+    "placement_reason": "Selection/application visual supports the documented RFQ guidance."
   },
   {
     "id": "pdf-page-visual-01",
     "src": "/customer-media/catalogue/pages/page-01.jpg",
     "label": "Catalogue page 1",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:1",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-02",
     "src": "/customer-media/catalogue/pages/page-02.jpg",
     "label": "Catalogue page 2",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:2",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-03",
     "src": "/customer-media/catalogue/pages/page-03.jpg",
     "label": "Catalogue page 3",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:3",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-04",
     "src": "/customer-media/catalogue/pages/page-04.jpg",
     "label": "Catalogue page 4",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:4",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-05",
     "src": "/customer-media/catalogue/pages/page-05.jpg",
     "label": "Catalogue page 5",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:5",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-06",
     "src": "/customer-media/catalogue/pages/page-06.jpg",
     "label": "Catalogue page 6",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:6",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-07",
     "src": "/customer-media/catalogue/pages/page-07.jpg",
     "label": "Catalogue page 7",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:7",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-08",
     "src": "/customer-media/catalogue/pages/page-08.jpg",
     "label": "Catalogue page 8",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:8",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-09",
     "src": "/customer-media/catalogue/pages/page-09.jpg",
     "label": "Catalogue page 9",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:9",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-10",
     "src": "/customer-media/catalogue/pages/page-10.jpg",
     "label": "Catalogue page 10",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:10",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-11",
     "src": "/customer-media/catalogue/pages/page-11.jpg",
     "label": "Catalogue page 11",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:11",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   },
   {
     "id": "pdf-page-visual-12",
     "src": "/customer-media/catalogue/pages/page-12.jpg",
     "label": "Catalogue page 12",
     "category": "catalogue_page_visual",
-    "target": "/media-library"
+    "target": "/catalogue",
+    "semantic_destination": "selection-catalogue-reader",
+    "business_entity": "catalogue-page:12",
+    "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone."
   }
 ]

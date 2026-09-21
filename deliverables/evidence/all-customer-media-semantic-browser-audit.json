@@ -1,0 +1,388 @@
+{
+  "issue_id": "DATA-ALL-CUSTOMER-MEDIA-COVERAGE",
+  "result": "PASS",
+  "route_count": 21,
+  "use_count": 55,
+  "desktop": [
+    {
+      "route": "/",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/about",
+      "expected": 10,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 10,
+      "matched": 10,
+      "width": 1280
+    },
+    {
+      "route": "/catalogue",
+      "expected": 15,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 15,
+      "matched": 15,
+      "width": 1280
+    },
+    {
+      "route": "/products",
+      "expected": 12,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 12,
+      "matched": 12,
+      "width": 1280
+    },
+    {
+      "route": "/products/tgf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/zgf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/zgfwe-zgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/zgfe-zgff",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/lgfwe-lgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/bzgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/zfs",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/bzgfwk",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/zgb",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/zqx",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/zgp",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/zgc",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/qnlzgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/tazgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/screw-conveyor",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/products/electric-crushing-valve",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    },
+    {
+      "route": "/applications",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 1280
+    }
+  ],
+  "mobile_390": [
+    {
+      "route": "/",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/about",
+      "expected": 10,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 10,
+      "matched": 10,
+      "width": 390
+    },
+    {
+      "route": "/catalogue",
+      "expected": 15,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 15,
+      "matched": 15,
+      "width": 390
+    },
+    {
+      "route": "/products",
+      "expected": 12,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 12,
+      "matched": 12,
+      "width": 390
+    },
+    {
+      "route": "/products/tgf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/zgf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/zgfwe-zgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/zgfe-zgff",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/lgfwe-lgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/bzgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/zfs",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/bzgfwk",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/zgb",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/zqx",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/zgp",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/zgc",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/qnlzgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/tazgfwf",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/screw-conveyor",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/products/electric-crushing-valve",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    },
+    {
+      "route": "/applications",
+      "expected": 1,
+      "failed": [],
+      "horizontalOverflow": false,
+      "loaded": 1,
+      "matched": 1,
+      "width": 390
+    }
+  ]
+}

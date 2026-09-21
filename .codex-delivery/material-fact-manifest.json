@@ -1555,6 +1555,9 @@
             "business_theme": "brand identity",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "site-branding",
+            "business_entity": "company-brand",
+            "placement_reason": "Official supplied brand mark.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image1.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1565,7 +1568,7 @@
               {
                 "layer": "frontend",
                 "locator": "/",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image1.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/logo.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "9815455495039ff22968f49398009b29049f95b865a6ec7b17e78f65b85121ba"
               }
@@ -1583,6 +1586,9 @@
             "business_theme": "factory and operations",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "about-facility-gallery",
+            "business_entity": "company-facility",
+            "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image10.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1593,7 +1599,7 @@
               {
                 "layer": "frontend",
                 "locator": "/about#customer-media-facility",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image10.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/evidence/image10.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "88321f2ee355e8977d4a1dced9440978c153ec6cceab6027fdea908b387c3591"
               }
@@ -1611,6 +1617,9 @@
             "business_theme": "factory and operations",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "about-facility-gallery",
+            "business_entity": "company-facility",
+            "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image11.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1621,7 +1630,7 @@
               {
                 "layer": "frontend",
                 "locator": "/about#customer-media-facility",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image11.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/evidence/image11.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "c0c1716c295edd9d5d195842b99c00c8a79e288b837dfc772db62914b218fc2c"
               }
@@ -1639,6 +1648,9 @@
             "business_theme": "legal identity",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "private-source-ledger",
+            "business_entity": "legal-registration",
+            "placement_reason": "Private legal identity evidence.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image2.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "excluded_by_rule",
@@ -1658,6 +1670,9 @@
             "business_theme": "factory and operations",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "about-facility-gallery",
+            "business_entity": "company-facility",
+            "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image3.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1668,7 +1683,7 @@
               {
                 "layer": "frontend",
                 "locator": "/about#customer-media-facility",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image3.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/evidence/image3.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "41e6b61160ad95b4e8f04ef57fe0c9a1ba3c81bd6fc348ca5c02fbaaa55f23a7"
               }
@@ -1686,6 +1701,9 @@
             "business_theme": "factory and operations",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "about-facility-gallery",
+            "business_entity": "company-facility",
+            "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image4.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1696,7 +1714,7 @@
               {
                 "layer": "frontend",
                 "locator": "/about#customer-media-facility",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image4.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/evidence/image4.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "aac278b95fb30d64be9df6a89653d9a657b8f33fecc183ce5beccaa3760c4614"
               }
@@ -1714,6 +1732,9 @@
             "business_theme": "factory and operations",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "about-facility-gallery",
+            "business_entity": "company-facility",
+            "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image5.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1724,7 +1745,7 @@
               {
                 "layer": "frontend",
                 "locator": "/about#customer-media-facility",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image5.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/evidence/image5.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "389bc3281e93071bfefe98f0f311d94cc9381f63ab74c0f37520891ae4049c67"
               }
@@ -1742,6 +1763,9 @@
             "business_theme": "factory and operations",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "about-facility-gallery",
+            "business_entity": "company-facility",
+            "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image6.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1752,7 +1776,7 @@
               {
                 "layer": "frontend",
                 "locator": "/about#customer-media-facility",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image6.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/evidence/image6.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "db7e244199309831edf43a69dff88cad7eca16dec46254c0a28dc7c2dbbe402b"
               }
@@ -1770,6 +1794,9 @@
             "business_theme": "factory and operations",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "about-facility-gallery",
+            "business_entity": "company-facility",
+            "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image7.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1780,7 +1807,7 @@
               {
                 "layer": "frontend",
                 "locator": "/about#customer-media-facility",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image7.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/evidence/image7.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "12128c293d13b1a733d47120166ea08fcc09e4b8dcebe4a479416a91e1929bb3"
               }
@@ -1798,6 +1825,9 @@
             "business_theme": "factory and operations",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "about-facility-gallery",
+            "business_entity": "company-facility",
+            "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image8.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1808,7 +1838,7 @@
               {
                 "layer": "frontend",
                 "locator": "/about#customer-media-facility",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image8.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/evidence/image8.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "cf7885704cca95db31b1a74cc36de7b6078d682f71cb97fc7bd8561cf1bf4526"
               }
@@ -1826,6 +1856,9 @@
             "business_theme": "factory and operations",
             "clarity": "source_original",
             "crop_state": "uncropped",
+            "semantic_destination": "about-facility-gallery",
+            "business_entity": "company-facility",
+            "placement_reason": "Direct customer-supplied evidence of premises, office, production, storage or inspection activity.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image9.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1836,7 +1869,7 @@
               {
                 "layer": "frontend",
                 "locator": "/about#customer-media-facility",
-                "evidence": "Production DOM img[src='/customer-media/workbook/image9.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "evidence": "Production DOM img[src='/images/evidence/image9.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "c6f5a8c253052dfa4ce718099fc4cce8eef5cfe7cd528120197d68e483b29938"
               }
@@ -1960,21 +1993,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-001-xref-45.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-001",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-001-xref-45.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "58e68cece60e1820287c45a87b316551155bc5dfd7b587741d6cef89b1ee8df4"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 45 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-002",
@@ -1988,6 +2015,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "selection-catalogue-cover",
+            "business_entity": "catalogue",
+            "placement_reason": "Cover and brand composition from the official selection manual.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-002-xref-46.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -1997,7 +2027,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-002",
+                "locator": "/catalogue",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-002-xref-46.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "a42b45c28a0f2cdd40e8b70b521adf824c322294385fac0d429d24367b1a855d"
@@ -2016,6 +2046,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-003-xref-47.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "duplicate",
@@ -2036,6 +2069,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "selection-catalogue-cover",
+            "business_entity": "catalogue",
+            "placement_reason": "Cover and brand composition from the official selection manual.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-004-xref-48.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2045,7 +2081,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-004",
+                "locator": "/catalogue",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-004-xref-48.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "88a99112e1d85a55e5ec197142524a016b1d919b023b2d6282ab97050070e05f"
@@ -2064,6 +2100,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "selection-catalogue-cover",
+            "business_entity": "catalogue",
+            "placement_reason": "Cover and brand composition from the official selection manual.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-005-xref-49.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2073,7 +2112,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-005",
+                "locator": "/catalogue",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-005-xref-49.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "7cac36909c35521725978967908664000a8c33766bd43c24cc60c9052b47769c"
@@ -2092,21 +2131,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-006-xref-50.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-006",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-006-xref-50.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "6767c535ef90368f0fa9ca568fcc25c1089811dc0b3c666ab83341e7b01c44b7"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 50 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-007",
@@ -2120,6 +2153,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "about-company-source",
+            "business_entity": "company-profile",
+            "placement_reason": "Company-profile visual embedded in the official selection manual.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-007-xref-85.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2129,7 +2165,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-007",
+                "locator": "/about#customer-media-facility",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-007-xref-85.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "7cc9e0aca6da1d5362551ec19b3b6c9e26138cc01d97a4ef1d0978ad185c4bf4"
@@ -2148,6 +2184,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Overview visual introduces the documented product portfolio.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-008-xref-101.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2157,7 +2196,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-008",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-008-xref-101.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "d57426838adc6fd98ae3dd3f38c432b357e8153a966b2c9c25f93cfb479d0767"
@@ -2176,21 +2215,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-009-xref-102.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-009",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-009-xref-102.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "ee2fd3a67557321e324694443036f8e333e366a2a62bda7f5b94ab88436a38c7"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 102 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-010",
@@ -2204,6 +2237,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:tgf",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-010-xref-152.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2213,7 +2249,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-010",
+                "locator": "/products/tgf#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-010-xref-152.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "fa846ad35cac2f45116de1b062b3549013bc52a88fbb59e00ae4f8bbf9c4e44d"
@@ -2232,6 +2268,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:zgf",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-011-xref-153.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2241,7 +2280,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-011",
+                "locator": "/products/zgf#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-011-xref-153.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "da543fe6e4a29ce82b2c76c1043d7c8e8aca93c2affa10d488e9a3cdba9c862b"
@@ -2260,6 +2299,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-012-xref-154.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2269,7 +2311,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-012",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-012-xref-154.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "e0e4a981ee12a3bbe591a7a5f3ec54761821742d8c18c24c3ce97ba8950139d1"
@@ -2288,6 +2330,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:zgfwe-zgfwf",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-013-xref-204.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2297,7 +2342,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-013",
+                "locator": "/products/zgfwe-zgfwf#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-013-xref-204.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "a9da3520e31659e5c3cb2e72d52c25c181f9a11730870286a75ed98269f58885"
@@ -2316,6 +2361,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-014-xref-205.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2325,7 +2373,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-014",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-014-xref-205.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "0b139d0de38310d38846f7372843d821bfa8d6c6571f85e25263c993c555fb26"
@@ -2344,6 +2392,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:zgfe-zgff",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-015-xref-206.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2353,7 +2404,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-015",
+                "locator": "/products/zgfe-zgff#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-015-xref-206.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "0bbe568cd7d77951baef10f187d04ca308022cea2c2ad40066181990678f51df"
@@ -2372,21 +2423,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-016-xref-207.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-016",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-016-xref-207.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "01e3c601eb85aa8669b492c3f1afcc4f684af807287e34bdae516c1ba66de2b4"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 207 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-017",
@@ -2400,6 +2445,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-017-xref-208.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2409,7 +2457,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-017",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-017-xref-208.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "4403b9497bc6a129cc5595274138996e7ba68ee159e8dd008c55dd5fcca8c42a"
@@ -2428,21 +2476,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-018-xref-209.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-018",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-018-xref-209.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "4882ce889ff683b4aba22c19706572f371b501af31537cb75ecd5e977d3d72a3"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 209 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-019",
@@ -2456,6 +2498,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:lgfwe-lgfwf",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-019-xref-259.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2465,7 +2510,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-019",
+                "locator": "/products/lgfwe-lgfwf#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-019-xref-259.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "01d311daa523586da7fab3b90904b55e815d484f595e3b9bbf8d50c507e0ba90"
@@ -2484,21 +2529,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-020-xref-260.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-020",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-020-xref-260.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "1fb3ed695063b7ff3a811466d9fd73cbd5e00a1d3afbd560f7b6189c9a01070a"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 260 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-021",
@@ -2512,6 +2551,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-021-xref-261.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2521,7 +2563,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-021",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-021-xref-261.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "877407b806d7991fdee3d8ff1c1d43e9d0dffbd0a75e1a61c0fa94011f9d1b93"
@@ -2540,21 +2582,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-022-xref-262.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-022",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-022-xref-262.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "a4a3240d7751dfb12288e2c4b2c254708863e23562124db7e499cb9ff2bc6ba5"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 262 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-023",
@@ -2568,6 +2604,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:bzgfwf",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-023-xref-263.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2577,7 +2616,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-023",
+                "locator": "/products/bzgfwf#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-023-xref-263.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "bcce1644079c1c0243c34ab7517e0cb8e3d99d41402ae48ab85c66cf5ec074b8"
@@ -2596,21 +2635,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-024-xref-264.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-024",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-024-xref-264.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "771aa001bc9657f6e65c61fe2aef03ade92ff796316fd66da99a2557dd5f665f"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 264 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-025",
@@ -2624,6 +2657,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:zfs",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-025-xref-319.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2633,7 +2669,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-025",
+                "locator": "/products/zfs#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-025-xref-319.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "6b9cf0eb1a868597578de6421ad895cfbd556dfb56b92e6e751d26e91f9a19ce"
@@ -2652,21 +2688,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-026-xref-320.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-026",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-026-xref-320.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "52ced7896e66cb060f17e82a58114d25ff20b484ccaec60a055fa25935a4f605"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 320 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-027",
@@ -2680,6 +2710,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:bzgfwk",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-027-xref-321.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2689,7 +2722,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-027",
+                "locator": "/products/bzgfwk#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-027-xref-321.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "7057cbc7c83d824217a18a51a5479293ff99a7af78518dd48f03c669bf4526df"
@@ -2708,21 +2741,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-028-xref-322.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-028",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-028-xref-322.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "bd34ba64743a0ad28b769142ccc118f6ead06c850170a8e57024e0446116d0a1"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 322 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-029",
@@ -2736,6 +2763,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:zgb",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-029-xref-360.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2745,7 +2775,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-029",
+                "locator": "/products/zgb#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-029-xref-360.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "1cac9e6bafb0261cde2d0e10708d01c9ef628e44342d58802084a4f62d0c24cf"
@@ -2764,6 +2794,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-030-xref-361.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2773,7 +2806,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-030",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-030-xref-361.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "917d5374058e884a85d4000c3e68601aafc79d3cb169ef1a0a5c15e6991f977a"
@@ -2792,6 +2825,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:zqx",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-031-xref-362.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2801,7 +2837,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-031",
+                "locator": "/products/zqx#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-031-xref-362.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "14dd408c07fc5550ef39c5e9a324a957ad40268381b50fda9e6a0645c05e6e0a"
@@ -2820,21 +2856,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-032-xref-363.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-032",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-032-xref-363.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "a4e83f83031d9a4ca246614555b78b801b468a599915862bd68971a49d58b7a8"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 363 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-033",
@@ -2848,6 +2878,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:zgp",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-033-xref-401.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2857,7 +2890,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-033",
+                "locator": "/products/zgp#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-033-xref-401.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "5a5606a3ef7ff1dcfde509027b76f55b2a0e82f998f8b5c4d2dd4417cc43fd67"
@@ -2876,21 +2909,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-034-xref-402.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-034",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-034-xref-402.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "69ae7170fcf89bfc9c9ff4bba461c1988823a0527a9969b18309fb810dbba964"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 402 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-035",
@@ -2904,6 +2931,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:zgc",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-035-xref-403.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2913,7 +2943,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-035",
+                "locator": "/products/zgc#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-035-xref-403.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "4d4b8a19ec89438b10e0c9f14b4c37bfad4568451daadfdeb017cda378f9637d"
@@ -2932,21 +2962,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-036-xref-404.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-036",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-036-xref-404.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "cd84121d6d16ad5b0507c97ca10dd59c737fad13c0f1e3ff1beda5d034a2e1ad"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 404 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-037",
@@ -2960,6 +2984,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:qnlzgfwf",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-037-xref-450.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -2969,7 +2996,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-037",
+                "locator": "/products/qnlzgfwf#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-037-xref-450.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "3f4391cd6fbea400907a652fa6773b53519e81e0459c682324ab65bc608fa2af"
@@ -2988,21 +3015,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-038-xref-451.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-038",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-038-xref-451.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "0f777914e60c6e507b31145fa4ebccdcd435b0fb090146a3d1a79816f6c6af55"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 451 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-039",
@@ -3016,6 +3037,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-039-xref-452.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3025,7 +3049,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-039",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-039-xref-452.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "2299f596c14dd7aecbbd65693bf29a6512018bacc7986bc6fbc893b719c70ceb"
@@ -3044,21 +3068,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-040-xref-453.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-040",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-040-xref-453.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "895df172689ef47540b8d1401881a10a09e754c3a92717812aa7a367669e38a7"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 453 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-041",
@@ -3072,6 +3090,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:tazgfwf",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-041-xref-454.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3081,7 +3102,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-041",
+                "locator": "/products/tazgfwf#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-041-xref-454.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "129360da0deae7cf8bc9d69f230a7e70493f32d5e376fc2317d06fa3ff278b3c"
@@ -3100,21 +3121,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-042-xref-455.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-042",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-042-xref-455.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "990592e80a34d4326b28bd6f1484ec4bfde9131e2959c968609fb64dd6905578"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 455 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-043",
@@ -3128,6 +3143,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-043-xref-456.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3137,7 +3155,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-043",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-043-xref-456.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "b9caea11766a48fda6dfba6db62863d664affb0a8382c61f7b46075af4b04552"
@@ -3156,21 +3174,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-044-xref-457.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-044",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-044-xref-457.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "4cb2dadf5b62d8c6bf4c3bf0d7c811fa004ac4c2c237cc416f2e5ee1d279fa10"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 457 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-045",
@@ -3184,6 +3196,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:screw-conveyor",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-045-xref-499.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3193,7 +3208,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-045",
+                "locator": "/products/screw-conveyor#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-045-xref-499.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "de688c30fdd6fd4562b5b87ea0828877fa145e7f2206f53da4d3b145d9d3cf50"
@@ -3212,21 +3227,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-046-xref-500.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-046",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-046-xref-500.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "78b69fa07baea2173fdff67207412c74438d7a11bd9f75b517257eca197b7ac2"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 500 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-047",
@@ -3240,6 +3249,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-047-xref-501.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3249,7 +3261,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-047",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-047-xref-501.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "24bd03e8057126ef8a510344d715bcbf8305086e6ba6031c807f1070bb788835"
@@ -3268,21 +3280,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-048-xref-502.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-048",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-048-xref-502.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "883cfb931030889c418d1582150d63042c67147b5fbd457fb767a0ab3df201d9"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 502 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-049",
@@ -3296,6 +3302,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "product-detail-gallery",
+            "business_entity": "product:electric-crushing-valve",
+            "placement_reason": "Product visual belongs to the same catalogue page and model family as the corresponding detail route.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-049-xref-503.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3305,7 +3314,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-049",
+                "locator": "/products/electric-crushing-valve#customer-product-gallery",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-049-xref-503.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "d33518f3e2bd27f765bb24c417ec37d8ccb09ac0b93f47af8264a59a7d6aa651"
@@ -3324,21 +3333,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-050-xref-504.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-050",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-050-xref-504.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "52f18dd3d092ef0cf70a3f0640683f433cc007484c7c2f72b585fb36a4322afd"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 504 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-051",
@@ -3352,6 +3355,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-051-xref-505.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3361,7 +3367,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-051",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-051-xref-505.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "d976b656685c90a78395ce56e91aac154581e1088e332dd78e07caa9eac32053"
@@ -3380,21 +3386,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-052-xref-506.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-052",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-052-xref-506.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "a89d12fd8d2b6340e53a2e7f0ae47c83bcdb0eacc9f824b74c34ec150bc70c1c"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 506 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-053",
@@ -3408,6 +3408,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-053-xref-507.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3417,7 +3420,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-053",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-053-xref-507.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "6128eb5a56b345c48f6899a1cc208cfd41cca78d4aaa97abeaab8666273ebfc8"
@@ -3436,6 +3439,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "products-catalogue-overview",
+            "business_entity": "product-portfolio",
+            "placement_reason": "Supporting product, component or material visual from the documented product catalogue; retained at portfolio/category level because the source does not identify it as a separate model record.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-054-xref-508.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3445,7 +3451,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-054",
+                "locator": "/products#catalogue-overview",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-054-xref-508.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "7201a42cb50585ba1e4b654682be84a1df25e4adaacceb7977f656c2ccd0d686"
@@ -3464,21 +3470,15 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-055-xref-561.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-            "decision": "use",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-055",
-                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-055-xref-561.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
-                "verification_result": "PASS",
-                "asset_hash": "6922a0f118b642669bb6fbc048c52faf9bafcdd28039e784a879747368f93af1"
-              }
-            ]
+            "decision": "excluded_by_rule",
+            "reason_code": "legal_or_policy_prohibited",
+            "reason": "Non-page PDF rendering mask/component is not an independent customer image; publishing it as standalone media would misrepresent the supplied source. The composed page/product visual remains published.",
+            "evidence": "PDF xref 561 is absent from every page.get_images() placement; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
           },
           {
             "media_id": "pdf-image-056",
@@ -3492,6 +3492,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "applications-selection-guidance",
+            "business_entity": "application-selection",
+            "placement_reason": "Selection/application visual supports the documented RFQ guidance.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-056-xref-562.jpeg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
@@ -3501,7 +3504,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-image-056",
+                "locator": "/applications#catalogue-application-visual",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-056-xref-562.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "6677f6b39094b970f7d00b9d51fc27ca689372adcf8766d107cd95e39af3d06a"
@@ -3520,6 +3523,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "source_original",
             "crop_state": "embedded_object",
+            "semantic_destination": "private-rendering-component",
+            "business_entity": "pdf-rendering-layer",
+            "placement_reason": "PDF rendering layer has no standalone customer-facing meaning.",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-057-xref-563.png",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "duplicate",
@@ -3540,6 +3546,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:1",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-01.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3549,7 +3558,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-01",
+                "locator": "/catalogue#media-pdf-page-visual-01",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-01.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "495e1064b0e3f6311e205d55b943c062eece48ff0706704eb2dd6f2426a83a15"
@@ -3568,6 +3577,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:2",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-02.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3577,7 +3589,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-02",
+                "locator": "/catalogue#media-pdf-page-visual-02",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-02.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "92ef2790d1356cd5c59e99d4d605ff4324f6b20e28a304c26a44ebfa5a7569c6"
@@ -3596,6 +3608,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:3",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-03.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3605,7 +3620,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-03",
+                "locator": "/catalogue#media-pdf-page-visual-03",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-03.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "67b6e0e935a0eb26c9dd7b1c3907428f45ab81cd10f51e1dbec578971818ba91"
@@ -3624,6 +3639,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:4",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-04.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3633,7 +3651,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-04",
+                "locator": "/catalogue#media-pdf-page-visual-04",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-04.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "922fb06a736de6164a4750ab8301d0719a5a0251bf2518133fe98b0bfc9ff6ac"
@@ -3652,6 +3670,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:5",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-05.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3661,7 +3682,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-05",
+                "locator": "/catalogue#media-pdf-page-visual-05",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-05.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "89401746e97a3a8875e114d3d0552d47d0a17a707b91946f3044553c93d809c8"
@@ -3680,6 +3701,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:6",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-06.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3689,7 +3713,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-06",
+                "locator": "/catalogue#media-pdf-page-visual-06",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-06.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "6321b9f3e608a58f256079a7afb515fbeb8c50f09753d3bc9df7a9c8e1fdcdd2"
@@ -3708,6 +3732,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:7",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-07.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3717,7 +3744,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-07",
+                "locator": "/catalogue#media-pdf-page-visual-07",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-07.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "ee08c1e906e3f49d91872432fc780112c721d89ffbd9512e0b88a20a20befca6"
@@ -3736,6 +3763,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:8",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-08.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3745,7 +3775,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-08",
+                "locator": "/catalogue#media-pdf-page-visual-08",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-08.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "05a602d813a0b7fd16dc63ca8b873ae7397df41def846bb7e81f474623eca800"
@@ -3764,6 +3794,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:9",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-09.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3773,7 +3806,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-09",
+                "locator": "/catalogue#media-pdf-page-visual-09",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-09.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "67caac37fb9f56d757278b298241ff451b2ca1c800ac82056239798512d4f649"
@@ -3792,6 +3825,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:10",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-10.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3801,7 +3837,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-10",
+                "locator": "/catalogue#media-pdf-page-visual-10",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-10.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "0f8e89548ed2e1db3345918e718ff5a985e305c86a8c7458d6e51342753e5258"
@@ -3820,6 +3856,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:11",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-11.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3829,7 +3868,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-11",
+                "locator": "/catalogue#media-pdf-page-visual-11",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-11.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "fd31c979ac6200cdf9679f417d3b5c1a339ba515f675df53cff6bdd91c331fcd"
@@ -3848,6 +3887,9 @@
             "business_theme": "rotary valve selection catalogue",
             "clarity": "rendered_from_source_pdf",
             "crop_state": "full_page",
+            "semantic_destination": "selection-catalogue-reader",
+            "business_entity": "catalogue-page:12",
+            "placement_reason": "Full page retains independent reading value for model notes, dimensional drawings, specification tables and selection guidance that cannot be conveyed by the extracted product image alone.",
             "decision": "use",
             "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-12.jpg",
             "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
@@ -3857,7 +3899,7 @@
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/media-library#media-pdf-page-visual-12",
+                "locator": "/catalogue#media-pdf-page-visual-12",
                 "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-12.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "cb7265c85347a3388c2f44609ef519ecb38f2fd10d2ed811c57dc1d51c6bf7f2"
