@@ -1,0 +1,25 @@
+{
+  "media_issue_id": "DATA-ALL-CUSTOMER-MEDIA-COVERAGE",
+  "route": "/media-library",
+  "local_origin": "http://127.0.0.1:3314",
+  "adopted_media_cards": 77,
+  "desktop": {
+    "viewport_width": 1280,
+    "dom_image_count": 79,
+    "loaded_image_count": 79,
+    "failed_image_count": 0,
+    "pending_image_count": 0,
+    "horizontal_overflow": false,
+    "evidence": "deliverables/evidence/all-customer-media-desktop-full.png"
+  },
+  "mobile_390": {
+    "viewport_width": 390,
+    "dom_image_count": 79,
+    "loaded_image_count": 79,
+    "failed_image_count": 0,
+    "pending_image_count": 0,
+    "horizontal_overflow": false,
+    "evidence": "deliverables/evidence/all-customer-media-mobile-390-full.png"
+  },
+  "result": "PASS"
+}

@@ -69,6 +69,9 @@ export function SiteFooter() {
             © {year} {copyrightOwner}. All rights reserved.
           </p>
           <p className="text-muted-foreground/80">{siteConfig.legalNameZh}</p>
+          <Link href="/media-library" className="text-muted-foreground/80 hover:text-foreground">
+            Customer media &amp; catalogue archive
+          </Link>
         </div>
       </div>
     </footer>

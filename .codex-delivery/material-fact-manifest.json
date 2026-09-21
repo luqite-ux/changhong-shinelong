@@ -1541,32 +1541,31 @@
       ],
       "container_media_scan": {
         "result": "PASS",
-        "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+        "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
         "embedded_media": [
           {
             "media_id": "xlsx-media-01",
             "container_path": "xl/media/image1.png",
-            "locator": "cell-image:ID_18A77769BA594B56AD869A569718AAFB:彩虹",
+            "locator": "xl/media/image1.png; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
             "fingerprint": "9815455495039ff22968f49398009b29049f95b865a6ec7b17e78f65b85121ba",
+            "width": 332,
+            "height": 178,
+            "format": "png",
+            "semantic_category": "brand_logo",
+            "business_theme": "brand identity",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image1.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image1.png",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
             "expected_destinations": [
-              "frontend",
-              "backend"
+              "frontend"
             ],
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "site header/footer brand mark",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\logo.png",
-                "verification_result": "PASS",
-                "asset_hash": "9815455495039ff22968f49398009b29049f95b865a6ec7b17e78f65b85121ba"
-              },
-              {
-                "layer": "backend",
-                "locator": "tenants.logo_url,tenants.favicon_url",
-                "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+                "locator": "/",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image1.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "9815455495039ff22968f49398009b29049f95b865a6ec7b17e78f65b85121ba"
               }
@@ -1574,198 +1573,272 @@
           },
           {
             "media_id": "xlsx-media-02",
-            "container_path": "xl/media/image2.jpeg",
-            "locator": "cell-image:ID_F38ABA96F9C64C04B11727ADC12097E8:常宏祥隆营业执照",
-            "fingerprint": "18ba0fab7128ae783d6d9b46ff40818bfc08e6addc3159bc75b2664ec6de3521",
-            "decision": "excluded_by_rule",
-            "reason": "Business licence is identity evidence and is not published as marketing media."
-          },
-          {
-            "media_id": "xlsx-media-03",
-            "container_path": "xl/media/image3.jpeg",
-            "locator": "cell-image:ID_1FA3EE1141F44174B8C8F946C6C5C9AB|ID_4EE5A8768C4B4651ADE84C2C34AA9D98:生产车间 / 生产车间",
-            "fingerprint": "41e6b61160ad95b4e8f04ef57fe0c9a1ba3c81bd6fc348ca5c02fbaaa55f23a7",
-            "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image3.jpeg",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/about#facility-evidence",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image3.jpeg",
-                "verification_result": "PASS",
-                "asset_hash": "41e6b61160ad95b4e8f04ef57fe0c9a1ba3c81bd6fc348ca5c02fbaaa55f23a7"
-              }
-            ]
-          },
-          {
-            "media_id": "xlsx-media-04",
-            "container_path": "xl/media/image4.jpeg",
-            "locator": "cell-image:ID_D6713111FB06404B84686E2A8328B035:焊接打磨车间",
-            "fingerprint": "aac278b95fb30d64be9df6a89653d9a657b8f33fecc183ce5beccaa3760c4614",
-            "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image4.jpeg",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/about#facility-evidence",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image4.jpeg",
-                "verification_result": "PASS",
-                "asset_hash": "aac278b95fb30d64be9df6a89653d9a657b8f33fecc183ce5beccaa3760c4614"
-              }
-            ]
-          },
-          {
-            "media_id": "xlsx-media-05",
-            "container_path": "xl/media/image5.jpeg",
-            "locator": "cell-image:ID_19A1E5CEDCF646178BD27FB98702957F:装配车间",
-            "fingerprint": "389bc3281e93071bfefe98f0f311d94cc9381f63ab74c0f37520891ae4049c67",
-            "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image5.jpeg",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/about#facility-evidence",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image5.jpeg",
-                "verification_result": "PASS",
-                "asset_hash": "389bc3281e93071bfefe98f0f311d94cc9381f63ab74c0f37520891ae4049c67"
-              }
-            ]
-          },
-          {
-            "media_id": "xlsx-media-06",
-            "container_path": "xl/media/image6.jpeg",
-            "locator": "cell-image:ID_C1259D56C98C4538A664A11C9445D8A7:仓库",
-            "fingerprint": "db7e244199309831edf43a69dff88cad7eca16dec46254c0a28dc7c2dbbe402b",
-            "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image6.jpeg",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/about#facility-evidence",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image6.jpeg",
-                "verification_result": "PASS",
-                "asset_hash": "db7e244199309831edf43a69dff88cad7eca16dec46254c0a28dc7c2dbbe402b"
-              }
-            ]
-          },
-          {
-            "media_id": "xlsx-media-07",
-            "container_path": "xl/media/image7.jpeg",
-            "locator": "cell-image:ID_6A735BE496D746E282104B162C3D07CD:半成品仓库",
-            "fingerprint": "12128c293d13b1a733d47120166ea08fcc09e4b8dcebe4a479416a91e1929bb3",
-            "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image7.jpeg",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/about#facility-evidence",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image7.jpeg",
-                "verification_result": "PASS",
-                "asset_hash": "12128c293d13b1a733d47120166ea08fcc09e4b8dcebe4a479416a91e1929bb3"
-              }
-            ]
-          },
-          {
-            "media_id": "xlsx-media-08",
-            "container_path": "xl/media/image8.jpeg",
-            "locator": "cell-image:ID_E634AF10064047F8B61B8721C0CEEF56:办公室",
-            "fingerprint": "cf7885704cca95db31b1a74cc36de7b6078d682f71cb97fc7bd8561cf1bf4526",
-            "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image8.jpeg",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/about#facility-evidence",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image8.jpeg",
-                "verification_result": "PASS",
-                "asset_hash": "cf7885704cca95db31b1a74cc36de7b6078d682f71cb97fc7bd8561cf1bf4526"
-              }
-            ]
-          },
-          {
-            "media_id": "xlsx-media-09",
-            "container_path": "xl/media/image9.jpeg",
-            "locator": "cell-image:ID_6A352B2C6D7B4011ABAEC5A4D967CCEE:仓库",
-            "fingerprint": "c6f5a8c253052dfa4ce718099fc4cce8eef5cfe7cd528120197d68e483b29938",
-            "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image9.jpeg",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
-            "expected_destinations": [
-              "frontend"
-            ],
-            "terminal_targets": [
-              {
-                "layer": "frontend",
-                "locator": "/about#facility-evidence",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image9.jpeg",
-                "verification_result": "PASS",
-                "asset_hash": "c6f5a8c253052dfa4ce718099fc4cce8eef5cfe7cd528120197d68e483b29938"
-              }
-            ]
-          },
-          {
-            "media_id": "xlsx-media-10",
             "container_path": "xl/media/image10.jpeg",
-            "locator": "cell-image:ID_49BF1297E44646A69BADC4A336A721B3:半成品质检",
+            "locator": "xl/media/image10.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
             "fingerprint": "88321f2ee355e8977d4a1dced9440978c153ec6cceab6027fdea908b387c3591",
+            "width": 4096,
+            "height": 3072,
+            "format": "jpeg",
+            "semantic_category": "facility",
+            "business_theme": "factory and operations",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image10.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image10.jpeg",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
             "expected_destinations": [
               "frontend"
             ],
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/about#facility-evidence",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image10.jpeg",
+                "locator": "/about#customer-media-facility",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image10.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "88321f2ee355e8977d4a1dced9440978c153ec6cceab6027fdea908b387c3591"
               }
             ]
           },
           {
-            "media_id": "xlsx-media-11",
+            "media_id": "xlsx-media-03",
             "container_path": "xl/media/image11.jpeg",
-            "locator": "cell-image:ID_971746FD495947A8B89520C8E418BD68:公司大门",
+            "locator": "xl/media/image11.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
             "fingerprint": "c0c1716c295edd9d5d195842b99c00c8a79e288b837dfc772db62914b218fc2c",
+            "width": 4096,
+            "height": 3072,
+            "format": "jpeg",
+            "semantic_category": "facility",
+            "business_theme": "factory and operations",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image11.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
             "decision": "use",
-            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image11.jpeg",
-            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
             "expected_destinations": [
               "frontend"
             ],
             "terminal_targets": [
               {
                 "layer": "frontend",
-                "locator": "/about#facility-evidence",
-                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image11.jpeg",
+                "locator": "/about#customer-media-facility",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image11.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
                 "verification_result": "PASS",
                 "asset_hash": "c0c1716c295edd9d5d195842b99c00c8a79e288b837dfc772db62914b218fc2c"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-04",
+            "container_path": "xl/media/image2.jpeg",
+            "locator": "xl/media/image2.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
+            "fingerprint": "18ba0fab7128ae783d6d9b46ff40818bfc08e6addc3159bc75b2664ec6de3521",
+            "width": 2552,
+            "height": 3508,
+            "format": "jpeg",
+            "semantic_category": "business_license",
+            "business_theme": "legal identity",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image2.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "excluded_by_rule",
+            "reason_code": "privacy_sensitive",
+            "reason": "Business licence contains registration and identity details; retained as private identity evidence and not published as marketing media.",
+            "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg"
+          },
+          {
+            "media_id": "xlsx-media-05",
+            "container_path": "xl/media/image3.jpeg",
+            "locator": "xl/media/image3.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
+            "fingerprint": "41e6b61160ad95b4e8f04ef57fe0c9a1ba3c81bd6fc348ca5c02fbaaa55f23a7",
+            "width": 1280,
+            "height": 402,
+            "format": "jpeg",
+            "semantic_category": "facility",
+            "business_theme": "factory and operations",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image3.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#customer-media-facility",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image3.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "41e6b61160ad95b4e8f04ef57fe0c9a1ba3c81bd6fc348ca5c02fbaaa55f23a7"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-06",
+            "container_path": "xl/media/image4.jpeg",
+            "locator": "xl/media/image4.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
+            "fingerprint": "aac278b95fb30d64be9df6a89653d9a657b8f33fecc183ce5beccaa3760c4614",
+            "width": 1280,
+            "height": 358,
+            "format": "jpeg",
+            "semantic_category": "facility",
+            "business_theme": "factory and operations",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image4.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#customer-media-facility",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image4.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "aac278b95fb30d64be9df6a89653d9a657b8f33fecc183ce5beccaa3760c4614"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-07",
+            "container_path": "xl/media/image5.jpeg",
+            "locator": "xl/media/image5.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
+            "fingerprint": "389bc3281e93071bfefe98f0f311d94cc9381f63ab74c0f37520891ae4049c67",
+            "width": 2566,
+            "height": 1280,
+            "format": "jpeg",
+            "semantic_category": "facility",
+            "business_theme": "factory and operations",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image5.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#customer-media-facility",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image5.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "389bc3281e93071bfefe98f0f311d94cc9381f63ab74c0f37520891ae4049c67"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-08",
+            "container_path": "xl/media/image6.jpeg",
+            "locator": "xl/media/image6.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
+            "fingerprint": "db7e244199309831edf43a69dff88cad7eca16dec46254c0a28dc7c2dbbe402b",
+            "width": 3200,
+            "height": 692,
+            "format": "jpeg",
+            "semantic_category": "facility",
+            "business_theme": "factory and operations",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image6.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#customer-media-facility",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image6.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "db7e244199309831edf43a69dff88cad7eca16dec46254c0a28dc7c2dbbe402b"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-09",
+            "container_path": "xl/media/image7.jpeg",
+            "locator": "xl/media/image7.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
+            "fingerprint": "12128c293d13b1a733d47120166ea08fcc09e4b8dcebe4a479416a91e1929bb3",
+            "width": 1706,
+            "height": 1279,
+            "format": "jpeg",
+            "semantic_category": "facility",
+            "business_theme": "factory and operations",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image7.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#customer-media-facility",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image7.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "12128c293d13b1a733d47120166ea08fcc09e4b8dcebe4a479416a91e1929bb3"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-10",
+            "container_path": "xl/media/image8.jpeg",
+            "locator": "xl/media/image8.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
+            "fingerprint": "cf7885704cca95db31b1a74cc36de7b6078d682f71cb97fc7bd8561cf1bf4526",
+            "width": 4096,
+            "height": 3072,
+            "format": "jpeg",
+            "semantic_category": "facility",
+            "business_theme": "factory and operations",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image8.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#customer-media-facility",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image8.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "cf7885704cca95db31b1a74cc36de7b6078d682f71cb97fc7bd8561cf1bf4526"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-11",
+            "container_path": "xl/media/image9.jpeg",
+            "locator": "xl/media/image9.jpeg; workbook-cell-images; formula-locations={'ID_18A77769BA594B56AD869A569718AAFB': ['企业资料!C5'], 'ID_1FA3EE1141F44174B8C8F946C6C5C9AB': ['企业资料!D17'], 'ID_D6713111FB06404B84686E2A8328B035': ['企业资料!D18'], 'ID_19A1E5CEDCF646178BD27FB98702957F': ['企业资料!D19'], 'ID_C1259D56C98C4538A664A11C9445D8A7': ['企业资料!D20'], 'ID_6A735BE496D746E282104B162C3D07CD': ['企业资料!D21'], 'ID_F38ABA96F9C64C04B11727ADC12097E8': ['企业资料!C25'], 'ID_971746FD495947A8B89520C8E418BD68': ['企业资料!D26'], 'ID_4EE5A8768C4B4651ADE84C2C34AA9D98': ['企业资料!D27'], 'ID_E634AF10064047F8B61B8721C0CEEF56': ['企业资料!D28'], 'ID_49BF1297E44646A69BADC4A336A721B3': ['企业资料!D29'], 'ID_6A352B2C6D7B4011ABAEC5A4D967CCEE': ['企业资料!D30']}",
+            "fingerprint": "c6f5a8c253052dfa4ce718099fc4cce8eef5cfe7cd528120197d68e483b29938",
+            "width": 1280,
+            "height": 278,
+            "format": "jpeg",
+            "semantic_category": "facility",
+            "business_theme": "factory and operations",
+            "clarity": "source_original",
+            "crop_state": "uncropped",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\workbook\\image9.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#customer-media-facility",
+                "evidence": "Production DOM img[src='/customer-media/workbook/image9.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "c6f5a8c253052dfa4ce718099fc4cce8eef5cfe7cd528120197d68e483b29938"
               }
             ]
           }
@@ -1873,559 +1946,1923 @@
       ],
       "container_media_scan": {
         "result": "PASS",
-        "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\pdf-pages-contact-sheet.jpg",
+        "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
         "embedded_media": [
           {
             "media_id": "pdf-image-001",
             "container_path": "pdf/image-object:1",
-            "locator": "pdf/image-object:1",
-            "fingerprint": "6eb35767dabe891b6afa0484d5b600a7d391e52c4a66aa1a436f48dbf45aa36c",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:45; page:non-page-rendering-component",
+            "fingerprint": "58e68cece60e1820287c45a87b316551155bc5dfd7b587741d6cef89b1ee8df4",
+            "width": 1550,
+            "height": 2449,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-001-xref-45.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-001",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-001-xref-45.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "58e68cece60e1820287c45a87b316551155bc5dfd7b587741d6cef89b1ee8df4"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-002",
             "container_path": "pdf/image-object:2",
-            "locator": "pdf/image-object:2",
-            "fingerprint": "37520452afddfa4714e7c8ba26c30679665a32c3612190419ea7c8b52a977c5a",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:46; page:1",
+            "fingerprint": "a42b45c28a0f2cdd40e8b70b521adf824c322294385fac0d429d24367b1a855d",
+            "width": 1550,
+            "height": 2449,
+            "format": "png",
+            "semantic_category": "brand_or_cover_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-002-xref-46.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-002",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-002-xref-46.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "a42b45c28a0f2cdd40e8b70b521adf824c322294385fac0d429d24367b1a855d"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-003",
             "container_path": "pdf/image-object:3",
-            "locator": "pdf/image-object:3",
-            "fingerprint": "e26ada1e2127170f5455dab767c40a6973b47d442842b7a48e66e510c1b9204c",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:47; page:non-page-rendering-component",
+            "fingerprint": "58e68cece60e1820287c45a87b316551155bc5dfd7b587741d6cef89b1ee8df4",
+            "width": 1550,
+            "height": 2449,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-003-xref-47.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "duplicate",
+            "reason_code": "exact_duplicate",
+            "reason": "Byte-identical PDF image object; the retained object is published in the visual archive.",
+            "duplicate_of": "pdf-image-001",
+            "evidence": "SHA-256 58e68cece60e1820287c45a87b316551155bc5dfd7b587741d6cef89b1ee8df4"
           },
           {
             "media_id": "pdf-image-004",
             "container_path": "pdf/image-object:4",
-            "locator": "pdf/image-object:4",
-            "fingerprint": "983d59db496cfa2f66a69d2fdbc46a535be14946a1c0573fa8b6d15be69126e9",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:48; page:1",
+            "fingerprint": "88a99112e1d85a55e5ec197142524a016b1d919b023b2d6282ab97050070e05f",
+            "width": 189,
+            "height": 187,
+            "format": "png",
+            "semantic_category": "brand_or_cover_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-004-xref-48.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-004",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-004-xref-48.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "88a99112e1d85a55e5ec197142524a016b1d919b023b2d6282ab97050070e05f"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-005",
             "container_path": "pdf/image-object:5",
-            "locator": "pdf/image-object:5",
-            "fingerprint": "f732c4ed0e25fc2808c177a4e0751568c1b417d89e4d31fb91b15c20248805fc",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:49; page:1",
+            "fingerprint": "7cac36909c35521725978967908664000a8c33766bd43c24cc60c9052b47769c",
+            "width": 764,
+            "height": 720,
+            "format": "jpeg",
+            "semantic_category": "brand_or_cover_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-005-xref-49.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-005",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-005-xref-49.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "7cac36909c35521725978967908664000a8c33766bd43c24cc60c9052b47769c"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-006",
             "container_path": "pdf/image-object:6",
-            "locator": "pdf/image-object:6",
-            "fingerprint": "1f0c0c23e7237743625cc74ff1aabb89a3cf5ce5f37a36cebf3912fcc846f93a",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:50; page:non-page-rendering-component",
+            "fingerprint": "6767c535ef90368f0fa9ca568fcc25c1089811dc0b3c666ab83341e7b01c44b7",
+            "width": 764,
+            "height": 720,
+            "format": "jpeg",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-006-xref-50.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-006",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-006-xref-50.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "6767c535ef90368f0fa9ca568fcc25c1089811dc0b3c666ab83341e7b01c44b7"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-007",
             "container_path": "pdf/image-object:7",
-            "locator": "pdf/image-object:7",
-            "fingerprint": "9b3fd1c48a75735f0a1d1e95ab9cbf0c11e6bb689349134668d00d06195759f0",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:85; page:2",
+            "fingerprint": "7cc9e0aca6da1d5362551ec19b3b6c9e26138cc01d97a4ef1d0978ad185c4bf4",
+            "width": 245,
+            "height": 654,
+            "format": "jpeg",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-007-xref-85.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-007",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-007-xref-85.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "7cc9e0aca6da1d5362551ec19b3b6c9e26138cc01d97a4ef1d0978ad185c4bf4"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-008",
             "container_path": "pdf/image-object:8",
-            "locator": "pdf/image-object:8",
-            "fingerprint": "1ab25ae61e7e57f49d22ef9efe46900ce2ad1c7040bba279210955663726c63c",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:101; page:3",
+            "fingerprint": "d57426838adc6fd98ae3dd3f38c432b357e8153a966b2c9c25f93cfb479d0767",
+            "width": 686,
+            "height": 943,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-008-xref-101.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-008",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-008-xref-101.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "d57426838adc6fd98ae3dd3f38c432b357e8153a966b2c9c25f93cfb479d0767"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-009",
             "container_path": "pdf/image-object:9",
-            "locator": "pdf/image-object:9",
-            "fingerprint": "001a7e5e84ed570ca02dff71d463a083bfa441ea25f8a6803bf9097e6ef12ceb",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:102; page:non-page-rendering-component",
+            "fingerprint": "ee2fd3a67557321e324694443036f8e333e366a2a62bda7f5b94ab88436a38c7",
+            "width": 686,
+            "height": 943,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-009-xref-102.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-009",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-009-xref-102.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "ee2fd3a67557321e324694443036f8e333e366a2a62bda7f5b94ab88436a38c7"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-010",
             "container_path": "pdf/image-object:10",
-            "locator": "pdf/image-object:10",
-            "fingerprint": "e5d1f0772f827aa5d5788bc6df574a3d5d7a406102c7f8083cbb697ebdb43f0d",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:152; page:4",
+            "fingerprint": "fa846ad35cac2f45116de1b062b3549013bc52a88fbb59e00ae4f8bbf9c4e44d",
+            "width": 166,
+            "height": 120,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-010-xref-152.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-010",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-010-xref-152.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "fa846ad35cac2f45116de1b062b3549013bc52a88fbb59e00ae4f8bbf9c4e44d"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-011",
             "container_path": "pdf/image-object:11",
-            "locator": "pdf/image-object:11",
-            "fingerprint": "0b1f68b02d6586cf2ae7e57a7b96ef6c5a68d2dc3f0ba70fcf8a959b016063e2",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:153; page:4",
+            "fingerprint": "da543fe6e4a29ce82b2c76c1043d7c8e8aca93c2affa10d488e9a3cdba9c862b",
+            "width": 126,
+            "height": 118,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-011-xref-153.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-011",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-011-xref-153.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "da543fe6e4a29ce82b2c76c1043d7c8e8aca93c2affa10d488e9a3cdba9c862b"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-012",
             "container_path": "pdf/image-object:12",
-            "locator": "pdf/image-object:12",
-            "fingerprint": "2a399e1b5ee768c1503a79b4428a468bf246ed11589d1960709cc25e13475518",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:154; page:4",
+            "fingerprint": "e0e4a981ee12a3bbe591a7a5f3ec54761821742d8c18c24c3ce97ba8950139d1",
+            "width": 89,
+            "height": 126,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-012-xref-154.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-012",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-012-xref-154.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "e0e4a981ee12a3bbe591a7a5f3ec54761821742d8c18c24c3ce97ba8950139d1"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-013",
             "container_path": "pdf/image-object:13",
-            "locator": "pdf/image-object:13",
-            "fingerprint": "5138fbd917194c5617bf71d5bba052db184420a108f508b34628279189c76cbf",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:204; page:5",
+            "fingerprint": "a9da3520e31659e5c3cb2e72d52c25c181f9a11730870286a75ed98269f58885",
+            "width": 229,
+            "height": 123,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-013-xref-204.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-013",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-013-xref-204.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "a9da3520e31659e5c3cb2e72d52c25c181f9a11730870286a75ed98269f58885"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-014",
             "container_path": "pdf/image-object:14",
-            "locator": "pdf/image-object:14",
-            "fingerprint": "452375cac09622a1979948154dcbe761c7ee55c847eb261dcee31287190f0e44",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:205; page:5",
+            "fingerprint": "0b139d0de38310d38846f7372843d821bfa8d6c6571f85e25263c993c555fb26",
+            "width": 163,
+            "height": 102,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-014-xref-205.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-014",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-014-xref-205.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "0b139d0de38310d38846f7372843d821bfa8d6c6571f85e25263c993c555fb26"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-015",
             "container_path": "pdf/image-object:15",
-            "locator": "pdf/image-object:15",
-            "fingerprint": "0e3973ceac4850be7abaa28cee0b2ecbea96dcda4ba509ad839dff8071555d3a",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:206; page:5",
+            "fingerprint": "0bbe568cd7d77951baef10f187d04ca308022cea2c2ad40066181990678f51df",
+            "width": 241,
+            "height": 105,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-015-xref-206.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-015",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-015-xref-206.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "0bbe568cd7d77951baef10f187d04ca308022cea2c2ad40066181990678f51df"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-016",
             "container_path": "pdf/image-object:16",
-            "locator": "pdf/image-object:16",
-            "fingerprint": "2ba612ee71c3c4536e279b72b4d50547243d7d72a1fd9fa2a24096b8b5ce3308",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:207; page:non-page-rendering-component",
+            "fingerprint": "01e3c601eb85aa8669b492c3f1afcc4f684af807287e34bdae516c1ba66de2b4",
+            "width": 241,
+            "height": 105,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-016-xref-207.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-016",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-016-xref-207.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "01e3c601eb85aa8669b492c3f1afcc4f684af807287e34bdae516c1ba66de2b4"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-017",
             "container_path": "pdf/image-object:17",
-            "locator": "pdf/image-object:17",
-            "fingerprint": "fcffdaffc1885bd750e19588bd05a7e69645cff17d9f024ff6e9af9179635d74",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:208; page:5",
+            "fingerprint": "4403b9497bc6a129cc5595274138996e7ba68ee159e8dd008c55dd5fcca8c42a",
+            "width": 235,
+            "height": 111,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-017-xref-208.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-017",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-017-xref-208.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "4403b9497bc6a129cc5595274138996e7ba68ee159e8dd008c55dd5fcca8c42a"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-018",
             "container_path": "pdf/image-object:18",
-            "locator": "pdf/image-object:18",
-            "fingerprint": "818ed4409d038ba926bf96f1df011a2ad7b26cd702214370a7a460440931d623",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:209; page:non-page-rendering-component",
+            "fingerprint": "4882ce889ff683b4aba22c19706572f371b501af31537cb75ecd5e977d3d72a3",
+            "width": 235,
+            "height": 111,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-018-xref-209.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-018",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-018-xref-209.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "4882ce889ff683b4aba22c19706572f371b501af31537cb75ecd5e977d3d72a3"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-019",
             "container_path": "pdf/image-object:19",
-            "locator": "pdf/image-object:19",
-            "fingerprint": "70bdf4d69c70d8f9886a30c47ba9dbd2ecbc47d534d5f879edf4bd75c386713f",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:259; page:6",
+            "fingerprint": "01d311daa523586da7fab3b90904b55e815d484f595e3b9bbf8d50c507e0ba90",
+            "width": 273,
+            "height": 137,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-019-xref-259.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-019",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-019-xref-259.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "01d311daa523586da7fab3b90904b55e815d484f595e3b9bbf8d50c507e0ba90"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-020",
             "container_path": "pdf/image-object:20",
-            "locator": "pdf/image-object:20",
-            "fingerprint": "eab357c9f420d5c475191b166b8b797e34e705fe877e6b4c0792150464eecb21",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:260; page:non-page-rendering-component",
+            "fingerprint": "1fb3ed695063b7ff3a811466d9fd73cbd5e00a1d3afbd560f7b6189c9a01070a",
+            "width": 273,
+            "height": 137,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-020-xref-260.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-020",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-020-xref-260.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "1fb3ed695063b7ff3a811466d9fd73cbd5e00a1d3afbd560f7b6189c9a01070a"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-021",
             "container_path": "pdf/image-object:21",
-            "locator": "pdf/image-object:21",
-            "fingerprint": "8adff75542512ee6baec683fef8774f1f841f556b904c296ef0498449ef3884d",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:261; page:6",
+            "fingerprint": "877407b806d7991fdee3d8ff1c1d43e9d0dffbd0a75e1a61c0fa94011f9d1b93",
+            "width": 224,
+            "height": 168,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-021-xref-261.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-021",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-021-xref-261.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "877407b806d7991fdee3d8ff1c1d43e9d0dffbd0a75e1a61c0fa94011f9d1b93"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-022",
             "container_path": "pdf/image-object:22",
-            "locator": "pdf/image-object:22",
-            "fingerprint": "92bfac4ed26c3933774a78e1f1b8cf99f7851eba06100501e15fa41b2faf0667",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:262; page:non-page-rendering-component",
+            "fingerprint": "a4a3240d7751dfb12288e2c4b2c254708863e23562124db7e499cb9ff2bc6ba5",
+            "width": 224,
+            "height": 168,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-022-xref-262.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-022",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-022-xref-262.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "a4a3240d7751dfb12288e2c4b2c254708863e23562124db7e499cb9ff2bc6ba5"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-023",
             "container_path": "pdf/image-object:23",
-            "locator": "pdf/image-object:23",
-            "fingerprint": "e66eb037a63a482a269add4e8bfefb88b56003d8148be4756d4340d92d361d15",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:263; page:6",
+            "fingerprint": "bcce1644079c1c0243c34ab7517e0cb8e3d99d41402ae48ab85c66cf5ec074b8",
+            "width": 164,
+            "height": 150,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-023-xref-263.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-023",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-023-xref-263.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "bcce1644079c1c0243c34ab7517e0cb8e3d99d41402ae48ab85c66cf5ec074b8"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-024",
             "container_path": "pdf/image-object:24",
-            "locator": "pdf/image-object:24",
-            "fingerprint": "c1a4f4c1c7df84135163aae16d8dfff92645f8c1cf82131675fa4020b826c954",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:264; page:non-page-rendering-component",
+            "fingerprint": "771aa001bc9657f6e65c61fe2aef03ade92ff796316fd66da99a2557dd5f665f",
+            "width": 164,
+            "height": 150,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-024-xref-264.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-024",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-024-xref-264.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "771aa001bc9657f6e65c61fe2aef03ade92ff796316fd66da99a2557dd5f665f"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-025",
             "container_path": "pdf/image-object:25",
-            "locator": "pdf/image-object:25",
-            "fingerprint": "c9fd9ff349541633d0757b73204d86cfb6fa615c668cb0bd4973fae9b6e22d5a",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:319; page:7",
+            "fingerprint": "6b9cf0eb1a868597578de6421ad895cfbd556dfb56b92e6e751d26e91f9a19ce",
+            "width": 244,
+            "height": 168,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-025-xref-319.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-025",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-025-xref-319.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "6b9cf0eb1a868597578de6421ad895cfbd556dfb56b92e6e751d26e91f9a19ce"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-026",
             "container_path": "pdf/image-object:26",
-            "locator": "pdf/image-object:26",
-            "fingerprint": "88c1e2e64abedb83c7546044a0e60b6099505c674ffeec4b4fcbf1efb4f16ac4",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:320; page:non-page-rendering-component",
+            "fingerprint": "52ced7896e66cb060f17e82a58114d25ff20b484ccaec60a055fa25935a4f605",
+            "width": 244,
+            "height": 168,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-026-xref-320.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-026",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-026-xref-320.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "52ced7896e66cb060f17e82a58114d25ff20b484ccaec60a055fa25935a4f605"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-027",
             "container_path": "pdf/image-object:27",
-            "locator": "pdf/image-object:27",
-            "fingerprint": "8f58fdf356cd3d5d50e8d3cbd7ee2b708ec29b38e631183aaa55c4e6cf472139",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:321; page:7",
+            "fingerprint": "7057cbc7c83d824217a18a51a5479293ff99a7af78518dd48f03c669bf4526df",
+            "width": 285,
+            "height": 155,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-027-xref-321.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-027",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-027-xref-321.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "7057cbc7c83d824217a18a51a5479293ff99a7af78518dd48f03c669bf4526df"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-028",
             "container_path": "pdf/image-object:28",
-            "locator": "pdf/image-object:28",
-            "fingerprint": "0ee32f22ff60536415ed80bcc1904f1dc40acb996a1b092e49109a2b27b05a8c",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:322; page:non-page-rendering-component",
+            "fingerprint": "bd34ba64743a0ad28b769142ccc118f6ead06c850170a8e57024e0446116d0a1",
+            "width": 285,
+            "height": 155,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-028-xref-322.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-028",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-028-xref-322.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "bd34ba64743a0ad28b769142ccc118f6ead06c850170a8e57024e0446116d0a1"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-029",
             "container_path": "pdf/image-object:29",
-            "locator": "pdf/image-object:29",
-            "fingerprint": "01dc1d540df178c33f6efd1c5ca42a72f21cab3b205707a6c61e13c85e2e94f2",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:360; page:8",
+            "fingerprint": "1cac9e6bafb0261cde2d0e10708d01c9ef628e44342d58802084a4f62d0c24cf",
+            "width": 204,
+            "height": 194,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-029-xref-360.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-029",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-029-xref-360.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "1cac9e6bafb0261cde2d0e10708d01c9ef628e44342d58802084a4f62d0c24cf"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-030",
             "container_path": "pdf/image-object:30",
-            "locator": "pdf/image-object:30",
-            "fingerprint": "fba1790c8cf1da28f4ca14085b80b3c367d287a0957b1fa3519544f17b46da24",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:361; page:8",
+            "fingerprint": "917d5374058e884a85d4000c3e68601aafc79d3cb169ef1a0a5c15e6991f977a",
+            "width": 231,
+            "height": 189,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-030-xref-361.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-030",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-030-xref-361.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "917d5374058e884a85d4000c3e68601aafc79d3cb169ef1a0a5c15e6991f977a"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-031",
             "container_path": "pdf/image-object:31",
-            "locator": "pdf/image-object:31",
-            "fingerprint": "7a28d80414ae5b0886d84da1bce7146b7f769f1018a04da01a9bf5afb75a17d6",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:362; page:8",
+            "fingerprint": "14dd408c07fc5550ef39c5e9a324a957ad40268381b50fda9e6a0645c05e6e0a",
+            "width": 297,
+            "height": 132,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-031-xref-362.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-031",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-031-xref-362.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "14dd408c07fc5550ef39c5e9a324a957ad40268381b50fda9e6a0645c05e6e0a"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-032",
             "container_path": "pdf/image-object:32",
-            "locator": "pdf/image-object:32",
-            "fingerprint": "6ed932d0332ac1f53642071a91e8992c984a4317e12f5698e9d3813fa258bf7d",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:363; page:non-page-rendering-component",
+            "fingerprint": "a4e83f83031d9a4ca246614555b78b801b468a599915862bd68971a49d58b7a8",
+            "width": 297,
+            "height": 132,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-032-xref-363.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-032",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-032-xref-363.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "a4e83f83031d9a4ca246614555b78b801b468a599915862bd68971a49d58b7a8"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-033",
             "container_path": "pdf/image-object:33",
-            "locator": "pdf/image-object:33",
-            "fingerprint": "45ad1ebfcaaad25c17d9f818e7dfe73cd529605988326e606a883717d3107ad6",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:401; page:9",
+            "fingerprint": "5a5606a3ef7ff1dcfde509027b76f55b2a0e82f998f8b5c4d2dd4417cc43fd67",
+            "width": 233,
+            "height": 177,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-033-xref-401.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-033",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-033-xref-401.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "5a5606a3ef7ff1dcfde509027b76f55b2a0e82f998f8b5c4d2dd4417cc43fd67"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-034",
             "container_path": "pdf/image-object:34",
-            "locator": "pdf/image-object:34",
-            "fingerprint": "a65d518298fbd942e4e858f1cd47664c519b5970e60bae575fecf65939a508d8",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:402; page:non-page-rendering-component",
+            "fingerprint": "69ae7170fcf89bfc9c9ff4bba461c1988823a0527a9969b18309fb810dbba964",
+            "width": 233,
+            "height": 177,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-034-xref-402.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-034",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-034-xref-402.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "69ae7170fcf89bfc9c9ff4bba461c1988823a0527a9969b18309fb810dbba964"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-035",
             "container_path": "pdf/image-object:35",
-            "locator": "pdf/image-object:35",
-            "fingerprint": "673e0ace0e73f1fe7e78426b4ca34349556f1326434ee905645fb7b49f3f8cea",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:403; page:9",
+            "fingerprint": "4d4b8a19ec89438b10e0c9f14b4c37bfad4568451daadfdeb017cda378f9637d",
+            "width": 216,
+            "height": 195,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-035-xref-403.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-035",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-035-xref-403.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "4d4b8a19ec89438b10e0c9f14b4c37bfad4568451daadfdeb017cda378f9637d"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-036",
             "container_path": "pdf/image-object:36",
-            "locator": "pdf/image-object:36",
-            "fingerprint": "ae1c7ea5e90000427fd877cd3d930852e810d2a46b3a910cfbf18f6721a766aa",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:404; page:non-page-rendering-component",
+            "fingerprint": "cd84121d6d16ad5b0507c97ca10dd59c737fad13c0f1e3ff1beda5d034a2e1ad",
+            "width": 216,
+            "height": 195,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-036-xref-404.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-036",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-036-xref-404.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "cd84121d6d16ad5b0507c97ca10dd59c737fad13c0f1e3ff1beda5d034a2e1ad"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-037",
             "container_path": "pdf/image-object:37",
-            "locator": "pdf/image-object:37",
-            "fingerprint": "72157a697a856f9fe706a508654b473c384eca0163af6950d80480ba82e5587e",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:450; page:10",
+            "fingerprint": "3f4391cd6fbea400907a652fa6773b53519e81e0459c682324ab65bc608fa2af",
+            "width": 301,
+            "height": 101,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-037-xref-450.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-037",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-037-xref-450.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "3f4391cd6fbea400907a652fa6773b53519e81e0459c682324ab65bc608fa2af"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-038",
             "container_path": "pdf/image-object:38",
-            "locator": "pdf/image-object:38",
-            "fingerprint": "552fcc70465b527444cd0b88664761f4bf15eaa11768090b32d24ff1589935f6",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:451; page:non-page-rendering-component",
+            "fingerprint": "0f777914e60c6e507b31145fa4ebccdcd435b0fb090146a3d1a79816f6c6af55",
+            "width": 301,
+            "height": 101,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-038-xref-451.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-038",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-038-xref-451.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "0f777914e60c6e507b31145fa4ebccdcd435b0fb090146a3d1a79816f6c6af55"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-039",
             "container_path": "pdf/image-object:39",
-            "locator": "pdf/image-object:39",
-            "fingerprint": "cf11bd05e42fc3a5e263f3fb474a8a3dd0c209a2fc743c26fd428e0636152b21",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:452; page:10",
+            "fingerprint": "2299f596c14dd7aecbbd65693bf29a6512018bacc7986bc6fbc893b719c70ceb",
+            "width": 290,
+            "height": 110,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-039-xref-452.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-039",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-039-xref-452.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "2299f596c14dd7aecbbd65693bf29a6512018bacc7986bc6fbc893b719c70ceb"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-040",
             "container_path": "pdf/image-object:40",
-            "locator": "pdf/image-object:40",
-            "fingerprint": "519a2a11b12c097388bf17acd9907e85235b10493e0a2ffcd53c52bd59c1b0f3",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:453; page:non-page-rendering-component",
+            "fingerprint": "895df172689ef47540b8d1401881a10a09e754c3a92717812aa7a367669e38a7",
+            "width": 290,
+            "height": 110,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-040-xref-453.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-040",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-040-xref-453.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "895df172689ef47540b8d1401881a10a09e754c3a92717812aa7a367669e38a7"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-041",
             "container_path": "pdf/image-object:41",
-            "locator": "pdf/image-object:41",
-            "fingerprint": "eaa269d942bc373fe73a0dd5efaf96fce540f83d14d0651a01e207eed2f0fa8a",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:454; page:10",
+            "fingerprint": "129360da0deae7cf8bc9d69f230a7e70493f32d5e376fc2317d06fa3ff278b3c",
+            "width": 291,
+            "height": 145,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-041-xref-454.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-041",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-041-xref-454.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "129360da0deae7cf8bc9d69f230a7e70493f32d5e376fc2317d06fa3ff278b3c"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-042",
             "container_path": "pdf/image-object:42",
-            "locator": "pdf/image-object:42",
-            "fingerprint": "e40824fc6d2355519edad2e04b4cd5c29577d61b476d477932182dd2aef06e29",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:455; page:non-page-rendering-component",
+            "fingerprint": "990592e80a34d4326b28bd6f1484ec4bfde9131e2959c968609fb64dd6905578",
+            "width": 291,
+            "height": 145,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-042-xref-455.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-042",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-042-xref-455.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "990592e80a34d4326b28bd6f1484ec4bfde9131e2959c968609fb64dd6905578"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-043",
             "container_path": "pdf/image-object:43",
-            "locator": "pdf/image-object:43",
-            "fingerprint": "82dc8881930134e1008beb8709ac1829cead29d639e0a3fdffec9ad9387d5779",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:456; page:10",
+            "fingerprint": "b9caea11766a48fda6dfba6db62863d664affb0a8382c61f7b46075af4b04552",
+            "width": 297,
+            "height": 97,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-043-xref-456.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-043",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-043-xref-456.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "b9caea11766a48fda6dfba6db62863d664affb0a8382c61f7b46075af4b04552"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-044",
             "container_path": "pdf/image-object:44",
-            "locator": "pdf/image-object:44",
-            "fingerprint": "c5172de7f5c80fe4d254410f0c1d8ce3e4615a931042a053609a372ddc853a18",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:457; page:non-page-rendering-component",
+            "fingerprint": "4cb2dadf5b62d8c6bf4c3bf0d7c811fa004ac4c2c237cc416f2e5ee1d279fa10",
+            "width": 297,
+            "height": 97,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-044-xref-457.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-044",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-044-xref-457.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "4cb2dadf5b62d8c6bf4c3bf0d7c811fa004ac4c2c237cc416f2e5ee1d279fa10"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-045",
             "container_path": "pdf/image-object:45",
-            "locator": "pdf/image-object:45",
-            "fingerprint": "7e921f7273884ee3a5d55ba86a3e84c10eda656a132fc05627911fdda3ff8f2c",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:499; page:11",
+            "fingerprint": "de688c30fdd6fd4562b5b87ea0828877fa145e7f2206f53da4d3b145d9d3cf50",
+            "width": 447,
+            "height": 445,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-045-xref-499.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-045",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-045-xref-499.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "de688c30fdd6fd4562b5b87ea0828877fa145e7f2206f53da4d3b145d9d3cf50"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-046",
             "container_path": "pdf/image-object:46",
-            "locator": "pdf/image-object:46",
-            "fingerprint": "6aebecb4d6af7031307ac0298dd131ba9503b723e59e3d1defcb06753147350a",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:500; page:non-page-rendering-component",
+            "fingerprint": "78b69fa07baea2173fdff67207412c74438d7a11bd9f75b517257eca197b7ac2",
+            "width": 447,
+            "height": 445,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-046-xref-500.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-046",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-046-xref-500.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "78b69fa07baea2173fdff67207412c74438d7a11bd9f75b517257eca197b7ac2"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-047",
             "container_path": "pdf/image-object:47",
-            "locator": "pdf/image-object:47",
-            "fingerprint": "dec4ff42e747897abb3f354e71243061706d66b29b3f2c796119b961e9ea5335",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:501; page:11",
+            "fingerprint": "24bd03e8057126ef8a510344d715bcbf8305086e6ba6031c807f1070bb788835",
+            "width": 248,
+            "height": 254,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-047-xref-501.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-047",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-047-xref-501.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "24bd03e8057126ef8a510344d715bcbf8305086e6ba6031c807f1070bb788835"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-048",
             "container_path": "pdf/image-object:48",
-            "locator": "pdf/image-object:48",
-            "fingerprint": "a4a5955827e9b09f0d794af89c0ce1ea03ef73c4e5c104b37e754888baa3f16c",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:502; page:non-page-rendering-component",
+            "fingerprint": "883cfb931030889c418d1582150d63042c67147b5fbd457fb767a0ab3df201d9",
+            "width": 248,
+            "height": 254,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-048-xref-502.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-048",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-048-xref-502.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "883cfb931030889c418d1582150d63042c67147b5fbd457fb767a0ab3df201d9"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-049",
             "container_path": "pdf/image-object:49",
-            "locator": "pdf/image-object:49",
-            "fingerprint": "b925e401ee770057c0bce05d2b02d2789b4a02430b8109d35944f539953fecaa",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:503; page:11",
+            "fingerprint": "d33518f3e2bd27f765bb24c417ec37d8ccb09ac0b93f47af8264a59a7d6aa651",
+            "width": 545,
+            "height": 222,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-049-xref-503.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-049",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-049-xref-503.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "d33518f3e2bd27f765bb24c417ec37d8ccb09ac0b93f47af8264a59a7d6aa651"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-050",
             "container_path": "pdf/image-object:50",
-            "locator": "pdf/image-object:50",
-            "fingerprint": "cc579ecf1b2678cc7ad7f4d5007afc8ee6f44500dcdeceb335e098871a1f071b",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:504; page:non-page-rendering-component",
+            "fingerprint": "52f18dd3d092ef0cf70a3f0640683f433cc007484c7c2f72b585fb36a4322afd",
+            "width": 545,
+            "height": 222,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-050-xref-504.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-050",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-050-xref-504.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "52f18dd3d092ef0cf70a3f0640683f433cc007484c7c2f72b585fb36a4322afd"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-051",
             "container_path": "pdf/image-object:51",
-            "locator": "pdf/image-object:51",
-            "fingerprint": "4919c9c35198ef13cc5fe7392ae799185ed2beae213f2cc075f3ecf6d1e8fc67",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:505; page:11",
+            "fingerprint": "d976b656685c90a78395ce56e91aac154581e1088e332dd78e07caa9eac32053",
+            "width": 307,
+            "height": 314,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-051-xref-505.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-051",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-051-xref-505.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "d976b656685c90a78395ce56e91aac154581e1088e332dd78e07caa9eac32053"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-052",
             "container_path": "pdf/image-object:52",
-            "locator": "pdf/image-object:52",
-            "fingerprint": "27d02db516c6eb0c0e54818befc5e3c0cd2f8228bbf95f5fb6354a6bcba1678a",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:506; page:non-page-rendering-component",
+            "fingerprint": "a89d12fd8d2b6340e53a2e7f0ae47c83bcdb0eacc9f824b74c34ec150bc70c1c",
+            "width": 307,
+            "height": 314,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-052-xref-506.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-052",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-052-xref-506.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "a89d12fd8d2b6340e53a2e7f0ae47c83bcdb0eacc9f824b74c34ec150bc70c1c"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-053",
             "container_path": "pdf/image-object:53",
-            "locator": "pdf/image-object:53",
-            "fingerprint": "7c741e21cca280be45a8ebc09fddfee935d99e53070c13ee2a4f24ca11da37a0",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:507; page:11",
+            "fingerprint": "6128eb5a56b345c48f6899a1cc208cfd41cca78d4aaa97abeaab8666273ebfc8",
+            "width": 139,
+            "height": 139,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-053-xref-507.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-053",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-053-xref-507.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "6128eb5a56b345c48f6899a1cc208cfd41cca78d4aaa97abeaab8666273ebfc8"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-054",
             "container_path": "pdf/image-object:54",
-            "locator": "pdf/image-object:54",
-            "fingerprint": "8004cb66033623365d576cbe968628560b334724169d7757e2fba6b39c0d1c34",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:508; page:11",
+            "fingerprint": "7201a42cb50585ba1e4b654682be84a1df25e4adaacceb7977f656c2ccd0d686",
+            "width": 138,
+            "height": 138,
+            "format": "png",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-054-xref-508.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-054",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-054-xref-508.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "7201a42cb50585ba1e4b654682be84a1df25e4adaacceb7977f656c2ccd0d686"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-055",
             "container_path": "pdf/image-object:55",
-            "locator": "pdf/image-object:55",
-            "fingerprint": "59deb0a2d85a5b3bfe38326721535c955438948d47f6691c5c155a6b9fc6cf29",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:561; page:non-page-rendering-component",
+            "fingerprint": "6922a0f118b642669bb6fbc048c52faf9bafcdd28039e784a879747368f93af1",
+            "width": 667,
+            "height": 667,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-055-xref-561.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-055",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-055-xref-561.png']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "6922a0f118b642669bb6fbc048c52faf9bafcdd28039e784a879747368f93af1"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-056",
             "container_path": "pdf/image-object:56",
-            "locator": "pdf/image-object:56",
-            "fingerprint": "a29c589581d92821a687ced478944d3ad417c25776027999044c80c77fae0b48",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:562; page:12",
+            "fingerprint": "6677f6b39094b970f7d00b9d51fc27ca689372adcf8766d107cd95e39af3d06a",
+            "width": 667,
+            "height": 667,
+            "format": "jpeg",
+            "semantic_category": "catalogue_product_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-056-xref-562.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "use",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-image-056",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/objects/object-056-xref-562.jpeg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "6677f6b39094b970f7d00b9d51fc27ca689372adcf8766d107cd95e39af3d06a"
+              }
+            ]
           },
           {
             "media_id": "pdf-image-057",
             "container_path": "pdf/image-object:57",
-            "locator": "pdf/image-object:57",
-            "fingerprint": "1c27cf2353a9b477a940d8e730776ee0e7ed7bbf545ea4ada82e3656ab1cdd70",
-            "decision": "reference_only",
-            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+            "locator": "pdf-xref:563; page:non-page-rendering-component",
+            "fingerprint": "6922a0f118b642669bb6fbc048c52faf9bafcdd28039e784a879747368f93af1",
+            "width": 667,
+            "height": 667,
+            "format": "png",
+            "semantic_category": "catalogue_rendering_component",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "source_original",
+            "crop_state": "embedded_object",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\objects\\object-057-xref-563.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "decision": "duplicate",
+            "reason_code": "exact_duplicate",
+            "reason": "Byte-identical PDF image object; the retained object is published in the visual archive.",
+            "duplicate_of": "pdf-image-055",
+            "evidence": "SHA-256 6922a0f118b642669bb6fbc048c52faf9bafcdd28039e784a879747368f93af1"
           },
           {
             "media_id": "pdf-page-visual-01",
             "container_path": "pdf/page:1",
-            "locator": "page:1",
+            "locator": "page:1; full-page-render",
             "fingerprint": "495e1064b0e3f6311e205d55b943c062eece48ff0706704eb2dd6f2426a83a15",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-01.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-01",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-01.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "495e1064b0e3f6311e205d55b943c062eece48ff0706704eb2dd6f2426a83a15"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-02",
             "container_path": "pdf/page:2",
-            "locator": "page:2",
+            "locator": "page:2; full-page-render",
             "fingerprint": "92ef2790d1356cd5c59e99d4d605ff4324f6b20e28a304c26a44ebfa5a7569c6",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-02.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-02",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-02.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "92ef2790d1356cd5c59e99d4d605ff4324f6b20e28a304c26a44ebfa5a7569c6"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-03",
             "container_path": "pdf/page:3",
-            "locator": "page:3",
+            "locator": "page:3; full-page-render",
             "fingerprint": "67b6e0e935a0eb26c9dd7b1c3907428f45ab81cd10f51e1dbec578971818ba91",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-03.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-03",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-03.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "67b6e0e935a0eb26c9dd7b1c3907428f45ab81cd10f51e1dbec578971818ba91"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-04",
             "container_path": "pdf/page:4",
-            "locator": "page:4",
+            "locator": "page:4; full-page-render",
             "fingerprint": "922fb06a736de6164a4750ab8301d0719a5a0251bf2518133fe98b0bfc9ff6ac",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-04.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-04",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-04.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "922fb06a736de6164a4750ab8301d0719a5a0251bf2518133fe98b0bfc9ff6ac"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-05",
             "container_path": "pdf/page:5",
-            "locator": "page:5",
+            "locator": "page:5; full-page-render",
             "fingerprint": "89401746e97a3a8875e114d3d0552d47d0a17a707b91946f3044553c93d809c8",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-05.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-05",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-05.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "89401746e97a3a8875e114d3d0552d47d0a17a707b91946f3044553c93d809c8"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-06",
             "container_path": "pdf/page:6",
-            "locator": "page:6",
+            "locator": "page:6; full-page-render",
             "fingerprint": "6321b9f3e608a58f256079a7afb515fbeb8c50f09753d3bc9df7a9c8e1fdcdd2",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-06.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-06",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-06.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "6321b9f3e608a58f256079a7afb515fbeb8c50f09753d3bc9df7a9c8e1fdcdd2"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-07",
             "container_path": "pdf/page:7",
-            "locator": "page:7",
+            "locator": "page:7; full-page-render",
             "fingerprint": "ee08c1e906e3f49d91872432fc780112c721d89ffbd9512e0b88a20a20befca6",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-07.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-07",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-07.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "ee08c1e906e3f49d91872432fc780112c721d89ffbd9512e0b88a20a20befca6"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-08",
             "container_path": "pdf/page:8",
-            "locator": "page:8",
+            "locator": "page:8; full-page-render",
             "fingerprint": "05a602d813a0b7fd16dc63ca8b873ae7397df41def846bb7e81f474623eca800",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-08.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-08",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-08.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "05a602d813a0b7fd16dc63ca8b873ae7397df41def846bb7e81f474623eca800"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-09",
             "container_path": "pdf/page:9",
-            "locator": "page:9",
+            "locator": "page:9; full-page-render",
             "fingerprint": "67caac37fb9f56d757278b298241ff451b2ca1c800ac82056239798512d4f649",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-09.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-09",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-09.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "67caac37fb9f56d757278b298241ff451b2ca1c800ac82056239798512d4f649"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-10",
             "container_path": "pdf/page:10",
-            "locator": "page:10",
+            "locator": "page:10; full-page-render",
             "fingerprint": "0f8e89548ed2e1db3345918e718ff5a985e305c86a8c7458d6e51342753e5258",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-10.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-10",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-10.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "0f8e89548ed2e1db3345918e718ff5a985e305c86a8c7458d6e51342753e5258"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-11",
             "container_path": "pdf/page:11",
-            "locator": "page:11",
+            "locator": "page:11; full-page-render",
             "fingerprint": "fd31c979ac6200cdf9679f417d3b5c1a339ba515f675df53cff6bdd91c331fcd",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-11.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-11",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-11.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "fd31c979ac6200cdf9679f417d3b5c1a339ba515f675df53cff6bdd91c331fcd"
+              }
+            ]
           },
           {
             "media_id": "pdf-page-visual-12",
             "container_path": "pdf/page:12",
-            "locator": "page:12",
+            "locator": "page:12; full-page-render",
             "fingerprint": "cb7265c85347a3388c2f44609ef519ecb38f2fd10d2ed811c57dc1d51c6bf7f2",
-            "decision": "reference_only",
-            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+            "width": 1812,
+            "height": 1289,
+            "format": "jpg",
+            "semantic_category": "catalogue_page_visual",
+            "business_theme": "rotary valve selection catalogue",
+            "clarity": "rendered_from_source_pdf",
+            "crop_state": "full_page",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\all-customer-media\\catalogue\\pages\\page-12.jpg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/media-library#media-pdf-page-visual-12",
+                "evidence": "Production DOM img[src='/customer-media/catalogue/pages/page-12.jpg']; D:\\Cursor\\Grand\\changhong-shinelong\\deliverables\\evidence\\all-customer-media-contact-sheet.jpg",
+                "verification_result": "PASS",
+                "asset_hash": "cb7265c85347a3388c2f44609ef519ecb38f2fd10d2ed811c57dc1d51c6bf7f2"
+              }
+            ]
           }
         ]
       }
