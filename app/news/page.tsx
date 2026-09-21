@@ -1,5 +1,6 @@
 import { PageHero } from "@/components/page-hero"
 import Link from "next/link"
 import { getPublishedArticles } from "@/lib/articles-db"
+export const metadata={title:'Technical Insights',description:'Published technical articles and company updates from Chanhong ShineLong.',alternates:{canonical:'/news'}}
 export const revalidate=60
 export default async function NewsPage(){const articles=await getPublishedArticles();return <><PageHero title="Insights" description="Technical notes and company updates from Chanhong ShineLong."/><main className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">{articles.length?<div className="grid gap-6 md:grid-cols-3">{articles.map(a=><article key={a.slug} className="flex h-full flex-col rounded-sm border p-6"><time className="text-xs text-muted-foreground">{a.publishedAt?new Date(a.publishedAt).toLocaleDateString('en-CA'):''}</time><h2 className="mt-3 line-clamp-2 text-xl font-semibold">{a.title}</h2><p className="mt-3 line-clamp-3 flex-1 text-muted-foreground">{a.excerpt}</p><Link href={`/news/${a.slug}`} className="mt-6 font-medium text-primary">Read article →</Link></article>)}</div>:<div className="py-16 text-center"><h2 className="text-2xl font-semibold">No published articles yet</h2><p className="mt-3 text-muted-foreground">Verified technical and company content will appear here after publication.</p></div>}</main></>}
