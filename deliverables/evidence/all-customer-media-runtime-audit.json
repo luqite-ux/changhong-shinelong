@@ -21,5 +21,30 @@
     "horizontal_overflow": false,
     "evidence": "deliverables/evidence/all-customer-media-mobile-390-full.png"
   },
+  "production": {
+    "origin": "https://changhong-shinelong.vercel.app",
+    "deployment_sha": "f8913b891352266b12c775275a1f5493c29dcff3",
+    "route_status": 200,
+    "rendered_media_card_count": 77,
+    "asset_http_200_count": 77,
+    "desktop": {
+      "viewport_width": 1280,
+      "dom_image_count": 79,
+      "loaded_image_count": 79,
+      "failed_image_count": 0,
+      "pending_image_count": 0,
+      "horizontal_overflow": false,
+      "evidence": "deliverables/evidence/all-customer-media-production-desktop-full.png"
+    },
+    "mobile_390": {
+      "viewport_width": 390,
+      "dom_image_count": 79,
+      "loaded_image_count": 79,
+      "failed_image_count": 0,
+      "pending_image_count": 0,
+      "horizontal_overflow": false,
+      "evidence": "deliverables/evidence/all-customer-media-production-mobile-390-full.png"
+    }
+  },
   "result": "PASS"
 }
