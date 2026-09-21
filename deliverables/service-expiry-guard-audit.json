@@ -1,0 +1,19 @@
+{
+  "pass": false,
+  "root": "D:\\Cursor\\Grand\\changhong-shinelong",
+  "guardVersion": "1",
+  "manifestPath": ".codex-delivery/service-expiry-guard.json",
+  "findings": [
+    {
+      "code": "SVC-GUARD-VERIFICATION-INCOMPLETE",
+      "message": "Production verification simulatedExpired must be PASS with evidence",
+      "file": ".codex-delivery/service-expiry-guard.json"
+    }
+  ],
+  "sharedBlocker": {
+    "scope": "shared_huanqiu_admin",
+    "summary": "The public service-status endpoint returned active for an expired, enforcement-enabled synthetic tenant in two independent runs.",
+    "customerRepositoryChangesRequired": false,
+    "testDataCleanup": "PASS"
+  }
+}

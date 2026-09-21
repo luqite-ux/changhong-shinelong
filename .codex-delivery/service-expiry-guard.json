@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "guardVersion": "1",
+  "publicStatusPath": "/api/public/service-status/",
+  "defaults": {
+    "serviceExpiryDate": null,
+    "enforcementEnabled": false
+  },
+  "failOpenScenarios": [
+    "query_failed",
+    "timeout",
+    "missing_expiry",
+    "enforcement_disabled",
+    "guard_version_unregistered"
+  ],
+  "excludedPaths": [
+    "/admin",
+    "/admin/login",
+    "/api",
+    "/_next",
+    "/favicon.ico",
+    "static-assets"
+  ],
+  "guardFiles": [
+    "lib/service-status.ts",
+    "lib/service-guard-middleware.ts"
+  ],
+  "integrationFiles": [
+    "lib/service-guard-middleware.ts"
+  ],
+  "expiredPageFiles": [
+    "app/service-expired/page.tsx"
+  ],
+  "backendRegistration": {
+    "registered": true,
+    "guardVersion": "1",
+    "evidencePath": "deliverables/evidence/service-guard-registration.json"
+  },
+  "productionVerification": {
+    "normal": {
+      "result": "PASS",
+      "evidencePath": "deliverables/evidence/service-expiry-production-verification.json"
+    },
+    "simulatedExpired": {
+      "result": "FAIL",
+      "evidencePath": "deliverables/evidence/service-expiry-production-verification.json"
+    },
+    "renewalRecovery": {
+      "result": "PASS",
+      "evidencePath": "deliverables/evidence/service-expiry-production-verification.json"
+    },
+    "adminReachable": {
+      "result": "PASS",
+      "evidencePath": "deliverables/evidence/service-expiry-production-verification.json"
+    }
+  }
+}

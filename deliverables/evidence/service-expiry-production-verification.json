@@ -1,0 +1,37 @@
+{
+  "projectName": "changhong-guard-muay1d3x",
+  "syntheticTenantId": "6342ebbf-8c12-4afd-a1bf-d63011d459a1",
+  "checks": {
+    "publicExpiredStatus": {
+      "result": "FAIL",
+      "status": 200,
+      "body": {
+        "available": true,
+        "status": "active",
+        "checkedAt": "2026-09-21T07:49:16.070Z",
+        "version": 1
+      }
+    },
+    "simulatedExpired": {
+      "result": "FAIL",
+      "status": 200
+    },
+    "adminReachable": {
+      "result": "PASS",
+      "status": 200
+    },
+    "renewalRecovery": {
+      "result": "PASS",
+      "status": 200
+    },
+    "normal": {
+      "result": "PASS",
+      "status": 200
+    }
+  },
+  "cleanup": {
+    "vercelProject": "DELETED",
+    "serviceTermRows": 0,
+    "tenantRows": -1
+  }
+}
