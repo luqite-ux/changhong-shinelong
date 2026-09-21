@@ -1,0 +1,1 @@
+export function PageHero({title,description}:{title:string;description:string}){return <section className="border-b border-border bg-graphite text-white"><div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><h1 className="text-4xl font-semibold sm:text-5xl">{title}</h1><p className="mt-4 max-w-3xl text-lg text-white/75">{description}</p></div></section>}

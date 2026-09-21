@@ -1,0 +1,2 @@
+import Link from "next/link"
+export default function NotFound(){return <main className="mx-auto max-w-3xl px-4 py-28 text-center"><p className="text-sm font-semibold text-primary">404</p><h1 className="mt-2 text-4xl font-semibold">Page not found</h1><p className="mt-4 text-muted-foreground">The requested page may have moved or is not available.</p><Link href="/" className="mt-8 inline-block rounded-sm bg-primary px-5 py-3 font-semibold text-primary-foreground">Return home</Link></main>}

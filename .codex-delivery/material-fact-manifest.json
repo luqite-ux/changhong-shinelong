@@ -1,0 +1,4647 @@
+{
+  "version": 1,
+  "material_roots": [
+    "D:\\Cursor\\暂存\\第二批\\1504-宏祥隆机械"
+  ],
+  "sources": [
+    {
+      "source_id": "source-xlsx",
+      "path": "D:\\Cursor\\暂存\\第二批\\1504-宏祥隆机械\\企业资料&产品&FAQ问题收集表 - 常宏祥隆20260902.xlsx",
+      "type": "customer-intake-workbook",
+      "fingerprint": "80603c49890422a93da47e127aed6029e515490cbf3a086758b53f9b21dfede4",
+      "decision": "extract",
+      "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+      "units": [
+        {
+          "unit_id": "xlsx-企业资料-A1",
+          "locator": "企业资料!A1",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-A2",
+          "locator": "企业资料!A2",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B2",
+          "locator": "企业资料!B2",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C2",
+          "locator": "企业资料!C2",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-A3",
+          "locator": "企业资料!A3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B3",
+          "locator": "企业资料!B3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C3",
+          "locator": "企业资料!C3",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-33a11c23264fa0"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A4",
+          "locator": "企业资料!A4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B4",
+          "locator": "企业资料!B4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C4",
+          "locator": "企业资料!C4",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-e7bdd1d6580253"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A5",
+          "locator": "企业资料!A5",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B5",
+          "locator": "企业资料!B5",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C5",
+          "locator": "企业资料!C5",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-A6",
+          "locator": "企业资料!A6",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B6",
+          "locator": "企业资料!B6",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C6",
+          "locator": "企业资料!C6",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-92f785b3a15131"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A7",
+          "locator": "企业资料!A7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B7",
+          "locator": "企业资料!B7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C7",
+          "locator": "企业资料!C7",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-6bd9170a499f65"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A8",
+          "locator": "企业资料!A8",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B8",
+          "locator": "企业资料!B8",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C8",
+          "locator": "企业资料!C8",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-b7fbe39fdcf686"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A9",
+          "locator": "企业资料!A9",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B9",
+          "locator": "企业资料!B9",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C9",
+          "locator": "企业资料!C9",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-d80510adb04e57"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A10",
+          "locator": "企业资料!A10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B10",
+          "locator": "企业资料!B10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C10",
+          "locator": "企业资料!C10",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-f7416e50ef323e"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A11",
+          "locator": "企业资料!A11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B11",
+          "locator": "企业资料!B11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-A12",
+          "locator": "企业资料!A12",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B12",
+          "locator": "企业资料!B12",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C12",
+          "locator": "企业资料!C12",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-3eee82316c14a5"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A13",
+          "locator": "企业资料!A13",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B13",
+          "locator": "企业资料!B13",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C13",
+          "locator": "企业资料!C13",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-9212d730a10cde"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A14",
+          "locator": "企业资料!A14",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B14",
+          "locator": "企业资料!B14",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C14",
+          "locator": "企业资料!C14",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-3b17090a5626ac"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A15",
+          "locator": "企业资料!A15",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B15",
+          "locator": "企业资料!B15",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C15",
+          "locator": "企业资料!C15",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-c0c8236a0abacb"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A16",
+          "locator": "企业资料!A16",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B16",
+          "locator": "企业资料!B16",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C16",
+          "locator": "企业资料!C16",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-c9ae86182b3927"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-C17",
+          "locator": "企业资料!C17",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-683a8368886411"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D17",
+          "locator": "企业资料!D17",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C18",
+          "locator": "企业资料!C18",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-64473c5968423d"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D18",
+          "locator": "企业资料!D18",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C19",
+          "locator": "企业资料!C19",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-a77497e4a49819"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D19",
+          "locator": "企业资料!D19",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C20",
+          "locator": "企业资料!C20",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-8401a77f99f233"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D20",
+          "locator": "企业资料!D20",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C21",
+          "locator": "企业资料!C21",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-4dda2c2ddca181"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D21",
+          "locator": "企业资料!D21",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-A22",
+          "locator": "企业资料!A22",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B22",
+          "locator": "企业资料!B22",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C22",
+          "locator": "企业资料!C22",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-1591531bbc0d25"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A23",
+          "locator": "企业资料!A23",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B23",
+          "locator": "企业资料!B23",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C23",
+          "locator": "企业资料!C23",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-f4ae30023a592f"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A24",
+          "locator": "企业资料!A24",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B24",
+          "locator": "企业资料!B24",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C24",
+          "locator": "企业资料!C24",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-c50c0e852deb19"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-A25",
+          "locator": "企业资料!A25",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B25",
+          "locator": "企业资料!B25",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C25",
+          "locator": "企业资料!C25",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-A26",
+          "locator": "企业资料!A26",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-B26",
+          "locator": "企业资料!B26",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C26",
+          "locator": "企业资料!C26",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-d895821d35eccf"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D26",
+          "locator": "企业资料!D26",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C27",
+          "locator": "企业资料!C27",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-53a9dc6754164f"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D27",
+          "locator": "企业资料!D27",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C28",
+          "locator": "企业资料!C28",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-594eac81ce763f"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D28",
+          "locator": "企业资料!D28",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C29",
+          "locator": "企业资料!C29",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-9f09ada42e8594"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D29",
+          "locator": "企业资料!D29",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-企业资料-C30",
+          "locator": "企业资料!C30",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-9400f40bdd35dc"
+          ]
+        },
+        {
+          "unit_id": "xlsx-企业资料-D30",
+          "locator": "企业资料!D30",
+          "decision": "reference_only",
+          "reason": "Embedded image formula is audited in container_media_scan, not duplicated as a text fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-A1",
+          "locator": "产品信息!A1",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-A2",
+          "locator": "产品信息!A2",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-A3",
+          "locator": "产品信息!A3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-B3",
+          "locator": "产品信息!B3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-C3",
+          "locator": "产品信息!C3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D3",
+          "locator": "产品信息!D3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E3",
+          "locator": "产品信息!E3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F3",
+          "locator": "产品信息!F3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-G3",
+          "locator": "产品信息!G3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H3",
+          "locator": "产品信息!H3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I3",
+          "locator": "产品信息!I3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-A4",
+          "locator": "产品信息!A4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-B4",
+          "locator": "产品信息!B4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-C4",
+          "locator": "产品信息!C4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D4",
+          "locator": "产品信息!D4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E4",
+          "locator": "产品信息!E4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F4",
+          "locator": "产品信息!F4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H4",
+          "locator": "产品信息!H4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I4",
+          "locator": "产品信息!I4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D5",
+          "locator": "产品信息!D5",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E5",
+          "locator": "产品信息!E5",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F5",
+          "locator": "产品信息!F5",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H5",
+          "locator": "产品信息!H5",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I5",
+          "locator": "产品信息!I5",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D6",
+          "locator": "产品信息!D6",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E6",
+          "locator": "产品信息!E6",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F6",
+          "locator": "产品信息!F6",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H6",
+          "locator": "产品信息!H6",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I6",
+          "locator": "产品信息!I6",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-A7",
+          "locator": "产品信息!A7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-B7",
+          "locator": "产品信息!B7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-C7",
+          "locator": "产品信息!C7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D7",
+          "locator": "产品信息!D7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E7",
+          "locator": "产品信息!E7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F7",
+          "locator": "产品信息!F7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H7",
+          "locator": "产品信息!H7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I7",
+          "locator": "产品信息!I7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D8",
+          "locator": "产品信息!D8",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E8",
+          "locator": "产品信息!E8",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F8",
+          "locator": "产品信息!F8",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H8",
+          "locator": "产品信息!H8",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I8",
+          "locator": "产品信息!I8",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D9",
+          "locator": "产品信息!D9",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E9",
+          "locator": "产品信息!E9",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F9",
+          "locator": "产品信息!F9",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H9",
+          "locator": "产品信息!H9",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I9",
+          "locator": "产品信息!I9",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-A10",
+          "locator": "产品信息!A10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-B10",
+          "locator": "产品信息!B10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-C10",
+          "locator": "产品信息!C10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D10",
+          "locator": "产品信息!D10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E10",
+          "locator": "产品信息!E10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F10",
+          "locator": "产品信息!F10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H10",
+          "locator": "产品信息!H10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I10",
+          "locator": "产品信息!I10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D11",
+          "locator": "产品信息!D11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E11",
+          "locator": "产品信息!E11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F11",
+          "locator": "产品信息!F11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H11",
+          "locator": "产品信息!H11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I11",
+          "locator": "产品信息!I11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-D12",
+          "locator": "产品信息!D12",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-E12",
+          "locator": "产品信息!E12",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-F12",
+          "locator": "产品信息!F12",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-H12",
+          "locator": "产品信息!H12",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-I12",
+          "locator": "产品信息!I12",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-产品信息-A13",
+          "locator": "产品信息!A13",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-A1",
+          "locator": "FAQ问题!A1",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-A2",
+          "locator": "FAQ问题!A2",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-A3",
+          "locator": "FAQ问题!A3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B3",
+          "locator": "FAQ问题!B3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C3",
+          "locator": "FAQ问题!C3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D3",
+          "locator": "FAQ问题!D3",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-A4",
+          "locator": "FAQ问题!A4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B4",
+          "locator": "FAQ问题!B4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C4",
+          "locator": "FAQ问题!C4",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D4",
+          "locator": "FAQ问题!D4",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-ea836930cba11d"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B5",
+          "locator": "FAQ问题!B5",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C5",
+          "locator": "FAQ问题!C5",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D5",
+          "locator": "FAQ问题!D5",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-ac360cff2bc3b8"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B6",
+          "locator": "FAQ问题!B6",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C6",
+          "locator": "FAQ问题!C6",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D6",
+          "locator": "FAQ问题!D6",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-d075a8e33ce25f"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B7",
+          "locator": "FAQ问题!B7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C7",
+          "locator": "FAQ问题!C7",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D7",
+          "locator": "FAQ问题!D7",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-e2a4b369e11a13"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B8",
+          "locator": "FAQ问题!B8",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C8",
+          "locator": "FAQ问题!C8",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D8",
+          "locator": "FAQ问题!D8",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-1908ac4961fdfe"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B9",
+          "locator": "FAQ问题!B9",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C9",
+          "locator": "FAQ问题!C9",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D9",
+          "locator": "FAQ问题!D9",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-0069e36a19fc63"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B10",
+          "locator": "FAQ问题!B10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C10",
+          "locator": "FAQ问题!C10",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D10",
+          "locator": "FAQ问题!D10",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-6bf42f7d0f0b75"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-A11",
+          "locator": "FAQ问题!A11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B11",
+          "locator": "FAQ问题!B11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C11",
+          "locator": "FAQ问题!C11",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D11",
+          "locator": "FAQ问题!D11",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-28c4527d38adb0"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B12",
+          "locator": "FAQ问题!B12",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C12",
+          "locator": "FAQ问题!C12",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D12",
+          "locator": "FAQ问题!D12",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-39d8519077c9c8"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B13",
+          "locator": "FAQ问题!B13",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C13",
+          "locator": "FAQ问题!C13",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D13",
+          "locator": "FAQ问题!D13",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-669771f037c07b"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B14",
+          "locator": "FAQ问题!B14",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C14",
+          "locator": "FAQ问题!C14",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D14",
+          "locator": "FAQ问题!D14",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-52d49f45424b60"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B15",
+          "locator": "FAQ问题!B15",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C15",
+          "locator": "FAQ问题!C15",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D15",
+          "locator": "FAQ问题!D15",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-59151d4e6cc18d"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-A16",
+          "locator": "FAQ问题!A16",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B16",
+          "locator": "FAQ问题!B16",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C16",
+          "locator": "FAQ问题!C16",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D16",
+          "locator": "FAQ问题!D16",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-d210c10fc2a22c"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B17",
+          "locator": "FAQ问题!B17",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C17",
+          "locator": "FAQ问题!C17",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D17",
+          "locator": "FAQ问题!D17",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-ad9ce9af3cb55d"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B18",
+          "locator": "FAQ问题!B18",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C18",
+          "locator": "FAQ问题!C18",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D18",
+          "locator": "FAQ问题!D18",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-3ac34e1dd7952e"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B19",
+          "locator": "FAQ问题!B19",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C19",
+          "locator": "FAQ问题!C19",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D19",
+          "locator": "FAQ问题!D19",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-4442dec6a4d4a4"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B20",
+          "locator": "FAQ问题!B20",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C20",
+          "locator": "FAQ问题!C20",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D20",
+          "locator": "FAQ问题!D20",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-f6853dabfc28fe"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-A21",
+          "locator": "FAQ问题!A21",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B21",
+          "locator": "FAQ问题!B21",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C21",
+          "locator": "FAQ问题!C21",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D21",
+          "locator": "FAQ问题!D21",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-4e761ccd4d6cc6"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B22",
+          "locator": "FAQ问题!B22",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C22",
+          "locator": "FAQ问题!C22",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D22",
+          "locator": "FAQ问题!D22",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-a4c22b81859801"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B23",
+          "locator": "FAQ问题!B23",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C23",
+          "locator": "FAQ问题!C23",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D23",
+          "locator": "FAQ问题!D23",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-4906f4d109471c"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B24",
+          "locator": "FAQ问题!B24",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C24",
+          "locator": "FAQ问题!C24",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D24",
+          "locator": "FAQ问题!D24",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-aa342e6964d4cc"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B25",
+          "locator": "FAQ问题!B25",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C25",
+          "locator": "FAQ问题!C25",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D25",
+          "locator": "FAQ问题!D25",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-112d0f73d8d934"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-A26",
+          "locator": "FAQ问题!A26",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B26",
+          "locator": "FAQ问题!B26",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C26",
+          "locator": "FAQ问题!C26",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D26",
+          "locator": "FAQ问题!D26",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-e2ca98e38d16e4"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B27",
+          "locator": "FAQ问题!B27",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C27",
+          "locator": "FAQ问题!C27",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D27",
+          "locator": "FAQ问题!D27",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-41780bbf140ce9"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B28",
+          "locator": "FAQ问题!B28",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C28",
+          "locator": "FAQ问题!C28",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D28",
+          "locator": "FAQ问题!D28",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-29009b79e29482"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B29",
+          "locator": "FAQ问题!B29",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C29",
+          "locator": "FAQ问题!C29",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D29",
+          "locator": "FAQ问题!D29",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-a3b2ed81975946"
+          ]
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-B30",
+          "locator": "FAQ问题!B30",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-C30",
+          "locator": "FAQ问题!C30",
+          "decision": "reference_only",
+          "reason": "Template or example guidance, not customer fact."
+        },
+        {
+          "unit_id": "xlsx-FAQ问题-D30",
+          "locator": "FAQ问题!D30",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-4c1461dc7ad381"
+          ]
+        }
+      ],
+      "container_media_scan": {
+        "result": "PASS",
+        "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+        "embedded_media": [
+          {
+            "media_id": "xlsx-media-01",
+            "container_path": "xl/media/image1.png",
+            "locator": "cell-image:ID_18A77769BA594B56AD869A569718AAFB:彩虹",
+            "fingerprint": "9815455495039ff22968f49398009b29049f95b865a6ec7b17e78f65b85121ba",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image1.png",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend",
+              "backend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "site header/footer brand mark",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\logo.png",
+                "verification_result": "PASS",
+                "asset_hash": "9815455495039ff22968f49398009b29049f95b865a6ec7b17e78f65b85121ba"
+              },
+              {
+                "layer": "backend",
+                "locator": "tenants.logo_url,tenants.favicon_url",
+                "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+                "verification_result": "PASS",
+                "asset_hash": "9815455495039ff22968f49398009b29049f95b865a6ec7b17e78f65b85121ba"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-02",
+            "container_path": "xl/media/image2.jpeg",
+            "locator": "cell-image:ID_F38ABA96F9C64C04B11727ADC12097E8:常宏祥隆营业执照",
+            "fingerprint": "18ba0fab7128ae783d6d9b46ff40818bfc08e6addc3159bc75b2664ec6de3521",
+            "decision": "excluded_by_rule",
+            "reason": "Business licence is identity evidence and is not published as marketing media."
+          },
+          {
+            "media_id": "xlsx-media-03",
+            "container_path": "xl/media/image3.jpeg",
+            "locator": "cell-image:ID_1FA3EE1141F44174B8C8F946C6C5C9AB|ID_4EE5A8768C4B4651ADE84C2C34AA9D98:生产车间 / 生产车间",
+            "fingerprint": "41e6b61160ad95b4e8f04ef57fe0c9a1ba3c81bd6fc348ca5c02fbaaa55f23a7",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image3.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#facility-evidence",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image3.jpeg",
+                "verification_result": "PASS",
+                "asset_hash": "41e6b61160ad95b4e8f04ef57fe0c9a1ba3c81bd6fc348ca5c02fbaaa55f23a7"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-04",
+            "container_path": "xl/media/image4.jpeg",
+            "locator": "cell-image:ID_D6713111FB06404B84686E2A8328B035:焊接打磨车间",
+            "fingerprint": "aac278b95fb30d64be9df6a89653d9a657b8f33fecc183ce5beccaa3760c4614",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image4.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#facility-evidence",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image4.jpeg",
+                "verification_result": "PASS",
+                "asset_hash": "aac278b95fb30d64be9df6a89653d9a657b8f33fecc183ce5beccaa3760c4614"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-05",
+            "container_path": "xl/media/image5.jpeg",
+            "locator": "cell-image:ID_19A1E5CEDCF646178BD27FB98702957F:装配车间",
+            "fingerprint": "389bc3281e93071bfefe98f0f311d94cc9381f63ab74c0f37520891ae4049c67",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image5.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#facility-evidence",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image5.jpeg",
+                "verification_result": "PASS",
+                "asset_hash": "389bc3281e93071bfefe98f0f311d94cc9381f63ab74c0f37520891ae4049c67"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-06",
+            "container_path": "xl/media/image6.jpeg",
+            "locator": "cell-image:ID_C1259D56C98C4538A664A11C9445D8A7:仓库",
+            "fingerprint": "db7e244199309831edf43a69dff88cad7eca16dec46254c0a28dc7c2dbbe402b",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image6.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#facility-evidence",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image6.jpeg",
+                "verification_result": "PASS",
+                "asset_hash": "db7e244199309831edf43a69dff88cad7eca16dec46254c0a28dc7c2dbbe402b"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-07",
+            "container_path": "xl/media/image7.jpeg",
+            "locator": "cell-image:ID_6A735BE496D746E282104B162C3D07CD:半成品仓库",
+            "fingerprint": "12128c293d13b1a733d47120166ea08fcc09e4b8dcebe4a479416a91e1929bb3",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image7.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#facility-evidence",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image7.jpeg",
+                "verification_result": "PASS",
+                "asset_hash": "12128c293d13b1a733d47120166ea08fcc09e4b8dcebe4a479416a91e1929bb3"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-08",
+            "container_path": "xl/media/image8.jpeg",
+            "locator": "cell-image:ID_E634AF10064047F8B61B8721C0CEEF56:办公室",
+            "fingerprint": "cf7885704cca95db31b1a74cc36de7b6078d682f71cb97fc7bd8561cf1bf4526",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image8.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#facility-evidence",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image8.jpeg",
+                "verification_result": "PASS",
+                "asset_hash": "cf7885704cca95db31b1a74cc36de7b6078d682f71cb97fc7bd8561cf1bf4526"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-09",
+            "container_path": "xl/media/image9.jpeg",
+            "locator": "cell-image:ID_6A352B2C6D7B4011ABAEC5A4D967CCEE:仓库",
+            "fingerprint": "c6f5a8c253052dfa4ce718099fc4cce8eef5cfe7cd528120197d68e483b29938",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image9.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#facility-evidence",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image9.jpeg",
+                "verification_result": "PASS",
+                "asset_hash": "c6f5a8c253052dfa4ce718099fc4cce8eef5cfe7cd528120197d68e483b29938"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-10",
+            "container_path": "xl/media/image10.jpeg",
+            "locator": "cell-image:ID_49BF1297E44646A69BADC4A336A721B3:半成品质检",
+            "fingerprint": "88321f2ee355e8977d4a1dced9440978c153ec6cceab6027fdea908b387c3591",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image10.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#facility-evidence",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image10.jpeg",
+                "verification_result": "PASS",
+                "asset_hash": "88321f2ee355e8977d4a1dced9440978c153ec6cceab6027fdea908b387c3591"
+              }
+            ]
+          },
+          {
+            "media_id": "xlsx-media-11",
+            "container_path": "xl/media/image11.jpeg",
+            "locator": "cell-image:ID_971746FD495947A8B89520C8E418BD68:公司大门",
+            "fingerprint": "c0c1716c295edd9d5d195842b99c00c8a79e288b837dfc772db62914b218fc2c",
+            "decision": "use",
+            "extracted_path": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image11.jpeg",
+            "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media-contact-sheet.jpg",
+            "expected_destinations": [
+              "frontend"
+            ],
+            "terminal_targets": [
+              {
+                "layer": "frontend",
+                "locator": "/about#facility-evidence",
+                "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\public\\images\\evidence\\image11.jpeg",
+                "verification_result": "PASS",
+                "asset_hash": "c0c1716c295edd9d5d195842b99c00c8a79e288b837dfc772db62914b218fc2c"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source_id": "source-pdf",
+      "path": "D:\\Cursor\\暂存\\第二批\\1504-宏祥隆机械\\旋转阀选型手册 最终版.pdf",
+      "type": "customer-product-selection-manual",
+      "fingerprint": "d9b2cade854ea27da26902b81b9a1ff17dfabe8053cf5daf75bf905756f7ed34",
+      "decision": "extract",
+      "extraction_evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\pdf-pages-contact-sheet.jpg",
+      "units": [
+        {
+          "unit_id": "pdf-page-01",
+          "locator": "page:1",
+          "decision": "reference_only",
+          "reason": "Cover/identity/image page contains no additional non-duplicate attributable product field."
+        },
+        {
+          "unit_id": "pdf-page-02",
+          "locator": "page:2",
+          "decision": "reference_only",
+          "reason": "Cover/identity/image page contains no additional non-duplicate attributable product field."
+        },
+        {
+          "unit_id": "pdf-page-03",
+          "locator": "page:3",
+          "decision": "reference_only",
+          "reason": "Cover/identity/image page contains no additional non-duplicate attributable product field."
+        },
+        {
+          "unit_id": "pdf-page-04",
+          "locator": "page:4",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-pdf-04"
+          ]
+        },
+        {
+          "unit_id": "pdf-page-05",
+          "locator": "page:5",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-pdf-05"
+          ]
+        },
+        {
+          "unit_id": "pdf-page-06",
+          "locator": "page:6",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-pdf-06"
+          ]
+        },
+        {
+          "unit_id": "pdf-page-07",
+          "locator": "page:7",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-pdf-07"
+          ]
+        },
+        {
+          "unit_id": "pdf-page-08",
+          "locator": "page:8",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-pdf-08"
+          ]
+        },
+        {
+          "unit_id": "pdf-page-09",
+          "locator": "page:9",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-pdf-09"
+          ]
+        },
+        {
+          "unit_id": "pdf-page-10",
+          "locator": "page:10",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-pdf-10"
+          ]
+        },
+        {
+          "unit_id": "pdf-page-11",
+          "locator": "page:11",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-pdf-11"
+          ]
+        },
+        {
+          "unit_id": "pdf-page-12",
+          "locator": "page:12",
+          "decision": "fact",
+          "fact_ids": [
+            "fact-pdf-12"
+          ]
+        }
+      ],
+      "container_media_scan": {
+        "result": "PASS",
+        "evidence": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\pdf-pages-contact-sheet.jpg",
+        "embedded_media": [
+          {
+            "media_id": "pdf-image-001",
+            "container_path": "pdf/image-object:1",
+            "locator": "pdf/image-object:1",
+            "fingerprint": "6eb35767dabe891b6afa0484d5b600a7d391e52c4a66aa1a436f48dbf45aa36c",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-002",
+            "container_path": "pdf/image-object:2",
+            "locator": "pdf/image-object:2",
+            "fingerprint": "37520452afddfa4714e7c8ba26c30679665a32c3612190419ea7c8b52a977c5a",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-003",
+            "container_path": "pdf/image-object:3",
+            "locator": "pdf/image-object:3",
+            "fingerprint": "e26ada1e2127170f5455dab767c40a6973b47d442842b7a48e66e510c1b9204c",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-004",
+            "container_path": "pdf/image-object:4",
+            "locator": "pdf/image-object:4",
+            "fingerprint": "983d59db496cfa2f66a69d2fdbc46a535be14946a1c0573fa8b6d15be69126e9",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-005",
+            "container_path": "pdf/image-object:5",
+            "locator": "pdf/image-object:5",
+            "fingerprint": "f732c4ed0e25fc2808c177a4e0751568c1b417d89e4d31fb91b15c20248805fc",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-006",
+            "container_path": "pdf/image-object:6",
+            "locator": "pdf/image-object:6",
+            "fingerprint": "1f0c0c23e7237743625cc74ff1aabb89a3cf5ce5f37a36cebf3912fcc846f93a",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-007",
+            "container_path": "pdf/image-object:7",
+            "locator": "pdf/image-object:7",
+            "fingerprint": "9b3fd1c48a75735f0a1d1e95ab9cbf0c11e6bb689349134668d00d06195759f0",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-008",
+            "container_path": "pdf/image-object:8",
+            "locator": "pdf/image-object:8",
+            "fingerprint": "1ab25ae61e7e57f49d22ef9efe46900ce2ad1c7040bba279210955663726c63c",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-009",
+            "container_path": "pdf/image-object:9",
+            "locator": "pdf/image-object:9",
+            "fingerprint": "001a7e5e84ed570ca02dff71d463a083bfa441ea25f8a6803bf9097e6ef12ceb",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-010",
+            "container_path": "pdf/image-object:10",
+            "locator": "pdf/image-object:10",
+            "fingerprint": "e5d1f0772f827aa5d5788bc6df574a3d5d7a406102c7f8083cbb697ebdb43f0d",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-011",
+            "container_path": "pdf/image-object:11",
+            "locator": "pdf/image-object:11",
+            "fingerprint": "0b1f68b02d6586cf2ae7e57a7b96ef6c5a68d2dc3f0ba70fcf8a959b016063e2",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-012",
+            "container_path": "pdf/image-object:12",
+            "locator": "pdf/image-object:12",
+            "fingerprint": "2a399e1b5ee768c1503a79b4428a468bf246ed11589d1960709cc25e13475518",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-013",
+            "container_path": "pdf/image-object:13",
+            "locator": "pdf/image-object:13",
+            "fingerprint": "5138fbd917194c5617bf71d5bba052db184420a108f508b34628279189c76cbf",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-014",
+            "container_path": "pdf/image-object:14",
+            "locator": "pdf/image-object:14",
+            "fingerprint": "452375cac09622a1979948154dcbe761c7ee55c847eb261dcee31287190f0e44",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-015",
+            "container_path": "pdf/image-object:15",
+            "locator": "pdf/image-object:15",
+            "fingerprint": "0e3973ceac4850be7abaa28cee0b2ecbea96dcda4ba509ad839dff8071555d3a",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-016",
+            "container_path": "pdf/image-object:16",
+            "locator": "pdf/image-object:16",
+            "fingerprint": "2ba612ee71c3c4536e279b72b4d50547243d7d72a1fd9fa2a24096b8b5ce3308",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-017",
+            "container_path": "pdf/image-object:17",
+            "locator": "pdf/image-object:17",
+            "fingerprint": "fcffdaffc1885bd750e19588bd05a7e69645cff17d9f024ff6e9af9179635d74",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-018",
+            "container_path": "pdf/image-object:18",
+            "locator": "pdf/image-object:18",
+            "fingerprint": "818ed4409d038ba926bf96f1df011a2ad7b26cd702214370a7a460440931d623",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-019",
+            "container_path": "pdf/image-object:19",
+            "locator": "pdf/image-object:19",
+            "fingerprint": "70bdf4d69c70d8f9886a30c47ba9dbd2ecbc47d534d5f879edf4bd75c386713f",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-020",
+            "container_path": "pdf/image-object:20",
+            "locator": "pdf/image-object:20",
+            "fingerprint": "eab357c9f420d5c475191b166b8b797e34e705fe877e6b4c0792150464eecb21",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-021",
+            "container_path": "pdf/image-object:21",
+            "locator": "pdf/image-object:21",
+            "fingerprint": "8adff75542512ee6baec683fef8774f1f841f556b904c296ef0498449ef3884d",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-022",
+            "container_path": "pdf/image-object:22",
+            "locator": "pdf/image-object:22",
+            "fingerprint": "92bfac4ed26c3933774a78e1f1b8cf99f7851eba06100501e15fa41b2faf0667",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-023",
+            "container_path": "pdf/image-object:23",
+            "locator": "pdf/image-object:23",
+            "fingerprint": "e66eb037a63a482a269add4e8bfefb88b56003d8148be4756d4340d92d361d15",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-024",
+            "container_path": "pdf/image-object:24",
+            "locator": "pdf/image-object:24",
+            "fingerprint": "c1a4f4c1c7df84135163aae16d8dfff92645f8c1cf82131675fa4020b826c954",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-025",
+            "container_path": "pdf/image-object:25",
+            "locator": "pdf/image-object:25",
+            "fingerprint": "c9fd9ff349541633d0757b73204d86cfb6fa615c668cb0bd4973fae9b6e22d5a",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-026",
+            "container_path": "pdf/image-object:26",
+            "locator": "pdf/image-object:26",
+            "fingerprint": "88c1e2e64abedb83c7546044a0e60b6099505c674ffeec4b4fcbf1efb4f16ac4",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-027",
+            "container_path": "pdf/image-object:27",
+            "locator": "pdf/image-object:27",
+            "fingerprint": "8f58fdf356cd3d5d50e8d3cbd7ee2b708ec29b38e631183aaa55c4e6cf472139",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-028",
+            "container_path": "pdf/image-object:28",
+            "locator": "pdf/image-object:28",
+            "fingerprint": "0ee32f22ff60536415ed80bcc1904f1dc40acb996a1b092e49109a2b27b05a8c",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-029",
+            "container_path": "pdf/image-object:29",
+            "locator": "pdf/image-object:29",
+            "fingerprint": "01dc1d540df178c33f6efd1c5ca42a72f21cab3b205707a6c61e13c85e2e94f2",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-030",
+            "container_path": "pdf/image-object:30",
+            "locator": "pdf/image-object:30",
+            "fingerprint": "fba1790c8cf1da28f4ca14085b80b3c367d287a0957b1fa3519544f17b46da24",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-031",
+            "container_path": "pdf/image-object:31",
+            "locator": "pdf/image-object:31",
+            "fingerprint": "7a28d80414ae5b0886d84da1bce7146b7f769f1018a04da01a9bf5afb75a17d6",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-032",
+            "container_path": "pdf/image-object:32",
+            "locator": "pdf/image-object:32",
+            "fingerprint": "6ed932d0332ac1f53642071a91e8992c984a4317e12f5698e9d3813fa258bf7d",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-033",
+            "container_path": "pdf/image-object:33",
+            "locator": "pdf/image-object:33",
+            "fingerprint": "45ad1ebfcaaad25c17d9f818e7dfe73cd529605988326e606a883717d3107ad6",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-034",
+            "container_path": "pdf/image-object:34",
+            "locator": "pdf/image-object:34",
+            "fingerprint": "a65d518298fbd942e4e858f1cd47664c519b5970e60bae575fecf65939a508d8",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-035",
+            "container_path": "pdf/image-object:35",
+            "locator": "pdf/image-object:35",
+            "fingerprint": "673e0ace0e73f1fe7e78426b4ca34349556f1326434ee905645fb7b49f3f8cea",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-036",
+            "container_path": "pdf/image-object:36",
+            "locator": "pdf/image-object:36",
+            "fingerprint": "ae1c7ea5e90000427fd877cd3d930852e810d2a46b3a910cfbf18f6721a766aa",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-037",
+            "container_path": "pdf/image-object:37",
+            "locator": "pdf/image-object:37",
+            "fingerprint": "72157a697a856f9fe706a508654b473c384eca0163af6950d80480ba82e5587e",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-038",
+            "container_path": "pdf/image-object:38",
+            "locator": "pdf/image-object:38",
+            "fingerprint": "552fcc70465b527444cd0b88664761f4bf15eaa11768090b32d24ff1589935f6",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-039",
+            "container_path": "pdf/image-object:39",
+            "locator": "pdf/image-object:39",
+            "fingerprint": "cf11bd05e42fc3a5e263f3fb474a8a3dd0c209a2fc743c26fd428e0636152b21",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-040",
+            "container_path": "pdf/image-object:40",
+            "locator": "pdf/image-object:40",
+            "fingerprint": "519a2a11b12c097388bf17acd9907e85235b10493e0a2ffcd53c52bd59c1b0f3",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-041",
+            "container_path": "pdf/image-object:41",
+            "locator": "pdf/image-object:41",
+            "fingerprint": "eaa269d942bc373fe73a0dd5efaf96fce540f83d14d0651a01e207eed2f0fa8a",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-042",
+            "container_path": "pdf/image-object:42",
+            "locator": "pdf/image-object:42",
+            "fingerprint": "e40824fc6d2355519edad2e04b4cd5c29577d61b476d477932182dd2aef06e29",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-043",
+            "container_path": "pdf/image-object:43",
+            "locator": "pdf/image-object:43",
+            "fingerprint": "82dc8881930134e1008beb8709ac1829cead29d639e0a3fdffec9ad9387d5779",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-044",
+            "container_path": "pdf/image-object:44",
+            "locator": "pdf/image-object:44",
+            "fingerprint": "c5172de7f5c80fe4d254410f0c1d8ce3e4615a931042a053609a372ddc853a18",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-045",
+            "container_path": "pdf/image-object:45",
+            "locator": "pdf/image-object:45",
+            "fingerprint": "7e921f7273884ee3a5d55ba86a3e84c10eda656a132fc05627911fdda3ff8f2c",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-046",
+            "container_path": "pdf/image-object:46",
+            "locator": "pdf/image-object:46",
+            "fingerprint": "6aebecb4d6af7031307ac0298dd131ba9503b723e59e3d1defcb06753147350a",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-047",
+            "container_path": "pdf/image-object:47",
+            "locator": "pdf/image-object:47",
+            "fingerprint": "dec4ff42e747897abb3f354e71243061706d66b29b3f2c796119b961e9ea5335",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-048",
+            "container_path": "pdf/image-object:48",
+            "locator": "pdf/image-object:48",
+            "fingerprint": "a4a5955827e9b09f0d794af89c0ce1ea03ef73c4e5c104b37e754888baa3f16c",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-049",
+            "container_path": "pdf/image-object:49",
+            "locator": "pdf/image-object:49",
+            "fingerprint": "b925e401ee770057c0bce05d2b02d2789b4a02430b8109d35944f539953fecaa",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-050",
+            "container_path": "pdf/image-object:50",
+            "locator": "pdf/image-object:50",
+            "fingerprint": "cc579ecf1b2678cc7ad7f4d5007afc8ee6f44500dcdeceb335e098871a1f071b",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-051",
+            "container_path": "pdf/image-object:51",
+            "locator": "pdf/image-object:51",
+            "fingerprint": "4919c9c35198ef13cc5fe7392ae799185ed2beae213f2cc075f3ecf6d1e8fc67",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-052",
+            "container_path": "pdf/image-object:52",
+            "locator": "pdf/image-object:52",
+            "fingerprint": "27d02db516c6eb0c0e54818befc5e3c0cd2f8228bbf95f5fb6354a6bcba1678a",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-053",
+            "container_path": "pdf/image-object:53",
+            "locator": "pdf/image-object:53",
+            "fingerprint": "7c741e21cca280be45a8ebc09fddfee935d99e53070c13ee2a4f24ca11da37a0",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-054",
+            "container_path": "pdf/image-object:54",
+            "locator": "pdf/image-object:54",
+            "fingerprint": "8004cb66033623365d576cbe968628560b334724169d7757e2fba6b39c0d1c34",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-055",
+            "container_path": "pdf/image-object:55",
+            "locator": "pdf/image-object:55",
+            "fingerprint": "59deb0a2d85a5b3bfe38326721535c955438948d47f6691c5c155a6b9fc6cf29",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-056",
+            "container_path": "pdf/image-object:56",
+            "locator": "pdf/image-object:56",
+            "fingerprint": "a29c589581d92821a687ced478944d3ad417c25776027999044c80c77fae0b48",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-image-057",
+            "container_path": "pdf/image-object:57",
+            "locator": "pdf/image-object:57",
+            "fingerprint": "1c27cf2353a9b477a940d8e730776ee0e7ed7bbf545ea4ada82e3656ab1cdd70",
+            "decision": "reference_only",
+            "reason": "Individually reviewed within rendered catalogue pages; selected product photographs are separately extracted and mapped by PDF xref."
+          },
+          {
+            "media_id": "pdf-page-visual-01",
+            "container_path": "pdf/page:1",
+            "locator": "page:1",
+            "fingerprint": "495e1064b0e3f6311e205d55b943c062eece48ff0706704eb2dd6f2426a83a15",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-02",
+            "container_path": "pdf/page:2",
+            "locator": "page:2",
+            "fingerprint": "92ef2790d1356cd5c59e99d4d605ff4324f6b20e28a304c26a44ebfa5a7569c6",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-03",
+            "container_path": "pdf/page:3",
+            "locator": "page:3",
+            "fingerprint": "67b6e0e935a0eb26c9dd7b1c3907428f45ab81cd10f51e1dbec578971818ba91",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-04",
+            "container_path": "pdf/page:4",
+            "locator": "page:4",
+            "fingerprint": "922fb06a736de6164a4750ab8301d0719a5a0251bf2518133fe98b0bfc9ff6ac",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-05",
+            "container_path": "pdf/page:5",
+            "locator": "page:5",
+            "fingerprint": "89401746e97a3a8875e114d3d0552d47d0a17a707b91946f3044553c93d809c8",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-06",
+            "container_path": "pdf/page:6",
+            "locator": "page:6",
+            "fingerprint": "6321b9f3e608a58f256079a7afb515fbeb8c50f09753d3bc9df7a9c8e1fdcdd2",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-07",
+            "container_path": "pdf/page:7",
+            "locator": "page:7",
+            "fingerprint": "ee08c1e906e3f49d91872432fc780112c721d89ffbd9512e0b88a20a20befca6",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-08",
+            "container_path": "pdf/page:8",
+            "locator": "page:8",
+            "fingerprint": "05a602d813a0b7fd16dc63ca8b873ae7397df41def846bb7e81f474623eca800",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-09",
+            "container_path": "pdf/page:9",
+            "locator": "page:9",
+            "fingerprint": "67caac37fb9f56d757278b298241ff451b2ca1c800ac82056239798512d4f649",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-10",
+            "container_path": "pdf/page:10",
+            "locator": "page:10",
+            "fingerprint": "0f8e89548ed2e1db3345918e718ff5a985e305c86a8c7458d6e51342753e5258",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-11",
+            "container_path": "pdf/page:11",
+            "locator": "page:11",
+            "fingerprint": "fd31c979ac6200cdf9679f417d3b5c1a339ba515f675df53cff6bdd91c331fcd",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          },
+          {
+            "media_id": "pdf-page-visual-12",
+            "container_path": "pdf/page:12",
+            "locator": "page:12",
+            "fingerprint": "cb7265c85347a3388c2f44609ef519ecb38f2fd10d2ed811c57dc1d51c6bf7f2",
+            "decision": "reference_only",
+            "reason": "Rendered page was visually reviewed and retained as catalogue/parameter evidence; product photographs are mapped separately."
+          }
+        ]
+      }
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "fact-33a11c23264fa0",
+      "entity_type": "company",
+      "entity_key": "企业资料!C3",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "99ea4e186fefbff9e98c8953e197ffb9174f97591032ee24d16862b1d12ffa1d",
+      "source_value": "常州市常宏祥隆机械科技有限公司",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C3"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "99ea4e186fefbff9e98c8953e197ffb9174f97591032ee24d16862b1d12ffa1d"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-33a11c23264fa0",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "99ea4e186fefbff9e98c8953e197ffb9174f97591032ee24d16862b1d12ffa1d"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-e7bdd1d6580253",
+      "entity_type": "company",
+      "entity_key": "企业资料!C4",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "03216ea5be61e8bfdbc5488527a3b3bdac62f8b9a2bf673b40dcbf2b2262b892",
+      "source_value": "常州市武进区牛塘镇大通西路197号2-101",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C4"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "03216ea5be61e8bfdbc5488527a3b3bdac62f8b9a2bf673b40dcbf2b2262b892"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-e7bdd1d6580253",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "03216ea5be61e8bfdbc5488527a3b3bdac62f8b9a2bf673b40dcbf2b2262b892"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-92f785b3a15131",
+      "entity_type": "company",
+      "entity_key": "企业资料!C6",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "464748e5be33c2fe8549e82826770fba07b7787ec2a940170895f99523dd38be",
+      "source_value": "13961228745",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C6"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "464748e5be33c2fe8549e82826770fba07b7787ec2a940170895f99523dd38be"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-92f785b3a15131",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "464748e5be33c2fe8549e82826770fba07b7787ec2a940170895f99523dd38be"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-6bd9170a499f65",
+      "entity_type": "company",
+      "entity_key": "企业资料!C7",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "b87d3d88313783318a8b9c0d8332e20c392b01d0069bf2da8aab79577af8a8cf",
+      "source_value": "1390339757@qq.com",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C7"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b87d3d88313783318a8b9c0d8332e20c392b01d0069bf2da8aab79577af8a8cf"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-6bd9170a499f65",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b87d3d88313783318a8b9c0d8332e20c392b01d0069bf2da8aab79577af8a8cf"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-b7fbe39fdcf686",
+      "entity_type": "company",
+      "entity_key": "企业资料!C8",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "ecb3e16813609b5f308cad7cb8612fee7147441f0a13e25c491638fc40bf90b0",
+      "source_value": "旋转给料阀、螺旋输送机、电动破碎阀",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C8"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "ecb3e16813609b5f308cad7cb8612fee7147441f0a13e25c491638fc40bf90b0"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-b7fbe39fdcf686",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "ecb3e16813609b5f308cad7cb8612fee7147441f0a13e25c491638fc40bf90b0"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-d80510adb04e57",
+      "entity_type": "company",
+      "entity_key": "企业资料!C9",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "a3d62eca14397c86daee542d842f886a5343f59bc2f06aabed1cee25ac4b3883",
+      "source_value": "Chanhong ShineLong",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C9"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "a3d62eca14397c86daee542d842f886a5343f59bc2f06aabed1cee25ac4b3883"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-d80510adb04e57",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "a3d62eca14397c86daee542d842f886a5343f59bc2f06aabed1cee25ac4b3883"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-f7416e50ef323e",
+      "entity_type": "company",
+      "entity_key": "企业资料!C10",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "dbbc8e2374f009c1fb4f1f811ea2e4f3ac9e4084b6985848118e825189e69a6e",
+      "source_value": "http://www.chxljx.com/（国内网址）",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C10"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "dbbc8e2374f009c1fb4f1f811ea2e4f3ac9e4084b6985848118e825189e69a6e"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-f7416e50ef323e",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "dbbc8e2374f009c1fb4f1f811ea2e4f3ac9e4084b6985848118e825189e69a6e"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-3eee82316c14a5",
+      "entity_type": "company",
+      "entity_key": "企业资料!C12",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "484d55613910eb8c0917fe308b499d474115ced993cd002a17d7cc75254330a4",
+      "source_value": "无",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C12"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "484d55613910eb8c0917fe308b499d474115ced993cd002a17d7cc75254330a4"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-3eee82316c14a5",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "484d55613910eb8c0917fe308b499d474115ced993cd002a17d7cc75254330a4"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-9212d730a10cde",
+      "entity_type": "company",
+      "entity_key": "企业资料!C13",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "484d55613910eb8c0917fe308b499d474115ced993cd002a17d7cc75254330a4",
+      "source_value": "无",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C13"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "484d55613910eb8c0917fe308b499d474115ced993cd002a17d7cc75254330a4"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-9212d730a10cde",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "484d55613910eb8c0917fe308b499d474115ced993cd002a17d7cc75254330a4"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-3b17090a5626ac",
+      "entity_type": "company",
+      "entity_key": "企业资料!C14",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "a39b0da19ca7a114bf18d68eb5ccfdc50ae0a910d46b6d7fa1a7d349b0144dc6",
+      "source_value": "常宏祥隆",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C14"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "a39b0da19ca7a114bf18d68eb5ccfdc50ae0a910d46b6d7fa1a7d349b0144dc6"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-3b17090a5626ac",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "a39b0da19ca7a114bf18d68eb5ccfdc50ae0a910d46b6d7fa1a7d349b0144dc6"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-c0c8236a0abacb",
+      "entity_type": "prohibited-claim",
+      "entity_key": "企业资料!C15",
+      "field": "warranty_or_guarantee",
+      "decision": "excluded_by_rule",
+      "reason": "Company-wide rule prohibits warranty, guarantee, quality-warranty and equivalent commitments.",
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C15"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-c9ae86182b3927",
+      "entity_type": "company",
+      "entity_key": "企业资料!C16",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "cb3c19c6cf6cca69224a7a761e7fb31792a8f1935d3f6cd52b82eedfa3d9190e",
+      "source_value": "我司厂房总占地面积6000㎡，设有5个车间，包含机加工生产车间、打磨焊接车间、装配车间、质检车间、仓库",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C16"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "cb3c19c6cf6cca69224a7a761e7fb31792a8f1935d3f6cd52b82eedfa3d9190e"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-c9ae86182b3927",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "cb3c19c6cf6cca69224a7a761e7fb31792a8f1935d3f6cd52b82eedfa3d9190e"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-683a8368886411",
+      "entity_type": "company",
+      "entity_key": "企业资料!C17",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "de9d4fdc79d3701e3084d224c6a654beb748949a1451d15c9f3fa8499af9539d",
+      "source_value": "机加工生产车间",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C17"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "de9d4fdc79d3701e3084d224c6a654beb748949a1451d15c9f3fa8499af9539d"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-683a8368886411",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "de9d4fdc79d3701e3084d224c6a654beb748949a1451d15c9f3fa8499af9539d"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-64473c5968423d",
+      "entity_type": "company",
+      "entity_key": "企业资料!C18",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "b384983398f1fb36c6cbfa8be5c999fdf485d10202a145b6be2b5396062f3ec1",
+      "source_value": "打磨焊接车间",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C18"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b384983398f1fb36c6cbfa8be5c999fdf485d10202a145b6be2b5396062f3ec1"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-64473c5968423d",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b384983398f1fb36c6cbfa8be5c999fdf485d10202a145b6be2b5396062f3ec1"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-a77497e4a49819",
+      "entity_type": "company",
+      "entity_key": "企业资料!C19",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "518eaad83489ed216aa212249f02c7eb9994cfa7cc433898558480c16710e95b",
+      "source_value": "装配车间",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C19"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "518eaad83489ed216aa212249f02c7eb9994cfa7cc433898558480c16710e95b"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-a77497e4a49819",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "518eaad83489ed216aa212249f02c7eb9994cfa7cc433898558480c16710e95b"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-8401a77f99f233",
+      "entity_type": "company",
+      "entity_key": "企业资料!C20",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "89b2ecbe1f09ad70cd5eb8a6ec2e00f0db2037ac8f1f1371e5953177d2237498",
+      "source_value": "仓库",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C20"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "89b2ecbe1f09ad70cd5eb8a6ec2e00f0db2037ac8f1f1371e5953177d2237498"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-8401a77f99f233",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "89b2ecbe1f09ad70cd5eb8a6ec2e00f0db2037ac8f1f1371e5953177d2237498"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-4dda2c2ddca181",
+      "entity_type": "company",
+      "entity_key": "企业资料!C21",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "8a4bd8a4a5a941ca09e45bd840723e9c2b2a1cdc88de1d7e4342894d29868883",
+      "source_value": "质检",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C21"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "8a4bd8a4a5a941ca09e45bd840723e9c2b2a1cdc88de1d7e4342894d29868883"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-4dda2c2ddca181",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "8a4bd8a4a5a941ca09e45bd840723e9c2b2a1cdc88de1d7e4342894d29868883"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-1591531bbc0d25",
+      "entity_type": "company",
+      "entity_key": "企业资料!C22",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "2251fdae30ed6766e004a8d7dbc1f95ef457e36f8740a8605f93a32aba81fab6",
+      "source_value": "沈阳机床，CA6250A车床两台\n沈阳机床，CY6150B车床三台\n兰州机床，CW61100D车床一台\n兰州星火，CW6180G车床两台\n兰州星火，CW6180D车床两台\n江苏齐航，CW6180E车床一台\n台湾建德，数控铣床一台\n台湾东芳，TF-750S钻床一台\n东莞鸿颖，HY-900DS钻床一台\n沈阳中捷，23050×16/1钻床一台\n江苏栋远，吊钩式抛丸机一台\n常州常峰，液压机一台",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C22"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "2251fdae30ed6766e004a8d7dbc1f95ef457e36f8740a8605f93a32aba81fab6"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-1591531bbc0d25",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "2251fdae30ed6766e004a8d7dbc1f95ef457e36f8740a8605f93a32aba81fab6"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-f4ae30023a592f",
+      "entity_type": "company",
+      "entity_key": "企业资料!C23",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "ce8c1fb32ff36239e5b9df8d99cd35c8150f571c457a93c0b478bc586a6c9869",
+      "source_value": "月产能500台，常规订单40天交付",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C23"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "ce8c1fb32ff36239e5b9df8d99cd35c8150f571c457a93c0b478bc586a6c9869"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-f4ae30023a592f",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "ce8c1fb32ff36239e5b9df8d99cd35c8150f571c457a93c0b478bc586a6c9869"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-c50c0e852deb19",
+      "entity_type": "company",
+      "entity_key": "企业资料!C24",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "484d55613910eb8c0917fe308b499d474115ced993cd002a17d7cc75254330a4",
+      "source_value": "无",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C24"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "484d55613910eb8c0917fe308b499d474115ced993cd002a17d7cc75254330a4"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-c50c0e852deb19",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "484d55613910eb8c0917fe308b499d474115ced993cd002a17d7cc75254330a4"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-d895821d35eccf",
+      "entity_type": "company",
+      "entity_key": "企业资料!C26",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "0ad9a6ffa99722e44b6c5065ae29b555fd6f445bbcfe3864bec36f54d05e2fb7",
+      "source_value": "公司大门",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C26"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "0ad9a6ffa99722e44b6c5065ae29b555fd6f445bbcfe3864bec36f54d05e2fb7"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-d895821d35eccf",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "0ad9a6ffa99722e44b6c5065ae29b555fd6f445bbcfe3864bec36f54d05e2fb7"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-53a9dc6754164f",
+      "entity_type": "company",
+      "entity_key": "企业资料!C27",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "46ffb8df7e462b16ba16909cba60629ac51868690e7af9ce36ac125e8de4b5ad",
+      "source_value": "生产区",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C27"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "46ffb8df7e462b16ba16909cba60629ac51868690e7af9ce36ac125e8de4b5ad"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-53a9dc6754164f",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "46ffb8df7e462b16ba16909cba60629ac51868690e7af9ce36ac125e8de4b5ad"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-594eac81ce763f",
+      "entity_type": "company",
+      "entity_key": "企业资料!C28",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "4968b1bdbd22997f71555d7f8d1724f8dce12570aee8eb1bc5ee3ef890061e95",
+      "source_value": "办公区",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C28"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "4968b1bdbd22997f71555d7f8d1724f8dce12570aee8eb1bc5ee3ef890061e95"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-594eac81ce763f",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "4968b1bdbd22997f71555d7f8d1724f8dce12570aee8eb1bc5ee3ef890061e95"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-9f09ada42e8594",
+      "entity_type": "company",
+      "entity_key": "企业资料!C29",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "c99c83d640c17e7bc4dd18372132d08b1a4bbcfb5e42b242d6414023795ef989",
+      "source_value": "成品质检",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C29"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "c99c83d640c17e7bc4dd18372132d08b1a4bbcfb5e42b242d6414023795ef989"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-9f09ada42e8594",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "c99c83d640c17e7bc4dd18372132d08b1a4bbcfb5e42b242d6414023795ef989"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-9400f40bdd35dc",
+      "entity_type": "company",
+      "entity_key": "企业资料!C30",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "c9978990bf5318a433a534f3e375870ee1397b924280db622c833863ca0d9769",
+      "source_value": "原材料仓库",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-企业资料-C30"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "c9978990bf5318a433a534f3e375870ee1397b924280db622c833863ca0d9769"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-9400f40bdd35dc",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "c9978990bf5318a433a534f3e375870ee1397b924280db622c833863ca0d9769"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-ea836930cba11d",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D4",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "069a444a50d7a0f0b24e8780727035ca62b87ba8982bd8ea2db7c6245eec8111",
+      "source_value": "很多，根据选型手册内",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D4"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "069a444a50d7a0f0b24e8780727035ca62b87ba8982bd8ea2db7c6245eec8111"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-ea836930cba11d",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "069a444a50d7a0f0b24e8780727035ca62b87ba8982bd8ea2db7c6245eec8111"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-ac360cff2bc3b8",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D5",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750",
+      "source_value": "是",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D5"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-ac360cff2bc3b8",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-d075a8e33ce25f",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D6",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "06ae2215603765e700b90cf8c5992f4ea857f17d97faed0b84fa2261c755e3c8",
+      "source_value": "可以拍摄影像",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D6"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "06ae2215603765e700b90cf8c5992f4ea857f17d97faed0b84fa2261c755e3c8"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-d075a8e33ce25f",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "06ae2215603765e700b90cf8c5992f4ea857f17d97faed0b84fa2261c755e3c8"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-e2a4b369e11a13",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D7",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750",
+      "source_value": "是",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D7"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-e2a4b369e11a13",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-1908ac4961fdfe",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D8",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "ace7ebdae493f185578c074978a0d01a44c47f71e18be57248da3e08b43f2b93",
+      "source_value": "粮食、食品、饲料、化工、石化、制药、干燥、环保、除尘、新能源（锂电行业为主）",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D8"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "ace7ebdae493f185578c074978a0d01a44c47f71e18be57248da3e08b43f2b93"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-1908ac4961fdfe",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "ace7ebdae493f185578c074978a0d01a44c47f71e18be57248da3e08b43f2b93"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-0069e36a19fc63",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D9",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "d93373f81363e3cc82f2350f4d7412b60da4c9c43597fddf7f84b8398fced311",
+      "source_value": "支持",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D9"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "d93373f81363e3cc82f2350f4d7412b60da4c9c43597fddf7f84b8398fced311"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-0069e36a19fc63",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "d93373f81363e3cc82f2350f4d7412b60da4c9c43597fddf7f84b8398fced311"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-6bf42f7d0f0b75",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D10",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "b28443b4a5144404793d9af7e4449e52497e34f2828b79d11baa034891845a1f",
+      "source_value": "产品正常维护保养情况下使用寿命5-6年，极端情况下2-3年\n1.锁气密封性能强2.防卡堵结构，适配复杂物料3.多材质、多工况、可非标定制4.耐用、运维成本低5.安装维护便捷。",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D10"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b28443b4a5144404793d9af7e4449e52497e34f2828b79d11baa034891845a1f"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-6bf42f7d0f0b75",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b28443b4a5144404793d9af7e4449e52497e34f2828b79d11baa034891845a1f"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-28c4527d38adb0",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D11",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "e24d9aa7341968443764e52307e4e81e8c2af231cb663aa2b31045a818d83e73",
+      "source_value": "1台",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D11"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "e24d9aa7341968443764e52307e4e81e8c2af231cb663aa2b31045a818d83e73"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-28c4527d38adb0",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "e24d9aa7341968443764e52307e4e81e8c2af231cb663aa2b31045a818d83e73"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-39d8519077c9c8",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D12",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "ee5252b252c5c80416a030ffcd7c74b8130705d18ea5659d99f02e1da6c4d722",
+      "source_value": "产品的各项参数不同，价格也不同，非标定制类，根据客户要求报价",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D12"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "ee5252b252c5c80416a030ffcd7c74b8130705d18ea5659d99f02e1da6c4d722"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-39d8519077c9c8",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "ee5252b252c5c80416a030ffcd7c74b8130705d18ea5659d99f02e1da6c4d722"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-669771f037c07b",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D13",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "982428a7de5cd4ec7100419f821cd41622ea9cbddf00b9b5add26641d0e7ffc7",
+      "source_value": "报价包含国内13%增值税，包装及国内运输费用",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D13"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "982428a7de5cd4ec7100419f821cd41622ea9cbddf00b9b5add26641d0e7ffc7"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-669771f037c07b",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "982428a7de5cd4ec7100419f821cd41622ea9cbddf00b9b5add26641d0e7ffc7"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-52d49f45424b60",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D14",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "d93373f81363e3cc82f2350f4d7412b60da4c9c43597fddf7f84b8398fced311",
+      "source_value": "支持",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D14"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "d93373f81363e3cc82f2350f4d7412b60da4c9c43597fddf7f84b8398fced311"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-52d49f45424b60",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "d93373f81363e3cc82f2350f4d7412b60da4c9c43597fddf7f84b8398fced311"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-59151d4e6cc18d",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D15",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "5ba1e3c0eb6361618e95cb63fa67ce0fbf15d0778b54c86b8e528f944f4ae4ab",
+      "source_value": "会",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D15"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "5ba1e3c0eb6361618e95cb63fa67ce0fbf15d0778b54c86b8e528f944f4ae4ab"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-59151d4e6cc18d",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "5ba1e3c0eb6361618e95cb63fa67ce0fbf15d0778b54c86b8e528f944f4ae4ab"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-d210c10fc2a22c",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D16",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750",
+      "source_value": "是",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D16"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-d210c10fc2a22c",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-ad9ce9af3cb55d",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D17",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "44a8b58f6077fb0dafa1d8094cfa1d4fe65e5bc7c1c658f3ff0d0fccb93d1acf",
+      "source_value": "样品收费，退货收取双向运输费用",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D17"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "44a8b58f6077fb0dafa1d8094cfa1d4fe65e5bc7c1c658f3ff0d0fccb93d1acf"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-ad9ce9af3cb55d",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "44a8b58f6077fb0dafa1d8094cfa1d4fe65e5bc7c1c658f3ff0d0fccb93d1acf"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-3ac34e1dd7952e",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D18",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "27bf9751ed25a632d6f8d9fdff900766aac9bbcb32e7a560c7951108b7ea3447",
+      "source_value": "正常情况下40个工作日",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D18"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "27bf9751ed25a632d6f8d9fdff900766aac9bbcb32e7a560c7951108b7ea3447"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-3ac34e1dd7952e",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "27bf9751ed25a632d6f8d9fdff900766aac9bbcb32e7a560c7951108b7ea3447"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-4442dec6a4d4a4",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D19",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "dacfa011c3144ecca613d6e491888ac859eceebf67e8b1982e65757b5d0674c5",
+      "source_value": "是，正常收取费用",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D19"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "dacfa011c3144ecca613d6e491888ac859eceebf67e8b1982e65757b5d0674c5"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-4442dec6a4d4a4",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "dacfa011c3144ecca613d6e491888ac859eceebf67e8b1982e65757b5d0674c5"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-f6853dabfc28fe",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D20",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "0680a4a36ca8ca8c387c90c45ff9f4eee6fea30b0dfb6007581977bec5910b8a",
+      "source_value": "一致",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D20"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "0680a4a36ca8ca8c387c90c45ff9f4eee6fea30b0dfb6007581977bec5910b8a"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-f6853dabfc28fe",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "0680a4a36ca8ca8c387c90c45ff9f4eee6fea30b0dfb6007581977bec5910b8a"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-4e761ccd4d6cc6",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D21",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "27bf9751ed25a632d6f8d9fdff900766aac9bbcb32e7a560c7951108b7ea3447",
+      "source_value": "正常情况下40个工作日",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D21"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "27bf9751ed25a632d6f8d9fdff900766aac9bbcb32e7a560c7951108b7ea3447"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-4e761ccd4d6cc6",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "27bf9751ed25a632d6f8d9fdff900766aac9bbcb32e7a560c7951108b7ea3447"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-a4c22b81859801",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D22",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "8d972cf0066491a7b07c8769ecb82132598d5062ff4986a80c0819f0203bee7c",
+      "source_value": "稳定",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D22"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "8d972cf0066491a7b07c8769ecb82132598d5062ff4986a80c0819f0203bee7c"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-a4c22b81859801",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "8d972cf0066491a7b07c8769ecb82132598d5062ff4986a80c0819f0203bee7c"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-4906f4d109471c",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D23",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "0c70665b6eb65f1aebf3b59f684ce52ed3473b2443ed4b4e0b815e2e9d66b8c2",
+      "source_value": "否",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D23"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "0c70665b6eb65f1aebf3b59f684ce52ed3473b2443ed4b4e0b815e2e9d66b8c2"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-4906f4d109471c",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "0c70665b6eb65f1aebf3b59f684ce52ed3473b2443ed4b4e0b815e2e9d66b8c2"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-aa342e6964d4cc",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D24",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "20d6e6982a2452641c0681d4d6bc9ede602b4bd055807da9602da64c415d7317",
+      "source_value": "支持，加急订单费用变高",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D24"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "20d6e6982a2452641c0681d4d6bc9ede602b4bd055807da9602da64c415d7317"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-aa342e6964d4cc",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "20d6e6982a2452641c0681d4d6bc9ede602b4bd055807da9602da64c415d7317"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-112d0f73d8d934",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D25",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "0ef5c86fab94f13a7b7d54aa531ceb5d586cd9ebee98198ad975df3852da824a",
+      "source_value": "可以",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D25"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "0ef5c86fab94f13a7b7d54aa531ceb5d586cd9ebee98198ad975df3852da824a"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-112d0f73d8d934",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "0ef5c86fab94f13a7b7d54aa531ceb5d586cd9ebee98198ad975df3852da824a"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-e2ca98e38d16e4",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D26",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750",
+      "source_value": "是",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D26"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-e2ca98e38d16e4",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-41780bbf140ce9",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D27",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750",
+      "source_value": "是",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D27"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-41780bbf140ce9",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-29009b79e29482",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D28",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750",
+      "source_value": "是",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D28"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-29009b79e29482",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "b5141d3d19e9a04855acdb2dd5218b0924254b73d3cb663557ed0f9f73403750"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-a3b2ed81975946",
+      "entity_type": "faq",
+      "entity_key": "FAQ问题!D29",
+      "field": "cell_value",
+      "decision": "use",
+      "source_value_hash": "359dd41593f6a1838a74d6277ec987388bbc9579370a2f9d4d217068b692f14a",
+      "source_value": "协商处理",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D29"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "359dd41593f6a1838a74d6277ec987388bbc9579370a2f9d4d217068b692f14a"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-a3b2ed81975946",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "359dd41593f6a1838a74d6277ec987388bbc9579370a2f9d4d217068b692f14a"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-4c1461dc7ad381",
+      "entity_type": "prohibited-claim",
+      "entity_key": "FAQ问题!D30",
+      "field": "warranty_or_guarantee",
+      "decision": "excluded_by_rule",
+      "reason": "Company-wide rule prohibits warranty, guarantee, quality-warranty and equivalent commitments.",
+      "source_refs": [
+        {
+          "source_id": "source-xlsx",
+          "unit_id": "xlsx-FAQ问题-D30"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-pdf-04",
+      "entity_type": "product-catalogue",
+      "entity_key": "page-4",
+      "field": "page_content",
+      "decision": "use",
+      "source_value_hash": "2f98b78c75112d19bee8aaa7658d42f263ad5e99d68b164e6c099e4b247d1011",
+      "source_value": "TGF\nZGF\nBZGF\n型号\n每转体积\n功率\n转速\n安装联接尺寸                            Installationdimension\ntype\nVolume/rotation （KW）R/min\nA\nB\nC\nL\nH\nD1\nD2\nD3\nb1\nb2\nh\nM\nN\nS\nF\nd\nΦ\n2.8L\n2.8\n/\n0.75\n40\n165 120 190 180 140 120 200 160\n620\n260 360 120 150 315 70\n28\n4-Φ9\n5L\n5\n/\n0.75\n40\n190 140 220 210 160 150 230 190\n650\n300 400 140 180 345 70\n28\n4-Φ9\n7L\n7\n/\n0.75\n40\n225 160 250 230 175 170 250 210\n710\n330 430 175 200 365 70\n28\n4-Φ9\n9L\n9\n/\n1.1\n40\n250 190 275 255 190 190 270 235\n740\n360 460 200 220 385 70\n28\n4-Φ9\n12L\n12\n/\n1.1\n40\n275 210 310 275 205 210 280 250\n780\n380 510 220 240 410 70\n28\n6-Φ11\n16L\n16\n/\n1.5\n40\n310 250 340 320 225 250 330 300\n840\n410 550 260 280 430 70\n28\n6-Φ11\n25L\n25\n/\n2.2\n40\n320 270 390 340 235 280 360 320\n860\n430 570 270 290 475 70\n28\n6-Φ11\n35L\n35\n/\n2.2\n40\n360 290 400 360 260 300 390 350\n900\n450 595 290 320 500 70\n35\n6-Φ11\n50L\n50\n/\n3\n32\n380 330 410 400 300 330 430 380 1000 500 690 330 350 570 70\n40\n6-Φ11\n100L 100\n/\n4\n32\n515 450 550 535 380 460 560 520 1150 605 800 450 460 720 80\n40\n6-Φ11\n立升转\n立升转\n立升转\n立升转\n立升转\n立升转\n立升转\n立升转\n立升转\n立升转",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-pdf",
+          "unit_id": "pdf-page-04"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "2f98b78c75112d19bee8aaa7658d42f263ad5e99d68b164e6c099e4b247d1011"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-pdf-04",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "2f98b78c75112d19bee8aaa7658d42f263ad5e99d68b164e6c099e4b247d1011"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-pdf-05",
+      "entity_type": "product-catalogue",
+      "entity_key": "page-5",
+      "field": "page_content",
+      "decision": "use",
+      "source_value_hash": "592b0e106012c942026a548a135021ed304bf8b854c0c17b77950498ee153998",
+      "source_value": "2\n2\n/\n0.75\n40\n≤80\n40\n240\n200\n150\n240*240\n200\n150*150\n240\n500\n8-Φ11\n4\n4\n/\n0.75\n40\n≤80\n60\n280\n240\n180\n270*270\n230\n180*180\n280\n530\n8-Φ11\n6\n6\n/\n0.75\n40\n≤80\n75\n300\n260\n200\n290*290\n250\n200*200\n300\n550\n8-Φ11\n8\n8\n/\n0.75\n40\n≤80\n80\n320\n280\n220\n310*310\n270\n220*220\n320\n580\n8-Φ11\n10\n10\n/\n1.1\n40\n≤80\n100\n340\n300\n240\n330*330\n290\n240*240\n340\n600\n8-Φ13\n12\n12\n/\n1.1\n40\n≤80\n115\n360\n320\n260\n350*350\n310\n260*260\n360\n620\n8-Φ17\n14\n14\n/\n1.1\n40\n≤80\n130\n380\n340\n280\n370*370\n330\n280*280\n380\n640\n8-Φ17\n16\n16\n/\n1.5\n40\n≤80\n150\n400\n360\n300\n400*400\n350\n300*300\n400\n670\n8-Φ17\n18\n18\n/\n1.5\n40\n≤80\n165\n420\n380\n320\n420*420\n370\n320*320\n420\n690\n8-Φ17\n20\n20\n/\n1.5\n40\n≤80\n180\n440\n400\n340\n440*440\n390\n340*340\n440\n710\n8-Φ17\n26\n26\n/\n2.2\n24\n≤80\n230\n500\n460\n400\n510*510\n450\n400*400\n520\n770\n12-Φ17\n30\n30\n/\n3\n24\n≤80\n280\n560\n500\n440\n550*550\n495\n440*440\n550\n820\n12-Φ17\n40\n40\n/\n3\n24\n≤80\n320\n620\n558\n500\n620*620\n558\n500*500\n620\n950\n型号\ntype\n每转体积\nVolume/rotation\n电机型号功率\n转速\n工作温度重量\n安装联接尺寸                Installationdimension\n（KW）\nR/min\n（℃）\nKG\nΦ A\nΦ B\nΦ C\nA1\nB1\nC1\nH\nE\nn-Φ\n12-Φ17\n50\n50\n/\n3\n24\n≤80\n380\n650\n600\n540\n650*650\n600\n540*540\n650\n990\n12-Φ17\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n2\n2\n/\n0.75\n40\n280\n75\n240\n200\n150\n240*240\n200\n150*150\n240\n850\n8-Φ13\n4\n4\n/\n0.75\n40\n280\n105\n280\n240\n180\n270*270\n230\n180*180\n280\n900\n8-Φ13\n6\n6\n/\n0.75\n40\n280\n110\n300\n260\n200\n290*290\n250\n200*200\n300\n930\n8-Φ13\n8\n8\n/\n0.75\n40\n280\n125\n320\n280\n220\n310*310\n270\n220*220\n320\n950\n8-Φ13\n10\n10\n/\n1.1\n40\n280\n135\n340\n300\n240\n340*340\n300\n240*240\n340\n1000\n8-Φ13\n12\n12\n/\n1.1\n40\n280\n140\n360\n320\n260\n350*350\n310\n260*260\n360\n1030\n8-Φ17\n14\n14\n/\n1.1\n40\n280\n160\n380\n340\n280\n370*370\n330\n280*280\n380\n1050\n8-Φ17\n16\n16\n/\n1.5\n40\n280\n180\n400\n360\n300\n400*400\n350\n300*300\n400\n1080\n8-Φ17\n18\n18\n/\n1.5\n40\n280\n195\n420\n380\n320\n420*420\n370\n320*320\n420\n1100\n8-Φ17\n20\n20\n/\n1.5\n40\n280\n210\n440\n400\n340\n440*440\n390\n340*340\n465\n1150\n8-Φ17\n26\n26\n/\n2.2\n24\n280\n310\n500\n460\n400\n510*510\n450\n400*400\n520\n1300 12-Φ17\n30\n30\n/\n3\n24\n280\n350\n560\n500\n440\n550*550\n495\n440*440\n550\n1350 12-Φ17\n40\n40\n/\n3\n24\n280\n450\n620\n558\n500\n620*620\n558\n500*500\n620\n1500 12-Φ17\n50\n50\n/\n3\n24\n280\n500\n650\n600\n型号\ntype\n每转体积\nVolume/rotation\n电机型号功率\n转速\n工作温度重量\n安装联接尺寸               Installationdimension\n（KW）\nR/min\n（℃）\nKG\nΦ A\nΦ B\nΦ C\nA1\nB1\nC1\nH\nE\nn-Φ\n540\n650*650\n600\n540*540\n650\n1600 12-Φ17\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-pdf",
+          "unit_id": "pdf-page-05"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "592b0e106012c942026a548a135021ed304bf8b854c0c17b77950498ee153998"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-pdf-05",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "592b0e106012c942026a548a135021ed304bf8b854c0c17b77950498ee153998"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-pdf-06",
+      "entity_type": "product-catalogue",
+      "entity_key": "page-6",
+      "field": "page_content",
+      "decision": "use",
+      "source_value_hash": "8e1c935bd1a7b509c284d4a790d07659f21b69aacd3cc7ab0c973b8f09d975b5",
+      "source_value": "BZGFWF-80\n1L\n80\n160\n200\n180\n500\n220\n4-Φ18\n1-50\n0.2-\nBZGFWF-100\n2L\n100\n180\n220\n200\n520\n250\n8-Φ18\n1-50\n0.4-\nBZGFWF-150\n2L\n150\n240\n285\n210\n520\n240\n8-Φ22\n1-50\n0.4-\nBZGFWF-150\n4L\n150\n240\n285\n210\n550\n580\n540\n320\n8-Φ22\n1-50\n0.75-\nBZGFWF-200\n6L\n200\n295\n340\n240\n560\n600\n580\n300\n8-Φ22\n10-50\n0.75-\nBZGFWF-200\n8L\n200\n295\n340\n240\n590\n620\n590\n370\n8-Φ22\n10-50\n1.1-\nBZGFWF-250\n10L\n250\n350\n395\n260\n610\n650\n620\n360\n12-Φ22\n10-50\n1.1-\nBZGFWF-250\n12L\n250\n350\n395\n270\n620\n670\n630\n400\n12-Φ22\n10-50\n1.5-\nBZGFWF-250\n16L\n250\n350\n395\n270\n630\n680\n640\n430\n12-Φ22\n10-50\n1.5-\nBZGFWF-300\n16L\n300\n350\n395\n270\n630\n700\n660\n400\n12-Φ22\n10-50\n1.5-\nBZGFWF-300\n20L\n300\n350\n395\n280\n640\n710\n670\n440\n12-Φ22\n10-32\n1.5-\nBZGFWF-300\n25L\n300\n400\n445\n300\n660\n720\n680\n490\n12-Φ22\n10-32\n1.5-\nBZGFWF-350\n40L\n350\n460\n505\n330\n700\n780\n型号-口径\ntype\n每转容\n积\nL/Rev\n外形及安装联接尺寸 Stucural dimensions(mn)\n转速\nr/min\n电机功率\n（KW）\nΦA\nΦB\nΦC\nE\nF\nM\nN\nH\nn-Φd\n730\n550\n16-Φ22\n10-32\n2.2-\nBZGFWF-400\n60L\n400\n515\n565\n360\n740\n840\n780\n600\n16-Φ24\n10-24\n2.2-\nBZGFWF-450\n80L\n450\n565\n615\n400\n770\n900\n830\n660\n20-Φ24\n10-24\n2.2-\nBZGFWF-500\n110L\n500\n620\n670\n430\n800\n1000\n900\n720\n20-Φ24\n10-24\n3-\nBZGFWF-600\n150L\n600\n725\n780\n480\n850\n1100\n980\n780\n20-Φ30\n10-24\n4-\nBZGFWF-700\n200L\n700\n840\n895\n530\n900\n1200\n1080\n900\n24-Φ30\n10-24\n4-\n2\n2\n/\n240\n200\n150\n240*240\n200\n150*150\n320\nBWD0-0.75-59\n33\n280\n450\n8-Φ11\n4\n4\n/\n280\n240\n180\n270*270\n230\n180*180\n350\nBWD0-0.75-59\n33\n280\n480\n8-Φ11\n6\n6\n/\n300\n260\n200\n290*290\n250\n200*200\n370\nBWD0-0.75-59\n33\n280\n500\n8-Φ11\n8\n8\n/\n320\n280\n220\n310*310\n270\n220*220\n380\nBWD0-0.75-59\n33\n280\n520\n8-Φ11\n10\n10\n/\n340\n300\n240\n330*330\n290\n240*240\n380\nBWD0-0.75-59\n33\n280\n540\n8-Φ13\n12\n12\n/\n360\n320\n260\n350*350\n310\n260*260\n440\nBWD1-0.75-59\n33\n280\n560\n8-Φ17\n14\n14\n/\n380\n340\n280\n370*370\n330\n280*280\n450\nBWD1-1-59\n33\n280\n580\n8-Φ17\n16\n16\n/\n400\n360\n300\n400*400\n350\n300*300\n460\nBWD1-1.5-59\n33\n280\n600\n8-Φ17\n18\n18\n/\n420\n380\n320\n420*420\n370\n320*320\n480\nBWD1-1.5-59\n33\n280\n620\n8-Φ17\n20\n20\n/\n440\n400\n340\n440*440\n390\n340*340\n500\nBWD1-1.5-59\n33\n280\n640\n8-Φ17\n26\n26\n/\n500\n460\n400\n510*510\n450\n400*400\n530\nBWD2-2.2-59\n33\n280\n700\n12-Φ17\n30\n30\n/\n560\n500\n440\n550*550\n495\n440*440\n550\nBWD2-3-\n型号\ntype\n每转体积\nVolume/rotation\n安装联接尺寸      Installationdimension\nΦ A\nΦ B\nΦ C\nA1\nB1\nC1\nE\n匹配电机\n转速\n工作温度\n<\nL\nn-Φ（mn）\n59\n24\n280\n760\n12-Φ17\n40\n40\n/\n620\n558\n500\n620*620\n558\n500*500\n560\nBWD4-4-59\n24\n280\n820\n12-Φ17\n50\n50\n/\n650\n600\n540\n650*650\n600\n540*540\n580\nBWD4-4-59\n24\n280\n850\n12-Φ17\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-pdf",
+          "unit_id": "pdf-page-06"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "8e1c935bd1a7b509c284d4a790d07659f21b69aacd3cc7ab0c973b8f09d975b5"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-pdf-06",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "8e1c935bd1a7b509c284d4a790d07659f21b69aacd3cc7ab0c973b8f09d975b5"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-pdf-07",
+      "entity_type": "product-catalogue",
+      "entity_key": "page-7",
+      "field": "page_content",
+      "decision": "use",
+      "source_value_hash": "7a52f716a1d5ef65ca2d7774eb3c3a6e9d256a6585f5f2b2bde654a313cce6ae",
+      "source_value": "型号\ntype\n外形及安装联接尺寸 Stucural dimensions(mm)\n转速\nr/min\n电机功率\n（KW）\nΦA\nΦB\nΦC\nΦX\nΦY\nΦZ\nH\nE\nF\nP\nS\nM\nN\nn-Φd\n每转容积\nL/Rev\nZFS-150\n4L\n150 240 285\n50\n80\n100 340 230 520 220 170 550 550\n8-Φ22\n24\n0.75\nZFS-200\n8L\n200 295 340\n80\n110 130 390 255 570 260 190 600 580\n8-Φ22\n24\n1.1\nZFS-250\n16L\n250 350 395 100 130 150 450 275 600 300 230 680 630\n12-Φ22\n24\n1.1\nZFS-300\n25L\n300 400 445 125 155 180 500 300 630 340 270 730 670\n12-Φ22\n24\nZFS-350\n40L\n350 460 505 150 180 210 560 325 660 390 330 780 720\n16-Φ22\n24\n2.2\nZFS-400\n60L\n400 515 565 175 210 240 630 350 700 440 380 850 780\n16-Φ24\n24\nZFS-500\n110L\n500 620 670 200 240 270 740 400 750 500 480 950 850\n20-Φ24\n24\n4\n3\n3\n型号\ntype\n每转容积\nL/Rev\n外形及安装联接尺寸 Stucural dimensions(mm)\n转速\nr/min\n电机功率\n（KW）\nΦA\nΦB\nΦC\nE\nF\nM\nN\nH\nn-Φd\nBZGFWK-150\n4L\n150 240 285 210 550\n580\n540 320\n8-Φ22\n1-50\n0.75-\nBZGFWK-200\n8L\n200 295 340 240 590\n620\n590 370\n8-Φ22\n10-50\n0.75-\nBZGFWK-250\n16L\n250 350 395 270 630\n680\n640 430\n12-Φ22\n10-50\n1.5-\nBZGFWK-300\n25L\n300 400 445 300 660\n720\n680 490\n12-Φ22\n10-32\n1.5-\nBZGFWK-350\n40L\n350 460 505 330 700\n780\n730 550\n16-Φ22\n10-32\n2.2-\nBZGFWK-400\n60L\n400 515 565 360 740\n840\n780 600\n16-Φ24\n10-24\n2.2-\nBZGFWK-450\n80L\n450 565 615 400 770\n900\n830 660\n20-Φ24\n10-24\n2.2-\nBZGFWK-500\n110L\n500 620 670 430 800\n1000 900 720\n20-Φ24\n10-24\n3-",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-pdf",
+          "unit_id": "pdf-page-07"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "7a52f716a1d5ef65ca2d7774eb3c3a6e9d256a6585f5f2b2bde654a313cce6ae"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-pdf-07",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "7a52f716a1d5ef65ca2d7774eb3c3a6e9d256a6585f5f2b2bde654a313cce6ae"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-pdf-08",
+      "entity_type": "product-catalogue",
+      "entity_key": "page-8",
+      "field": "page_content",
+      "decision": "use",
+      "source_value_hash": "fd6d583f6aad15732dcb8c236f72a5fcaa6a026eb62336881d6fcbea5fee69a7",
+      "source_value": "型号-口径\ntype\n每转容积\nL/Rev\n外形及安装联接尺寸Stucural dimensions(mm) \n转速\nr/min\n电机功率\n（KW）\nA\nB\nC\nE\nF\nH\nP\nS \nM\nN\nn-Φd\nZGB-200\n4\n200 260 300 280 660 500 200 170 640 680\n8-Φ14\n1-24\n0.75-\nZGB-250\n8\n250 310 350 330 720 530 250 200 660 720\n8-Φ14\n1-24\n1.1-\nZGB-300\n12\n300 360 400 360 750 580 300 260 720 760\n12-Φ14\n1-24\n1.5-\nZGB-350\n20\n350 410 460 390 780 630 350 300 780 800\n12-Φ14\n1-24\n2.2-\nZGB-400\n30\n400 470 520 420 810 680 400 350 820 880\n12-Φ18\n1-24\n2.2-\nZGB-500\n45\n500 570 620 560 850 800 500 400 900 980\n12-Φ18\n1-24\n3.0-\n型号\ntype\n每转容积\nL/Rev\n外形及安装联接尺寸  Stucural dimensions(mm)\n转速\nr/min\n电机功率\n（KW）\nH\nΦA\nΦB\nΦC\nE\nF \nM\nN\nn-Φd\nZQX-100\n2L\n280 100 108 220 240 260\n8-Φ18\n1-50\n0.2-\nZQX-150\n3L\n320 150 240 285 280 300 630 560\n8-Φ22\n1-50\n0.4-\nZQX-200\n8L\n370 200 295 340 300 320 680 620\n8-Φ22\n1-50\n0.55-\nZQX-250\n16L\n430 250 350 395 325 345 780 680\n12-Φ22\n10-24\n0.75-\nZQX-300\n25L\n490 300 400 445 350 370 830 730\n12-Φ22\n10-24\n1.1-",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-pdf",
+          "unit_id": "pdf-page-08"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "fd6d583f6aad15732dcb8c236f72a5fcaa6a026eb62336881d6fcbea5fee69a7"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-pdf-08",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "fd6d583f6aad15732dcb8c236f72a5fcaa6a026eb62336881d6fcbea5fee69a7"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-pdf-09",
+      "entity_type": "product-catalogue",
+      "entity_key": "page-9",
+      "field": "page_content",
+      "decision": "use",
+      "source_value_hash": "1c111d98ef6b56840afb53bc6885e69ff84d6feccdd317f6aff37f9d2853fd07",
+      "source_value": "型号-口径\ntype\n每转容积\nL/Rev\n外形及安装联接尺寸 Stucural dimensions(mm)\n转速\nr/min\n电机功率\n（KW）\nA1*B1\nA2*B3\nC\nD\nE\nF\nM\nN\nH\nn-Φd\nZGP-200\n6\n180*150\n280*250\n25\n20\n220\n270\n620\n590\n370\n8-Φ11\n10-50\n0.75-\nZGP-250\n12\n220*175\n320*280\n40\n30\n250\n300\n680\n640\n430\n10-Φ11\n10-50\n1.1-\nZGP-320\n25\n280*200\n400*320\n60\n40\n290\n350\n720\n680\n490\n12-Φ13\n10-32\n1.5-\nZGP-400\n40\n370*260\n480*360\n70\n50\n330\n390\n780\n730\n550\n12-Φ13\n10-32\n1.5-\nZGP-480\n60\n450*300\n560*410\n80\n50\n380\n440\n840\n780\n600\n16-Φ18\n10-24\n2.2-\nZGP-550\n90\n500*320\n620*430\n90\n50\n420\n490\n900\n830\n660\n16-Φ18\n10-24\n2.2-\nZGP-600\n120\n550*350\n670*470\n90\n50\n440\n510 1000 900\n720\n20-Φ18\n10-24\n3-\n型号-口径\ntype\n每转容积\nL/Rev\n外形及安装联接尺寸 Stucural dimensions(mm)\n转速\nr/min\n电机功率\n（KW）\nΦA\nΦB\nΦC\nE\nF\nM\nN\nH\nn-Φd\nZGC-150\n3L\n150\n240\n285\n240\n580\n580\n600\n320\n8-Φ22\n1-24\n0.75-\nZGC-200\n6L\n200\n295\n340\n270\n620\n620\n650\n370\n8-Φ22\n1-24\n0.75-\nZGC-250\n12L\n250\n350\n395\n300\n680\n680\n700\n430\n12-Φ22\n1-24\n1.5-\nZGC-300\n20L\n300\n400\n445\n330\n690\n720\n740\n490\n12-Φ22\n1-24\n1.5-\nZGC-350\n30L\n350\n460\n505\n360\n730\n780\n770\n550\n16-Φ22\n1-24\n2.2-\nZGC-400\n45L\n400\n515\n565\n390\n770\n840\n840\n600\n16-Φ24\n1-24\n2.2-",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-pdf",
+          "unit_id": "pdf-page-09"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "1c111d98ef6b56840afb53bc6885e69ff84d6feccdd317f6aff37f9d2853fd07"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-pdf-09",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "1c111d98ef6b56840afb53bc6885e69ff84d6feccdd317f6aff37f9d2853fd07"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-pdf-10",
+      "entity_type": "product-catalogue",
+      "entity_key": "page-10",
+      "field": "page_content",
+      "decision": "use",
+      "source_value_hash": "9d7ed47927375a80b4fe9c102b4c8d852806c205713b5e440ae2d9790a6e8ea7",
+      "source_value": "型号\ntype\n每转体积\nVolume/rotation\n安装联接尺寸      Installationdimension\nΦ A\nΦ B\nΦ C\nA1\nB1\nC1\nE\n匹配电机\n转速\n工作温度\nL\nn-Φ（mn）\n2\n2\n/\n240\n200\n150\n240*240\n200\n150*150\n320\nBWD0-0.75-59\n33\n280\n450\n8-Φ11\n4\n4\n/\n280\n240\n180\n270*270\n230\n180*180\n350\nBWD0-0.75-59\n33\n280\n480\n8-Φ11\n6\n6\n/\n300\n260\n200\n290*290\n250\n200*200\n370\nBWD1-0.75-59\n33\n280\n500\n8-Φ11\n8\n8\n/\n320\n280\n220\n310*310\n270\n220*220\n380\nBWD1-0.75-59\n33\n280\n520\n8-Φ11\n10\n10\n/\n340\n300\n240\n330*330\n290\n240*240\n380\nBWD1-1.1-59\n33\n280\n540\n8-Φ13\n12\n12\n/\n360\n320\n260\n350*350\n310\n260*260\n440\nBWD1\nBWD1\n-1.1\n1.1\n-\n-\n-\n59\n59\n33\n280\n560\n8-Φ17\n14\n14\n/\n380\n340\n280\n370*370\n330\n280*280\n450\n33\n280\n580\n8-Φ17\n16\n16\n/\n400\n360\n300\n400*400\n350\n300*300\n460\nBWD1-1.5-59\n33\n280\n600\n8-Φ17\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型\n立升转\n型号-口径\ntype\n每转容积\nL/Rev\n外形及安装联接尺寸 Stucural dimensions(mn)\n转速\nr/min\n电机功率\n（KW）\nΦA\nΦB\nΦC\nE\nF\nH\nn-Φd\nQNLZGFWF-150\n2L\n150\n240\n285\n294\n550\n260\n8-Φ22\n1-50\n0.75-\nQNLZGFWF-200\n6L\n200\n292\n340\n325\n590\n300\n8-Φ22\n10-50\n1.1-\nQNLZGFWF-200\n6L\n200\n292\n340\n325\n590\n360\n8-Φ22\n10-50\n1.1-\nQNLZGFWF-220\n6L\n220\n280\n320\n315\n590\n320\n8-Φ13\n10-50\n1.1-\nQNLZGFWF-250\n12L\n250\n350\n410\n360\n622\n360\n12-Φ22\n10-50\n1.5-\nQNLZGFWF-300\n16L\n300\n340\n440\n380\n660\n400\n12-Φ22\n10-50\n1.5-\n内镶尼龙/陶瓷",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-pdf",
+          "unit_id": "pdf-page-10"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "9d7ed47927375a80b4fe9c102b4c8d852806c205713b5e440ae2d9790a6e8ea7"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-pdf-10",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "9d7ed47927375a80b4fe9c102b4c8d852806c205713b5e440ae2d9790a6e8ea7"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-pdf-11",
+      "entity_type": "product-catalogue",
+      "entity_key": "page-11",
+      "field": "page_content",
+      "decision": "use",
+      "source_value_hash": "324700d4bb0f8159cb7ed245700a7c153e30f8205cbfa4b295eae78fa8daab84",
+      "source_value": "电动破碎阀\n内部结构\n螺旋输送机\n螺旋输送机是一种利用电机带动螺旋回转，推移物料以实现输送目的的机械。它能水平、\n倾斜或垂直输送，具有结构简单、横截面积小、密封性好、操作方便、维修容易、便于封闭运输等\n优点。螺旋输送机在输送形式上分为有轴螺旋输送机和无轴螺旋输送机两种，在外型上分为U\n型螺旋输送机和管式螺旋输送机。有轴螺旋输送机适用于无粘性的干粉物料和小颗粒物料.（\n例如：水泥、粉煤灰、石灰、粮等）而无轴螺旋输送机适合输送机由粘性的和易缠绕的物料。\n（例\n如：污泥、生物质、垃圾等）螺旋输送机的工作原理是旋转的螺旋叶片将物料推移而进行螺旋输\n送机输送，使物料不与螺旋输送机叶片一起旋转的力是物料自身重量和螺旋输送机机壳对物\n料的摩擦阻力。螺旋输送机旋转轴上焊的螺旋叶片，叶片的面型根据输送物料的不同有实体面\n型、带式面型、叶片面型等型式。螺旋输送机的螺旋轴在物料运动方向的终端有止推轴承以随\n物料给螺旋的轴向反力，在机长较长时，应加中间吊挂轴承。\n内部结构\n电动破碎阀打散装置是一种工业设备，用于破碎和打散固体物料。它通常由电机驱动，通\n过旋转的刀片对物料进行破碎和打散。这种装置广泛应用于各种工业领域，用于将大块物料破\n碎成小块，以便于后续处理或运输。\n电动破碎阀打散装置的工作原理是利用高速旋转的刀片对物料进行冲击和剪切，使其破\n碎和打散。同时，通过调整刀片的数量、旋转速度和物料进料速度等参数，可以控制破碎的程度\n和产量。\n该装置通常由电机、减速器、破碎机构和筛网等部分组成。其中，破碎机构是核心部分，由\n旋转的刀片和过滤筛网。在破碎过程中，物料通过进料口进入破碎室，受到高速旋转的刀片的\n冲击和剪切作用，破碎后通过出料口排出。\n电动破碎阀打散装置具有高效、节能、易于操作和维护等特点。它可以实现连续作业，破碎\n效率高，对于不同硬度的物料也能够进行破碎。此外，该装置结构紧凑，占用空间小，便于安装\n和移动。",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-pdf",
+          "unit_id": "pdf-page-11"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "324700d4bb0f8159cb7ed245700a7c153e30f8205cbfa4b295eae78fa8daab84"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-pdf-11",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "324700d4bb0f8159cb7ed245700a7c153e30f8205cbfa4b295eae78fa8daab84"
+        }
+      ]
+    },
+    {
+      "fact_id": "fact-pdf-12",
+      "entity_type": "product-catalogue",
+      "entity_key": "page-12",
+      "field": "page_content",
+      "decision": "use",
+      "source_value_hash": "20247faf7111b6cba34104a389edd8121f642e1bb7cf1842329c6c25e32c8706",
+      "source_value": "型号type\n介质Medium\nBZGFWF\nZFS\nZGFWF\nBZGFWF\nZQX\nZGP\nZGF\nZGC\nZGB\n食品\nFood\n生物制药\nBiopharmaceutical\n粮食饲料\nGrains and forage\n化工产品\nChemical products\n矿物\nMineral\n粘性物料\nViscous materials\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n                                  型号type\n介质Medium\nBZGFWF\nZFS\nZGFWF\nBZGFWF\nZQX\nZGP\nZGF\nZGC\nZGB\n卸料   Unloading\n气力输送\n除尘\nDedusting\n定量输送\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\n▲\nPneumatic transport\nQuantitative conveying\n在您需要购买时 When you want to purchase:\nPlease try to tell the following items in details\n1.用途\nPurpose\n请说明是定量排出、全量排出还是气锁\nPlease indicate quantitative discharge,full-amount discharge or airlock\n2. 使用场所\nOperation place\n室内还是室外、高原还是沿海\nIndoor or outdoor,plateau or coastal area\n3. 产能\nCapacity\n每小时供料量\nFeed rate per hour\n4. 输送物料的性能\nPerformance of material conveyed\n名称、粒度、堆积密度、温度、安息角、含水率\nName,granularity,bulk density,temperature,angle of rest,and moisture content\n5. 输送气体名称及旋转阀上下法兰间的压差\nName of carried gas,and diﬀerential pressure between the upper and lower ﬂange of rotary valve\n6. 减速机、电机\nReducer and motor\n请指定防护等级、防爆等级\nPlease indicate IP grade and anti-hazard classiﬁcation\n7. 涂装色  Painting\n有无指定颜色(无指定是为企业产品标准色)\nIndicate color (no indication means the standard color of the product)",
+      "expected_destinations": [
+        "frontend",
+        "backend"
+      ],
+      "source_refs": [
+        {
+          "source_id": "source-pdf",
+          "unit_id": "pdf-page-12"
+        }
+      ],
+      "terminal_targets": [
+        {
+          "layer": "frontend",
+          "locator": "/about#documented-source-record",
+          "evidence": ".next/server/app/about.html",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "20247faf7111b6cba34104a389edd8121f642e1bb7cf1842329c6c25e32c8706"
+        },
+        {
+          "layer": "backend",
+          "locator": "tenants.extra_settings.material_facts.fact-pdf-12",
+          "evidence": "Supabase tenant 2b7ece95-e14a-48d8-a08c-0a9fea55710e readback",
+          "verification_mode": "exact",
+          "verification_result": "PASS",
+          "value_hash": "20247faf7111b6cba34104a389edd8121f642e1bb7cf1842329c6c25e32c8706"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "teamId": "team_v0pxRIIzSUGJleUTRNSz6GS4",
+  "projectId": "r96ffDdGqMP",
+  "chatId": "gimcrovGIF5",
+  "webUrl": "https://v0.app/chat/gimcrovGIF5",
+  "createdAt": "2026-09-21T06:26:56.487Z",
+  "attachments": [
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image1.png",
+      "sourceName": "image1.png",
+      "sha256": "9815455495039ff22968f49398009b29049f95b865a6ec7b17e78f65b85121ba",
+      "bytes": 34101,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/01-981545549503.png"
+    },
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image11.jpeg",
+      "sourceName": "image11.jpeg",
+      "sha256": "c0c1716c295edd9d5d195842b99c00c8a79e288b837dfc772db62914b218fc2c",
+      "bytes": 794662,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/02-c0c1716c295e.jpeg"
+    },
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image5.jpeg",
+      "sourceName": "image5.jpeg",
+      "sha256": "389bc3281e93071bfefe98f0f311d94cc9381f63ab74c0f37520891ae4049c67",
+      "bytes": 1291059,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/03-389bc3281e93.jpeg"
+    },
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image10.jpeg",
+      "sourceName": "image10.jpeg",
+      "sha256": "88321f2ee355e8977d4a1dced9440978c153ec6cceab6027fdea908b387c3591",
+      "bytes": 4551523,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/04-88321f2ee355.jpeg"
+    },
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\xlsx-media\\image8.jpeg",
+      "sourceName": "image8.jpeg",
+      "sha256": "cf7885704cca95db31b1a74cc36de7b6078d682f71cb97fc7bd8561cf1bf4526",
+      "bytes": 3007405,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/05-cf7885704cca.jpeg"
+    },
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\pdf-product-media\\tgf-rotary-valve.jpeg",
+      "sourceName": "tgf-rotary-valve.jpeg",
+      "sha256": "fa846ad35cac2f45116de1b062b3549013bc52a88fbb59e00ae4f8bbf9c4e44d",
+      "bytes": 3463,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/06-fa846ad35cac.jpeg"
+    },
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\pdf-product-media\\bzgfwf-pressure-conveying.jpeg",
+      "sourceName": "bzgfwf-pressure-conveying.jpeg",
+      "sha256": "bcce1644079c1c0243c34ab7517e0cb8e3d99d41402ae48ab85c66cf5ec074b8",
+      "bytes": 4976,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/07-bcce1644079c.jpeg"
+    },
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\pdf-product-media\\qnlzgfwf-lined.jpeg",
+      "sourceName": "qnlzgfwf-lined.jpeg",
+      "sha256": "3f4391cd6fbea400907a652fa6773b53519e81e0459c682324ab65bc608fa2af",
+      "bytes": 5195,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/08-3f4391cd6fbe.jpeg"
+    },
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\pdf-product-media\\screw-conveyor.jpeg",
+      "sourceName": "screw-conveyor.jpeg",
+      "sha256": "de688c30fdd6fd4562b5b87ea0828877fa145e7f2206f53da4d3b145d9d3cf50",
+      "bytes": 16902,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/09-de688c30fdd6.jpeg"
+    },
+    {
+      "localPath": "D:\\Cursor\\Grand\\changhong-shinelong\\.codex-delivery\\material-extract\\pdf-product-media\\electric-crushing-valve.jpeg",
+      "sourceName": "electric-crushing-valve.jpeg",
+      "sha256": "d33518f3e2bd27f765bb24c417ec37d8ccb09ac0b93f47af8264a59a7d6aa651",
+      "bytes": 8968,
+      "url": "https://pub-c7a22068052144a5805830c30d280128.r2.dev/site-assets/changhong-shinelong/v0-input/10-d33518f3e2bd.jpeg"
+    }
+  ],
+  "v0_calls": [
+    {
+      "chat_id": "gimcrovGIF5",
+      "purpose": "first full-site visual generation",
+      "scope": "Home, Products/detail, Applications, Manufacturing, About, News/detail, Contact and MOT-CHXL-01..04",
+      "cost_usd": null,
+      "outcome": "usable_source",
+      "effective_full_site_generation": true,
+      "recorded_at": "2026-09-21T06:29:18.738Z",
+      "version_id": "b_qhzZTkHPBHH"
+    },
+    {
+      "chat_id": "gimcrovGIF5",
+      "purpose": "recover exact missing executable source",
+      "scope": "SOURCE-INTEGRITY-CHXL-001",
+      "cost_usd": null,
+      "outcome": "usable_source",
+      "effective_full_site_generation": true,
+      "recorded_at": "2026-09-21T06:30:58.620Z",
+      "version_id": "b_VLzO3vLOS2y"
+    },
+    {
+      "chat_id": "gimcrovGIF5",
+      "purpose": "recover exact missing executable source",
+      "scope": "SOURCE-INTEGRITY-CHXL-001",
+      "cost_usd": null,
+      "outcome": "usable_source",
+      "effective_full_site_generation": true,
+      "recorded_at": "2026-09-21T06:35:49.772Z",
+      "version_id": "b_vyKSvnhNUzZ"
+    }
+  ],
+  "completedVersionId": "b_vyKSvnhNUzZ"
+}

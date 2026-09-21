@@ -1,0 +1,28 @@
+{
+  "issue_id": "DATA-MATERIAL-FACT-COVERAGE",
+  "phase": "intake",
+  "pass": true,
+  "unregistered_source_paths": [],
+  "unregistered_embedded_media": [],
+  "missing_document_media_scan_source_ids": [],
+  "invalid_source_ids": [],
+  "invalid_embedded_media_ids": [],
+  "unreadable_source_ids": [],
+  "invalid_unit_ids": [],
+  "invalid_fact_ids": [],
+  "unaccounted_unit_ids": [],
+  "unaccounted_fact_ids": [],
+  "missing_destination_fact_ids": [],
+  "invalid_target_fact_ids": [],
+  "value_mismatch_fact_ids": [],
+  "missing_embedded_media_destination_ids": [],
+  "counts": {
+    "discovered_file_count": 2,
+    "registered_source_count": 2,
+    "extraction_unit_count": 249,
+    "fact_count": 173,
+    "verified_destination_count": 0,
+    "discovered_embedded_media_count": 80,
+    "registered_embedded_media_count": 80
+  }
+}
