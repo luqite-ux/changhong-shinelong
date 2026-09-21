@@ -1,0 +1,13 @@
+import { randomBytes } from 'node:crypto'
+import { existsSync,readFileSync } from 'node:fs'
+for(const file of [String.raw`D:\Cursor\Grand\huanqiu-admin\.env`,String.raw`D:\Cursor\Grand\huanqiu-admin\.env.local`,String.raw`D:\Cursor\Grand\huanqiu-admin\_migrate-batch\.env`]){if(!existsSync(file))continue;for(const line of readFileSync(file,'utf8').split(/\r?\n/)){const m=line.trim().match(/^([A-Za-z_][A-Za-z0-9_]*)=(.*)$/);if(!m)continue;process.env[m[1]]??=m[2].trim().replace(/^['"]|['"]$/g,'')}}
+const token=process.env.VERCEL_TOKEN,team=process.env.VERCEL_TEAM_ID||'team_v0pxRIIzSUGJleUTRNSz6GS4';if(!token)throw new Error('Missing VERCEL_TOKEN')
+const headers={Authorization:`Bearer ${token}`,'Content-Type':'application/json'},query=`teamId=${team}`
+async function api(url,options={}){const response=await fetch(`${url}${url.includes('?')?'&':'?'}${query}`,{...options,headers:{...headers,...options.headers}});const body=await response.json().catch(()=>({}));if(!response.ok)throw new Error(`${options.method||'GET'} ${url} ${response.status}: ${JSON.stringify(body).slice(0,400)}`);return body}
+let project
+try{project=await api('https://api.vercel.com/v9/projects/changhong-shinelong')}catch{project=await api('https://api.vercel.com/v11/projects',{method:'POST',body:JSON.stringify({name:'changhong-shinelong',framework:'nextjs',gitRepository:{type:'github',repo:'luqite-ux/changhong-shinelong'}})})}
+const values={NEXT_PUBLIC_SUPABASE_URL:process.env.NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY:process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,NEXT_PUBLIC_TENANT_ID:'2b7ece95-e14a-48d8-a08c-0a9fea55710e',NEXT_PUBLIC_ADMIN_URL:'https://admin.globle-trade.com',SUPABASE_SERVICE_ROLE_KEY:process.env.SUPABASE_SERVICE_ROLE_KEY,CAPTCHA_SECRET:randomBytes(32).toString('hex'),CAPTCHA_SITE_SCOPE:'changhong-shinelong'}
+const existing=(await api(`https://api.vercel.com/v9/projects/${project.id}/env`)).envs||[]
+for(const [key,value] of Object.entries(values)){if(!value)throw new Error(`Missing value for ${key}`);const current=existing.filter(item=>item.key===key);if(current.length)continue;await api(`https://api.vercel.com/v10/projects/${project.id}/env`,{method:'POST',body:JSON.stringify({key,value,type:'encrypted',target:['production','preview','development']})})}
+const deployment=await api('https://api.vercel.com/v13/deployments',{method:'POST',body:JSON.stringify({name:'changhong-shinelong',project:project.id,target:'production',gitSource:{type:'github',org:'luqite-ux',repo:'changhong-shinelong',ref:'main'},projectSettings:{framework:'nextjs'}})})
+console.log(JSON.stringify({projectId:project.id,projectName:project.name,deploymentId:deployment.id,url:deployment.url,status:deployment.readyState??deployment.status??'QUEUED'}))
