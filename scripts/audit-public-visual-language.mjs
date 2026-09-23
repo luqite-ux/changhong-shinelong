@@ -11,6 +11,7 @@ const files = [
   "app/products/[slug]/page.tsx",
   "components/hero-carousel.tsx",
   "components/material-evidence.tsx",
+  "components/application-selection-guide.tsx",
   "components/semantic-media-gallery.tsx",
   "lib/products-data.ts",
 ]
@@ -37,5 +38,8 @@ assert.match(sources["app/products/[slug]/page.tsx"], /max-h-\[30rem\]/, "Produc
 assert.equal((sources["lib/products-data.ts"].match(/\/images\/ai-products\//g) ?? []).length, 16, "All 16 product families must use the unified AI product set")
 assert.equal((sources["app/page.tsx"].match(/\/images\/ai-banners\//g) ?? []).length, 3, "Homepage must use three purpose-built Banner assets")
 assert.doesNotMatch(sources["components/material-evidence.tsx"], /image\d+\.|Manufacturing area \{|audited source-fact/i, "Facility gallery must use business categories, never filenames or audit labels")
+assert.doesNotMatch(sources["app/applications/page.tsx"], /SemanticMediaGallery|businessEntity="application-selection"/, "Applications page must not expose the legacy abstract reference gallery")
+assert.match(sources["app/applications/page.tsx"], /ApplicationSelectionGuide/, "Applications page needs the buyer-facing selection guide")
+assert.equal((sources["components/application-selection-guide.tsx"].match(/\/images\/ai-products\//g) ?? []).length, 3, "Selection guide must use three verified product visuals")
 
 console.log("PASS public visual-language audit")
