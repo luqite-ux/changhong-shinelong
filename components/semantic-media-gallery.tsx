@@ -10,6 +10,9 @@ export function SemanticMediaGallery({
   title: string
   id: string
 }) {
+  // Product and company pages now use the curated AI-restored visual system.
+  // The legacy catalogue extracts remain available only in the catalogue.
+  if (businessEntity.startsWith("product:") || businessEntity === "product-portfolio" || businessEntity === "company-profile") return null
   const items = media.filter((item) => item.business_entity === businessEntity)
   if (!items.length) return null
   return (

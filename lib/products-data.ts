@@ -38,7 +38,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Minimum order", value: "1 unit" },
     ],
     images: [
-      { src: "/images/products/tgf-rotary-valve.jpeg", alt: "TGF rotary valve with direct-coupled motor drive", status: "available" },
+      { src: "/images/ai-products/tgf.png", alt: "TGF rotary valve with direct-coupled motor drive", status: "available" },
     ],
     relatedSlugs: ["zgf", "zgb", "zgc"],
   },
@@ -69,7 +69,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard sizing" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/zgf-rotary-valve.jpeg", alt: "ZGF rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/zgf.png", alt: "ZGF rotary valve", status: "available" }],
     relatedSlugs: ["tgf", "zgfwe-zgfwf", "zgb"],
   },
   {
@@ -100,7 +100,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Minimum order", value: "1 unit" },
     ],
     images: [
-      { src: "/images/products/zgfwe-zgfwf-high-temperature.jpeg", alt: "ZGFWE / ZGFWF rotary valve with multiple drive stations", status: "available" },
+      { src: "/images/ai-products/zgfwe-zgfwf.png", alt: "ZGFWE / ZGFWF rotary valve with multiple drive stations", status: "available" },
     ],
     relatedSlugs: ["zgfe-zgff", "lgfwe-lgfwf", "zgf"],
   },
@@ -128,7 +128,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard sizing" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/zgfe-zgff-rotary-valve.jpeg", alt: "ZGFE ZGFF rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/zgfe-zgff.png", alt: "ZGFE ZGFF rotary valve", status: "available" }],
     relatedSlugs: ["zgfwe-zgfwf", "lgfwe-lgfwf", "bzgfwf"],
   },
   {
@@ -155,7 +155,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard length" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/lgfwe-lgfwf-chain-drive.jpeg", alt: "LGFWE LGFWF rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/lgfwe-lgfwf.png", alt: "LGFWE LGFWF rotary valve", status: "available" }],
     relatedSlugs: ["zgfe-zgff", "zgfwe-zgfwf", "bzgfwf"],
   },
   {
@@ -183,7 +183,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Minimum order", value: "1 unit" },
     ],
     images: [
-      { src: "/images/products/bzgfwf-pressure-conveying.jpeg", alt: "BZGFWF reinforced rotary valve with safety-yellow drive guard", status: "available" },
+      { src: "/images/ai-products/bzgfwf.png", alt: "BZGFWF reinforced rotary valve with safety-yellow drive guard", status: "available" },
     ],
     relatedSlugs: ["lgfwe-lgfwf", "bzgfwk", "zfs"],
   },
@@ -211,7 +211,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard sizing" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/zfs-rotary-valve.jpeg", alt: "ZFS rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/zfs.png", alt: "ZFS rotary valve", status: "available" }],
     relatedSlugs: ["bzgfwf", "bzgfwk", "zgp"],
   },
   {
@@ -238,7 +238,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard outlet count" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/bzgfwk-quick-clean.jpeg", alt: "BZGFWK rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/bzgfwk.png", alt: "BZGFWK rotary valve", status: "available" }],
     relatedSlugs: ["bzgfwf", "zfs", "zqx"],
   },
   {
@@ -265,7 +265,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard sizing" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/zgb-heavy-duty.jpeg", alt: "ZGB rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/zgb.png", alt: "ZGB rotary valve", status: "available" }],
     relatedSlugs: ["tgf", "zqx", "zgp"],
   },
   {
@@ -292,7 +292,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard sizing" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/zqx-rotary-valve.jpeg", alt: "ZQX rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/zqx.png", alt: "ZQX rotary valve", status: "available" }],
     relatedSlugs: ["bzgfwk", "zgb", "zgp"],
   },
   {
@@ -319,7 +319,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard sizing" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/zgp-rotary-valve.jpeg", alt: "ZGP rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/zgp.png", alt: "ZGP rotary valve", status: "available" }],
     relatedSlugs: ["zfs", "zqx", "zgc"],
   },
   {
@@ -346,7 +346,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard sizing" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/zgc-rotary-valve.jpeg", alt: "ZGC rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/zgc.png", alt: "ZGC rotary valve", status: "available" }],
     relatedSlugs: ["tgf", "zgp", "qnlzgfwf"],
   },
   {
@@ -373,7 +373,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard sizing" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/qnlzgfwf-lined.jpeg", alt: "QNLZGFWF lined rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/qnlzgfwf.png", alt: "QNLZGFWF lined rotary valve", status: "available" }],
     relatedSlugs: ["zgc", "tazgfwf", "zgfwe-zgfwf"],
   },
   {
@@ -400,7 +400,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Customization", value: "OEM/ODM, non-standard outlet count" },
       { label: "Minimum order", value: "1 unit" },
     ],
-    images: [{ src: "/images/products/tazgfwf-titanium.jpeg", alt: "TAZGFWF titanium-alloy rotary valve", status: "available" }],
+    images: [{ src: "/images/ai-products/tazgfwf.png", alt: "TAZGFWF titanium-alloy rotary valve", status: "available" }],
     relatedSlugs: ["qnlzgfwf", "zgfwe-zgfwf", "bzgfwk"],
   },
   {
@@ -431,7 +431,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Minimum order", value: "1 unit" },
     ],
     images: [
-      { src: "/images/products/screw-conveyor.jpeg", alt: "Screw conveyor tube with two inlet ports and end-mounted motor drive", status: "available" },
+      { src: "/images/ai-products/screw-conveyor.png", alt: "Screw conveyor tube with two inlet ports and end-mounted motor drive", status: "available" },
     ],
     relatedSlugs: ["tgf", "electric-crushing-valve", "zgb"],
   },
@@ -463,7 +463,7 @@ export const productFamilies: ProductFamily[] = [
       { label: "Minimum order", value: "1 unit" },
     ],
     images: [
-      { src: "/images/products/electric-crushing-valve.jpeg", alt: "Electric crushing valve flange with visible internal crushing blades and motor drive", status: "available" },
+      { src: "/images/ai-products/electric-crushing-valve.png", alt: "Electric crushing valve flange with visible internal crushing blades and motor drive", status: "available" },
     ],
     relatedSlugs: ["screw-conveyor", "tgf", "bzgfwf"],
   },

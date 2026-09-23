@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   description:
     'Chanhong ShineLong manufactures rotary valves/airlocks, screw conveyors and electric crushing valves for grain, food, feed, chemical, petrochemical, pharmaceutical, drying, dust collection and new-energy applications. OEM/ODM and non-standard customization, MOQ 1 unit.',
   alternates: { canonical: '/' },
-  openGraph: { type: 'website', url: '/', siteName: siteConfig.brandName, title: 'Chanhong ShineLong | Rotary Valves, Screw Conveyors & Crushing Valves', description: 'Rotary valves, screw conveyors and electric crushing valves for overseas B2B material-handling applications.', images: [{ url: '/images/factory-panorama.jpg', width: 1200, height: 630, alt: 'Chanhong ShineLong manufacturing facility' }] },
-  twitter: { card: 'summary_large_image', images: ['/images/factory-panorama.jpg'] },
+  openGraph: { type: 'website', url: '/', siteName: siteConfig.brandName, title: 'Chanhong ShineLong | Rotary Valves, Screw Conveyors & Crushing Valves', description: 'Rotary valves, screw conveyors and electric crushing valves for overseas B2B material-handling applications.', images: [{ url: '/images/ai-banners/product-family-hero.png', width: 1536, height: 1024, alt: 'Chanhong ShineLong rotary valve product family' }] },
+  twitter: { card: 'summary_large_image', images: ['/images/ai-banners/product-family-hero.png'] },
   icons: {
     icon: [{ url: '/images/logo.png', type: 'image/png' }],
     apple: [{ url: '/images/logo.png', type: 'image/png' }],

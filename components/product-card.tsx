@@ -6,21 +6,19 @@ import { t } from "@/lib/types"
 
 export function ProductCard({ product }: { product: ProductFamily }) {
   const cover = product.images[0]
-  const darkStage = /bzgfwf|bzgfwk|qnlzgfwf|tazgfwf|electric-crushing|screw-conveyor/.test(product.slug)
 
   return (
     <Link
       href={`/products/${product.slug}`}
       className="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_18px_40px_rgba(15,23,42,.10)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
     >
-      <div className={`relative flex aspect-[4/3] items-center justify-center overflow-hidden ${darkStage ? "bg-[#111820]" : "bg-[#f7f9fa]"}`}>
-        <div className="pointer-events-none absolute inset-0 opacity-40 [background-image:linear-gradient(rgba(44,164,200,.09)_1px,transparent_1px),linear-gradient(90deg,rgba(44,164,200,.09)_1px,transparent_1px)] [background-size:30px_30px]" />
+      <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden bg-[#f3f6f7] p-3 sm:p-4">
         <Image
           src={cover.src || "/placeholder.svg"}
           alt={cover.alt}
           width={320}
           height={240}
-          className="relative h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.025]"
+          className="relative h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.018]"
         />
         {cover.status === "pending" && (
           <span className="absolute left-2 top-2 rounded-sm bg-secondary px-2 py-0.5 text-[11px] font-medium text-secondary-foreground">
