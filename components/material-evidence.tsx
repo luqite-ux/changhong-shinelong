@@ -11,10 +11,10 @@ const facilityStories = [
   { category: "Company", title: "Changzhou facility", description: "The company facility in Changzhou, Jiangsu, supporting production and customer service.", image: "/images/ai-facility/facility-entrance.png" },
 ]
 
-function FacilityCard({ item, compact = false }: { item: (typeof facilityStories)[number]; compact?: boolean }) {
+function FacilityCard({ item, compact = false, featured = false }: { item: (typeof facilityStories)[number]; compact?: boolean; featured?: boolean }) {
   return (
     <figure className="group flex h-full flex-col overflow-hidden rounded-sm border bg-card">
-      <div className={`relative overflow-hidden bg-[#edf2f3] ${compact ? "aspect-[16/8] lg:h-40 lg:flex-none lg:aspect-auto" : "aspect-[4/3] lg:flex-1 lg:aspect-auto"}`}>
+      <div className={`relative overflow-hidden bg-[#edf2f3] ${compact ? "aspect-[16/8] lg:h-40 lg:flex-none lg:aspect-auto" : featured ? "aspect-[4/3] lg:flex-1 lg:aspect-auto" : "aspect-[4/3]"}`}>
         <Image src={item.image} alt={item.title} fill sizes={compact ? "(min-width: 1024px) 33vw, 100vw" : "(min-width: 1024px) 66vw, 100vw"} className="object-cover transition-transform duration-700 group-hover:scale-[1.02]" />
       </div>
       <figcaption className={`border-t ${compact ? "p-4" : "p-5"}`}>
@@ -33,7 +33,7 @@ export function MaterialEvidence() {
       <h2 className="mt-2 text-3xl font-semibold">From component preparation to dispatch</h2>
       <p className="mt-3 max-w-3xl text-muted-foreground">Explore the working areas behind our rotary valves and conveying equipment, organized by the role each area plays in production.</p>
       <div className="mt-8 grid gap-5 lg:grid-cols-[2fr_1fr]">
-        <FacilityCard item={facilityStories[0]} />
+        <FacilityCard item={facilityStories[0]} featured />
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-1 lg:grid-rows-2">
           {facilityStories.slice(1, 3).map((item) => <FacilityCard key={item.title} item={item} compact />)}
         </div>
