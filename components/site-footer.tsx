@@ -14,11 +14,11 @@ export function SiteFooter() {
           <div>
             <Link href="/" aria-label="Chanhong ShineLong home" className="inline-block">
               <Image
-                src="/images/logo.png"
+                src="/images/logo-transparent.png"
                 alt="Chanhong ShineLong company logo"
-                width={160}
-                height={64}
-                className="h-12 w-auto object-contain"
+                width={220}
+                height={118}
+                className="h-16 w-auto max-w-[220px] object-contain sm:h-[4.5rem] sm:max-w-[250px]"
               />
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">

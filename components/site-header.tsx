@@ -12,14 +12,14 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
-      <div className="mx-auto flex h-[4.75rem] max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-4 sm:h-24 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2 shrink-0" aria-label="Chanhong ShineLong home">
           <Image
-            src="/images/logo.png"
+            src="/images/logo-transparent.png"
             alt="Chanhong ShineLong company logo"
-            width={160}
-            height={64}
-            className="h-12 w-auto max-w-[190px] object-contain sm:h-14"
+            width={220}
+            height={118}
+            className="h-14 w-auto max-w-[200px] object-contain sm:h-[4.5rem] sm:max-w-[240px]"
             priority
           />
         </Link>
