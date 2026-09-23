@@ -12,8 +12,8 @@ export function MaterialEvidence() {
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {mediaNames.map((name, index) => (
           <figure key={name} className="overflow-hidden rounded-sm border bg-card">
-            <Image src={`/images/evidence/${name}`} alt={`Customer-supplied facility evidence ${index + 1}`} width={1000} height={750} className="aspect-[4/3] h-auto w-full object-cover" />
-            <figcaption className="p-3 text-xs text-muted-foreground">Customer-supplied facility evidence {index + 1}</figcaption>
+            <Image src={`/images/evidence/${name}`} alt={`Manufacturing area ${index + 1}`} width={1000} height={750} className="aspect-[4/3] h-auto w-full object-cover" />
+            <figcaption className="p-3 text-xs font-medium text-foreground">Manufacturing area {String(index + 1).padStart(2, "0")}</figcaption>
           </figure>
         ))}
       </div>

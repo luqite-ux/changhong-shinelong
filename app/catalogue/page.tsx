@@ -4,7 +4,7 @@ import { PageHero } from "@/components/page-hero"
 
 export const metadata = {
   title: "Rotary Valve Selection Catalogue",
-  description: "Read the customer-supplied rotary valve selection manual with model notes, dimensional drawings, specification tables and application guidance.",
+  description: "Read the rotary valve selection manual with model notes, dimensional drawings, specification tables and application guidance.",
   alternates: { canonical: "/catalogue" },
 }
 
@@ -13,7 +13,7 @@ export default function CataloguePage() {
   const cover = media.filter((item) => item.semantic_destination === "selection-catalogue-cover")
   return (
     <>
-      <PageHero title="Selection Catalogue" description="The complete supplied manual preserves model notes, engineering drawings, specification tables and application-selection guidance with independent reading value." />
+      <PageHero title="Selection Catalogue" description="Review model notes, engineering drawings, specification tables and application-selection guidance in one place." />
       <main className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         {cover.length > 0 && (
           <section className="mb-14">
@@ -32,7 +32,7 @@ export default function CataloguePage() {
             {pages.map((item) => (
               <figure id={`media-${item.id}`} key={item.id} className="scroll-mt-24 overflow-hidden rounded-sm border bg-card">
                 <div className="bg-white p-3"><Image src={item.src} alt={`${item.label}, complete selection manual page`} width={1600} height={1000} className="h-auto w-full object-contain" /></div>
-                <figcaption className="border-t p-4 text-sm text-muted-foreground">{item.label}. {item.placement_reason}</figcaption>
+                <figcaption className="border-t p-4 text-sm font-medium text-foreground">Selection manual · Page {pages.indexOf(item)+1}</figcaption>
               </figure>
             ))}
           </div>
