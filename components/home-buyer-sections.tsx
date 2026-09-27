@@ -73,9 +73,8 @@ export function HomeBuyerSections() {
       <section id="configuration-capability" className="border-b border-border bg-[#f3f6f7]">
         <Reveal>
         <div className="mx-auto grid max-w-7xl gap-12 px-4 py-20 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:items-center lg:px-8 lg:py-24">
-          <div className="relative overflow-hidden rounded-sm bg-[#e8eef0]">
-            <div className="absolute inset-0 opacity-60 [background-image:linear-gradient(rgba(44,164,200,.09)_1px,transparent_1px),linear-gradient(90deg,rgba(44,164,200,.09)_1px,transparent_1px)] [background-size:36px_36px]" />
-            <Image src="/images/ai-products/qnlzgfwf.png" alt="Lined rotary valve configuration" width={1000} height={760} className="relative aspect-[4/3] w-full object-contain p-8 sm:p-12" />
+          <div data-product-image-stage="full-bleed" className="relative overflow-hidden">
+            <Image src="/images/ai-products/qnlzgfwf.png" alt="Lined rotary valve configuration" width={1450} height={1086} className="block h-auto w-full object-contain" />
             <div className="absolute bottom-0 left-0 bg-graphite px-5 py-3 text-sm font-medium text-white">Configuration shown: lined rotary valve</div>
           </div>
           <div>
