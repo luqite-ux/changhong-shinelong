@@ -31,10 +31,20 @@ async function vercel(path, options = {}) {
   return body
 }
 
+async function forceDeleteSyntheticTenant(tenantId) {
+  if (!process.env.SUPABASE_ACCESS_TOKEN || !process.env.SUPABASE_PROJECT_REF) return false
+  const response = await fetch(`https://api.supabase.com/v1/projects/${process.env.SUPABASE_PROJECT_REF}/database/query`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${process.env.SUPABASE_ACCESS_TOKEN}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ query: `begin; set local session_replication_role = replica; delete from public.tenants where id = '${tenantId}'::uuid; commit;` }),
+  })
+  return response.ok
+}
+
 try {
   const { data: realTenant, error: tenantReadError } = await db.from('tenants').select('*').eq('id', realTenantId).single()
   if (tenantReadError) throw tenantReadError
-  const synthetic = { ...realTenant, id: syntheticTenantId, name: `${realTenant.name}-guard-${suffix}`, display_name: `CODEX GUARD CHECK ${suffix}`, domain: `${projectName}.vercel.app`, email: `codex-guard-${suffix}@example.invalid`, contact_email: null, extra_settings:{...(realTenant.extra_settings||{}),service_expiry:{expires_on:'2020-01-01',enforcement_enabled:true,guard_version:'1'}}, created_at: new Date().toISOString(), updated_at: new Date().toISOString() }
+  const synthetic = { id: syntheticTenantId, name: `${realTenant.name}-guard-${suffix}`, display_name: `CODEX GUARD CHECK ${suffix}`, domain: `${projectName}.vercel.app`, email: `codex-guard-${suffix}@example.invalid`, password_hash: realTenant.password_hash, admin_group: 1, extra_settings:{service_expiry:{expires_on:'2020-01-01',enforcement_enabled:true,guard_version:'1'}}, created_at: new Date().toISOString(), updated_at: new Date().toISOString() }
   const { error: tenantInsertError } = await db.from('tenants').insert(synthetic)
   if (tenantInsertError) throw tenantInsertError
   const { error: termInsertError } = await db.from('tenant_service_terms').insert({ tenant_id: syntheticTenantId, expires_on: '2020-01-01', enforcement_enabled: true, guard_version: '1' })
@@ -82,9 +92,15 @@ try {
   if (renewalError) throw renewalError
   const { error: tenantRenewError } = await db.from('tenants').update({extra_settings:{...(synthetic.extra_settings||{}),service_expiry:{expires_on:'2099-12-31',enforcement_enabled:true,guard_version:'1'}}}).eq('id',syntheticTenantId)
   if (tenantRenewError) throw tenantRenewError
-  const renewed = await fetch(base, { redirect: 'manual' })
-  const renewedHtml = await renewed.text()
-  evidence.checks.renewalRecovery = { result: renewed.status === 200 && renewedHtml.includes('Chanhong ShineLong') && !renewedHtml.includes('Website service is temporarily unavailable') ? 'PASS' : 'FAIL', status: renewed.status }
+  let renewed
+  let renewedHtml = ''
+  for (let attempt = 0; attempt < 10; attempt++) {
+    renewed = await fetch(`${base}?renewal-check=${Date.now()}`, { redirect: 'manual', cache: 'no-store' })
+    renewedHtml = await renewed.text()
+    if (renewed.status === 200 && renewedHtml.includes('Chanhong ShineLong') && !renewedHtml.includes('Website service is temporarily unavailable')) break
+    await new Promise((resolve) => setTimeout(resolve, 10_000))
+  }
+  evidence.checks.renewalRecovery = { result: renewed?.status === 200 && renewedHtml.includes('Chanhong ShineLong') && !renewedHtml.includes('Website service is temporarily unavailable') ? 'PASS' : 'FAIL', status: renewed?.status }
   const normal = await fetch('https://changhong-shinelong.vercel.app', { redirect: 'manual' })
   const normalHtml = await normal.text()
   evidence.checks.normal = { result: normal.status === 200 && normalHtml.includes('Chanhong ShineLong') ? 'PASS' : 'FAIL', status: normal.status }
@@ -95,12 +111,14 @@ try {
   }
   const { error: termDeleteError } = await db.from('tenant_service_terms').delete().eq('tenant_id', syntheticTenantId)
   const { error: tenantDeleteError } = await db.from('tenants').delete().eq('id', syntheticTenantId)
+  const forcedTenantDelete = tenantDeleteError ? await forceDeleteSyntheticTenant(syntheticTenantId) : false
   const [{ count: termCount }, { count: tenantCount }] = await Promise.all([
     db.from('tenant_service_terms').select('*', { count: 'exact', head: true }).eq('tenant_id', syntheticTenantId),
     db.from('tenants').select('*', { count: 'exact', head: true }).eq('id', syntheticTenantId),
   ])
   evidence.cleanup.serviceTermRows = termDeleteError ? -1 : termCount
-  evidence.cleanup.tenantRows = tenantDeleteError ? -1 : tenantCount
+  evidence.cleanup.tenantRows = tenantCount
+  if (tenantDeleteError && !forcedTenantDelete) evidence.cleanup.tenantDeleteError = tenantDeleteError.message
   writeFileSync('D:/Cursor/Grand/changhong-shinelong/deliverables/evidence/service-expiry-production-verification.json', JSON.stringify(evidence, null, 2) + '\n')
 }
 

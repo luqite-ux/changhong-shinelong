@@ -1,19 +1,19 @@
 {
-  "projectName": "changhong-guard-muay1d3x",
-  "syntheticTenantId": "6342ebbf-8c12-4afd-a1bf-d63011d459a1",
+  "projectName": "changhong-guard-mujmaqgj",
+  "syntheticTenantId": "b883e87f-a61b-4fa3-983a-d89db829b606",
   "checks": {
     "publicExpiredStatus": {
-      "result": "FAIL",
+      "result": "PASS",
       "status": 200,
       "body": {
-        "available": true,
-        "status": "active",
-        "checkedAt": "2026-09-21T07:49:16.070Z",
+        "available": false,
+        "status": "expired",
+        "checkedAt": "2026-09-27T09:30:37.442Z",
         "version": 1
       }
     },
     "simulatedExpired": {
-      "result": "FAIL",
+      "result": "PASS",
       "status": 200
     },
     "adminReachable": {
@@ -32,6 +32,6 @@
   "cleanup": {
     "vercelProject": "DELETED",
     "serviceTermRows": 0,
-    "tenantRows": -1
+    "tenantRows": 0
   }
 }
