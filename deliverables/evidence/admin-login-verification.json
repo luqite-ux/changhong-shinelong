@@ -1,9 +1,9 @@
 {
   "loginStatus": 303,
-  "loginLocation": "https://changhong-shinelong.vercel.app/admin",
+  "loginLocation": "https://chxlglobal.com/admin",
   "sessionCookie": true,
   "tenantCookie": true,
   "dashboardStatus": 200,
   "dashboardContainsTenant": true,
-  "verifiedAt": "2026-09-21T07:51:03.432Z"
+  "verifiedAt": "2026-09-27T07:29:05.437Z"
 }
