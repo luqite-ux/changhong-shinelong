@@ -1,4 +1,4 @@
-const base='https://changhong-shinelong.vercel.app'
+const base='https://chxlglobal.com'
 const paths=['/','/products','/products/tgf','/applications','/manufacturing','/about','/news','/contact','/robots.txt','/sitemap.xml','/admin/login']
 const responses=await Promise.all(paths.map(async path=>{const response=await fetch(base+path);const body=await response.text();return {path,status:response.status,bytes:body.length,canonical:(body.match(/<link rel="canonical" href="([^"]+)/)||[])[1]||'',hasJsonLd:body.includes('application/ld+json'),body}}))
 const captchaResponse=await fetch(`${base}/api/captcha?scope=delivery-check-1`),captcha=await captchaResponse.json()

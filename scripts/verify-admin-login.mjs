@@ -2,8 +2,8 @@ import { readFileSync,writeFileSync } from 'node:fs'
 const rules=readFileSync(String.raw`D:\Cursor\Grand\huanqiu-admin\AGENTS.md`,'utf8')
 const password=rules.match(/初始密码统一固定为 `([^`]+)`/)?.[1]
 if(!password)throw new Error('Unable to resolve approved initial password rule')
-const base='https://changhong-shinelong.vercel.app'
-const body=new URLSearchParams({email:'1390339757@qq.com',password})
+const base='https://chxlglobal.com'
+const body=new URLSearchParams({email:'info@chxlglobal.com',password})
 const login=await fetch(`${base}/api/auth/login`,{method:'POST',body,redirect:'manual'})
 const cookies=login.headers.getSetCookie().map(value=>value.split(';')[0]).join('; ')
 const dashboard=await fetch(`${base}/admin`,{headers:{cookie:cookies},redirect:'manual'})
