@@ -52,7 +52,7 @@ export function SiteHeader() {
           </Button>
         </div>
 
-        <Link href={peerPath} hrefLang={locale === "zh" ? "en" : "zh-CN"} lang={locale === "zh" ? "en" : "zh-CN"} className="rounded-sm border px-2.5 py-2 text-sm font-medium hover:border-primary">{locale === "zh" ? "EN" : "中文"}</Link>
+        <a href={peerPath} hrefLang={locale === "zh" ? "en" : "zh-CN"} lang={locale === "zh" ? "en" : "zh-CN"} className="rounded-sm border px-2.5 py-2 text-sm font-medium hover:border-primary">{locale === "zh" ? "EN" : "中文"}</a>
 
         <MobileNav />
       </div>
