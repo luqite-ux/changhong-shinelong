@@ -17,12 +17,12 @@ export type HeroSlide = {
   tone?: "light" | "dark"
 }
 
-export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
+export function HeroCarousel({ slides, locale = "en" }: { slides: HeroSlide[]; locale?: "en" | "zh" }) {
   const [active, setActive] = useState(0)
   const activeTone = slides[active]?.tone ?? "dark"
 
   return (
-    <section aria-label="Featured highlights" className={`relative overflow-hidden border-b transition-colors ${activeTone === "light" ? "border-border bg-[#f5f8f9] text-foreground" : "border-white/10 bg-graphite text-white"}`}>
+    <section aria-label={locale === "zh" ? "精选内容" : "Featured highlights"} className={`relative overflow-hidden border-b transition-colors ${activeTone === "light" ? "border-border bg-[#f5f8f9] text-foreground" : "border-white/10 bg-graphite text-white"}`}>
       {slides.map((slide, index) => {
         const isActive = index === active
         const isLight = slide.tone === "light"
@@ -51,7 +51,7 @@ export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
 
       <div className="absolute inset-x-0 bottom-5 z-20 mx-auto flex max-w-7xl justify-center gap-2 px-4 sm:justify-start sm:px-6 lg:px-8">
         {slides.map((slide, index) => (
-          <button key={slide.id} type="button" onClick={() => setActive(index)} aria-label={`Show ${slide.eyebrow} highlight`} aria-pressed={index === active} className={`h-1.5 rounded-full transition-all ${index === active ? "w-8 bg-primary" : activeTone === "light" ? "w-4 bg-foreground/20 hover:bg-foreground/40" : "w-4 bg-white/35 hover:bg-white/60"}`} />
+          <button key={slide.id} type="button" onClick={() => setActive(index)} aria-label={locale === "zh" ? `显示${slide.eyebrow}` : `Show ${slide.eyebrow} highlight`} aria-pressed={index === active} className={`h-1.5 rounded-full transition-all ${index === active ? "w-8 bg-primary" : activeTone === "light" ? "w-4 bg-foreground/20 hover:bg-foreground/40" : "w-4 bg-white/35 hover:bg-white/60"}`} />
         ))}
       </div>
     </section>

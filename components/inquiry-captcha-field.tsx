@@ -13,6 +13,7 @@ type CaptchaResponse = {
 }
 
 type InquiryCaptchaFieldProps = {
+  locale?: 'en' | 'zh'
   tokenName?: string
   answerName?: string
   scopeName?: string
@@ -21,6 +22,7 @@ type InquiryCaptchaFieldProps = {
 }
 
 export function InquiryCaptchaField({
+  locale = 'en',
   tokenName = 'captchaToken',
   answerName = 'captchaAnswer',
   scopeName = 'captchaScope',
@@ -50,21 +52,22 @@ export function InquiryCaptchaField({
       setChallenge(body)
     } catch {
       if (!requests.isCurrent(request)) return
-      setError('Verification image failed to load. Please refresh it and try again.')
+      setError(locale === 'zh' ? '验证码图片加载失败，请刷新后重试。' : 'Verification image failed to load. Please refresh it and try again.')
     } finally {
       if (requests.isCurrent(request)) setLoading(false)
     }
-  }, [requests, scope])
+  }, [requests, scope, locale])
 
   useEffect(() => {
-    void refresh()
-    return () => requests.abortCurrent()
+    let active = true
+    queueMicrotask(() => { if (active) void refresh() })
+    return () => { active = false; requests.abortCurrent() }
   }, [refresh, refreshKey, requests])
 
   return (
     <div className={className}>
       <label htmlFor={answerName} className="mb-2 block text-sm font-medium">
-        Verification code
+        {locale === 'zh' ? '图片验证码' : 'Verification code'}
       </label>
       <div className="flex flex-wrap items-center gap-3">
         <div className="flex h-14 w-40 items-center justify-center overflow-hidden rounded-lg border bg-slate-50">
@@ -73,12 +76,12 @@ export function InquiryCaptchaField({
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={`data:image/svg+xml;charset=utf-8,${encodeURIComponent(challenge.svg)}`}
-              alt="Four-character verification image"
+              alt={locale === 'zh' ? '四位图片验证码' : 'Four-character verification image'}
               width={160}
               height={56}
             />
           ) : (
-            <span className="px-2 text-center text-xs text-slate-500">{loading ? 'Loading…' : 'Load failed'}</span>
+            <span className="px-2 text-center text-xs text-slate-500">{loading ? (locale === 'zh' ? '加载中…' : 'Loading…') : (locale === 'zh' ? '加载失败' : 'Load failed')}</span>
           )}
         </div>
         <input type="hidden" name={scopeName} value={scope} />
@@ -98,7 +101,7 @@ export function InquiryCaptchaField({
           inputMode="text"
           aria-describedby={error ? `${answerName}-error` : undefined}
           className="h-11 w-32 rounded-lg border border-slate-300 bg-white px-3 text-base uppercase tracking-[0.25em] text-slate-950 outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 disabled:cursor-not-allowed disabled:bg-slate-100"
-          placeholder="Code"
+          placeholder={locale === 'zh' ? '验证码' : 'Code'}
         />
         <button
           type="button"
@@ -106,7 +109,7 @@ export function InquiryCaptchaField({
           disabled={loading}
           className="h-11 rounded-lg border border-slate-300 bg-white px-3 text-sm font-medium text-slate-800 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-blue-600 disabled:cursor-not-allowed disabled:opacity-60"
         >
-          Refresh image
+          {locale === 'zh' ? '刷新图片' : 'Refresh image'}
         </button>
       </div>
       {error ? (

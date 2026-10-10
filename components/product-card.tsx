@@ -4,34 +4,34 @@ import { ArrowUpRight } from "lucide-react"
 import type { ProductFamily } from "@/lib/types"
 import { t } from "@/lib/types"
 
-export function ProductCard({ product }: { product: ProductFamily }) {
+export function ProductCard({ product, locale = "en" }: { product: ProductFamily; locale?: "en" | "zh" }) {
   const cover = product.images[0]
 
   return (
     <Link
-      href={`/products/${product.slug}`}
+      href={`${locale === "zh" ? "/zh" : ""}/products/${product.slug}`}
       className="group flex h-full flex-col overflow-hidden rounded-sm border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-[0_18px_40px_rgba(15,23,42,.10)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
     >
       <div className="relative flex aspect-[4/3] items-center justify-center overflow-hidden bg-[#f3f6f7] p-3 sm:p-4">
         <Image
           src={cover.src || "/placeholder.svg"}
-          alt={cover.alt}
+          alt={locale === "zh" ? `${t(product.name, "zh")}产品图片` : cover.alt}
           width={320}
           height={240}
           className="relative h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.018]"
         />
         {cover.status === "pending" && (
           <span className="absolute left-2 top-2 rounded-sm bg-secondary px-2 py-0.5 text-[11px] font-medium text-secondary-foreground">
-            Visual pending
+            {locale === "zh" ? "图片待补充" : "Visual pending"}
           </span>
         )}
       </div>
       <div className="flex flex-1 flex-col gap-2 border-t border-border p-5">
         <span className="text-xs font-semibold uppercase tracking-wide text-primary">{product.code}</span>
-        <h3 className="text-base font-semibold text-foreground">{t(product.name)}</h3>
-        <p className="line-clamp-2 text-sm text-muted-foreground">{t(product.summary)}</p>
+        <h3 className="text-base font-semibold text-foreground">{t(product.name, locale)}</h3>
+        <p className="line-clamp-2 text-sm text-muted-foreground">{t(product.summary, locale)}</p>
         <span className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-foreground">
-          View specifications
+          {locale === "zh" ? "查看规格参数" : "View specifications"}
           <ArrowUpRight className="size-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" aria-hidden="true" />
         </span>
       </div>

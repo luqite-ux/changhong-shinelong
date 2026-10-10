@@ -1,11 +1,12 @@
 import Image from "next/image"
 import media from "@/lib/customer-media-manifest.json"
 import { PageHero } from "@/components/page-hero"
+import { bilingualAlternates } from "@/lib/locale"
 
 export const metadata = {
   title: "Rotary Valve Selection Catalogue",
   description: "Read the rotary valve selection manual with model notes, dimensional drawings, specification tables and application guidance.",
-  alternates: { canonical: "/catalogue" },
+  alternates: bilingualAlternates("/catalogue", "en"),
 }
 
 export default function CataloguePage() {

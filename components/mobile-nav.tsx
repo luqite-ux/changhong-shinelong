@@ -6,17 +6,20 @@ import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { navigation } from "@/lib/site-config"
+import { navigationZh } from "@/lib/locale"
 
 export function MobileNav() {
   const [open, setOpen] = useState(false)
   const pathname = usePathname()
+  const locale = pathname === "/zh" || pathname.startsWith("/zh/") ? "zh" : "en"
+  const items = locale === "zh" ? navigationZh : navigation
 
   return (
     <div className="md:hidden">
       <Button
         variant="ghost"
         size="icon"
-        aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+        aria-label={open ? (locale === "zh" ? "关闭导航菜单" : "Close navigation menu") : (locale === "zh" ? "打开导航菜单" : "Open navigation menu")}
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
       >
@@ -26,7 +29,7 @@ export function MobileNav() {
       {open && (
         <div className="fixed inset-x-0 top-[var(--header-h,64px)] z-40 border-t border-border bg-background">
           <nav aria-label="Mobile" className="flex flex-col p-4">
-            {navigation.map((item) => {
+            {items.map((item) => {
               const isActive = pathname === item.href
               return (
                 <Link
@@ -43,11 +46,11 @@ export function MobileNav() {
               )
             })}
             <Link
-              href="/contact#rfq"
+              href={locale === "zh" ? "/zh/contact#rfq" : "/contact#rfq"}
               onClick={() => setOpen(false)}
               className="mt-2 rounded-sm bg-primary px-3 py-3 text-center text-base font-semibold text-primary-foreground"
             >
-              Request a Quote
+              {locale === "zh" ? "获取报价" : "Request a Quote"}
             </Link>
           </nav>
         </div>

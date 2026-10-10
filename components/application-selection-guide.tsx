@@ -4,12 +4,12 @@ import { ArrowUpRight, CheckCircle2 } from "lucide-react"
 import { SelectionFlow } from "@/components/selection-flow"
 
 const selectionInputs = [
-  "Material type, particle size and abrasiveness",
+  "Material type, particle size, abrasiveness and stickiness",
   "Required throughput and operating cycle",
-  "Temperature, pressure and air-seal requirement",
+  "Operating temperature, pressure and air-seal requirement",
   "Inlet, outlet and available installation space",
-  "Discharge, metering, crushing or transfer duty",
-  "Motor power, mounting and control preference",
+  "Discharge, metering or positive/negative-pressure conveying duty",
+  "Motor and reducer specifications, mounting and control preference",
 ]
 
 const recommendationPaths = [

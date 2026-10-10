@@ -14,6 +14,7 @@ type FactoryVideoProps = {
   src?: string
   poster: string
   posterAlt: string
+  locale?: "en" | "zh"
 }
 
 /**
@@ -22,7 +23,7 @@ type FactoryVideoProps = {
  * is hidden, and always shows a static poster fallback. Controls remain
  * available at all times (MOT-CHXL-04).
  */
-export function FactoryVideo({ src, poster, posterAlt }: FactoryVideoProps) {
+export function FactoryVideo({ src, poster, posterAlt, locale = "en" }: FactoryVideoProps) {
   const videoRef = useRef<HTMLVideoElement | null>(null)
   const containerRef = useRef<HTMLDivElement | null>(null)
   const [hasStarted, setHasStarted] = useState(false)
@@ -77,7 +78,7 @@ export function FactoryVideo({ src, poster, posterAlt }: FactoryVideoProps) {
           type="button"
           onClick={() => src && setHasStarted(true)}
           disabled={!src}
-          aria-label={src ? "Play factory manufacturing video" : "Factory video coming soon"}
+          aria-label={src ? (locale === "zh" ? "播放工厂生产视频" : "Play factory manufacturing video") : (locale === "zh" ? "工厂视频即将上线" : "Factory video coming soon")}
           className="group relative flex h-full w-full items-center justify-center disabled:cursor-default"
         >
           <Image
@@ -93,7 +94,7 @@ export function FactoryVideo({ src, poster, posterAlt }: FactoryVideoProps) {
           </span>
           {!src && (
             <span className="absolute bottom-3 left-3 rounded-sm bg-background/90 px-2.5 py-1 text-xs font-medium text-foreground">
-              Manufacturing montage — integration in progress
+              {locale === "zh" ? "生产视频正在准备中" : "Manufacturing montage — integration in progress"}
             </span>
           )}
         </button>

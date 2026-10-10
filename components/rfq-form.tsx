@@ -27,7 +27,7 @@ type SubmitState = "idle" | "submitting" | "success" | "error"
  * verification after handoff, so the form honestly reports that state
  * instead of simulating success.
  */
-export function RfqForm({ defaultTopic, productOptions = [] }: { defaultTopic?: string; productOptions?: Array<{slug:string;label:string}> }) {
+export function RfqForm({ defaultTopic, productOptions = [], locale = "en" }: { defaultTopic?: string; productOptions?: Array<{slug:string;label:string}>; locale?: "en" | "zh" }) {
   const [status, setStatus] = useState<SubmitState>("idle")
   const [message, setMessage] = useState("")
   const [captchaRefreshKey, setCaptchaRefreshKey] = useState(0)
@@ -39,7 +39,7 @@ export function RfqForm({ defaultTopic, productOptions = [] }: { defaultTopic?: 
     setStatus("submitting");setMessage("")
     const response=await fetch('/api/inquiries',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({name:data.get('name'),company:data.get('company'),email:data.get('email'),phone:data.get('phone'),subject:data.get('product')?`Product inquiry: ${data.get('product')}`:'Website inquiry',message:[data.get('message'),data.get('material')&&`Material / application: ${data.get('material')}`,data.get('capacity')&&`Capacity / specification: ${data.get('capacity')}`].filter(Boolean).join('\n\n'),captchaScope:data.get('captchaScope'),captchaToken:data.get('captchaToken'),captchaAnswer:data.get('captchaAnswer')})}).catch(()=>null)
     const result=response?await response.json().catch(()=>({})):{}
-    if(response?.ok){setStatus('success');setMessage(`Inquiry submitted${result.reference?` — reference ${result.reference}`:''}.`);form.reset()}else{setStatus('error');setMessage(result.message??'Submission failed. Please try again.')}
+    if(response?.ok){setStatus('success');setMessage(locale === 'zh' ? `询盘已提交${result.reference?`，编号 ${result.reference}`:''}。` : `Inquiry submitted${result.reference?` — reference ${result.reference}`:''}.`);form.reset()}else{setStatus('error');setMessage(locale === 'zh' ? '提交失败，请检查信息并重试。' : (result.message??'Submission failed. Please try again.'))}
     setCaptchaRefreshKey(x=>x+1)
   }
 
@@ -47,30 +47,30 @@ export function RfqForm({ defaultTopic, productOptions = [] }: { defaultTopic?: 
     <form onSubmit={handleSubmit} className="space-y-8" aria-describedby="rfq-status">
       <FieldGroup>
         <Field orientation="responsive">
-          <FieldLabel htmlFor="name">Full name</FieldLabel>
+          <FieldLabel htmlFor="name">{locale === "zh" ? "姓名" : "Full name"}</FieldLabel>
           <Input id="name" name="name" required autoComplete="name" />
         </Field>
 
         <Field orientation="responsive">
-          <FieldLabel htmlFor="company">Company</FieldLabel>
+          <FieldLabel htmlFor="company">{locale === "zh" ? "公司" : "Company"}</FieldLabel>
           <Input id="company" name="company" required autoComplete="organization" />
         </Field>
 
         <Field orientation="responsive">
-          <FieldLabel htmlFor="email">Email</FieldLabel>
+          <FieldLabel htmlFor="email">{locale === "zh" ? "电子邮箱" : "Email"}</FieldLabel>
           <Input id="email" name="email" type="email" required autoComplete="email" />
         </Field>
 
         <Field orientation="responsive">
-          <FieldLabel htmlFor="phone">Phone / WhatsApp</FieldLabel>
+          <FieldLabel htmlFor="phone">{locale === "zh" ? "电话" : "Phone / WhatsApp"}</FieldLabel>
           <Input id="phone" name="phone" type="tel" required autoComplete="tel" />
         </Field>
 
         <Field orientation="responsive">
-          <FieldLabel htmlFor="product">Target product</FieldLabel>
+          <FieldLabel htmlFor="product">{locale === "zh" ? "意向产品" : "Target product"}</FieldLabel>
           <Select name="product" defaultValue={defaultTopic}>
             <SelectTrigger id="product" className="w-full">
-              <SelectValue placeholder="Select a product family (optional)" />
+              <SelectValue placeholder={locale === "zh" ? "选择产品系列（可选）" : "Select a product family (optional)"} />
             </SelectTrigger>
             <SelectContent>
               {productOptions.map((p) => (
@@ -78,31 +78,31 @@ export function RfqForm({ defaultTopic, productOptions = [] }: { defaultTopic?: 
                   {p.label}
                 </SelectItem>
               ))}
-              <SelectItem value="not-sure">Not sure — need selection support</SelectItem>
+              <SelectItem value="not-sure">{locale === "zh" ? "尚不确定，需要选型建议" : "Not sure — need selection support"}</SelectItem>
             </SelectContent>
           </Select>
         </Field>
 
         <Field>
-          <FieldLabel htmlFor="material">Material / application</FieldLabel>
+          <FieldLabel htmlFor="material">{locale === "zh" ? "物料／应用场景" : "Material / application"}</FieldLabel>
           <Input
             id="material"
             name="material"
-            placeholder="e.g. stainless steel, food-grade powder, lithium battery material"
+            placeholder={locale === "zh" ? "例如：食品粉料、锂电材料及其磨蚀性或粘性" : "e.g. stainless steel, food-grade powder, lithium battery material"}
           />
         </Field>
 
         <Field>
-          <FieldLabel htmlFor="capacity">Capacity / specification requirements</FieldLabel>
-          <Input id="capacity" name="capacity" placeholder="e.g. throughput, pressure, flange size, motor power" />
+          <FieldLabel htmlFor="capacity">{locale === "zh" ? "产能／规格要求" : "Capacity / specification requirements"}</FieldLabel>
+          <Input id="capacity" name="capacity" placeholder={locale === "zh" ? "例如：吞吐量、温度与压力、法兰尺寸、电机与减速机" : "e.g. throughput, temperature and pressure, flange size, motor and reducer"} />
         </Field>
 
         <Field>
-          <FieldLabel htmlFor="message">Message</FieldLabel>
+          <FieldLabel htmlFor="message">{locale === "zh" ? "需求说明" : "Message"}</FieldLabel>
           <Textarea id="message" name="message" rows={5} required />
         </Field>
 
-        <InquiryCaptchaField refreshKey={captchaRefreshKey} className="rounded-sm border bg-muted/40 p-4" />
+        <InquiryCaptchaField refreshKey={captchaRefreshKey} locale={locale} className="rounded-sm border bg-muted/40 p-4" />
       </FieldGroup>
 
       <div>
@@ -110,10 +110,10 @@ export function RfqForm({ defaultTopic, productOptions = [] }: { defaultTopic?: 
           {status === "submitting" ? (
             <>
               <Loader2 className="size-4 animate-spin" aria-hidden="true" />
-              Processing
+              {locale === "zh" ? "提交中" : "Processing"}
             </>
           ) : (
-            "Submit inquiry"
+            locale === "zh" ? "提交询盘" : "Submit inquiry"
           )}
         </Button>
       </div>

@@ -20,7 +20,9 @@ export async function middleware(request: NextRequest) {
 
   const serviceGuardResponse = await applyServiceExpiryGuard(request)
   if (serviceGuardResponse) return serviceGuardResponse
-  return NextResponse.next()
+  const headers = new Headers(request.headers)
+  headers.set('x-site-locale', pathname === '/zh' || pathname.startsWith('/zh/') ? 'zh' : 'en')
+  return NextResponse.next({ request: { headers } })
 }
 
 export const config = {

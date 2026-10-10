@@ -2,17 +2,19 @@ import Link from "next/link"
 import Image from "next/image"
 import { Phone, Mail, MapPin } from "lucide-react"
 import { navigation, siteConfig } from "@/lib/site-config"
+import { navigationZh } from "@/lib/locale"
 
-export function SiteFooter() {
+export function SiteFooter({ locale = "en" }: { locale?: "en" | "zh" }) {
   const year = new Date().getFullYear()
   const copyrightOwner = siteConfig.legalNameEn.replace(/[\s.;:!?。；：！？]+$/u, '')
+  const items = locale === "zh" ? navigationZh : navigation
 
   return (
     <footer className="border-t border-border bg-card">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
-            <Link href="/" aria-label="Chanhong ShineLong home" className="inline-block">
+            <Link href={locale === "zh" ? "/zh" : "/"} aria-label={locale === "zh" ? "常宏祥隆首页" : "Chanhong ShineLong home"} className="inline-block">
               <Image
                 src="/images/logo-transparent.png"
                 alt="Chanhong ShineLong company logo"
@@ -22,16 +24,14 @@ export function SiteFooter() {
               />
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
-              Manufacturer of rotary valves/airlocks, screw conveyors and electric crushing valves since{" "}
-              {siteConfig.foundedYear}, serving grain, food, feed, chemical, petrochemical, pharmaceutical, drying,
-              environmental protection, dust collection and new-energy applications.
+              {locale === "zh" ? "专业生产旋转阀、气锁、螺旋输送机和电动破碎阀，至今已有20年的历史，服务于粮食、食品、饲料、化工、石化、制药、干燥、环保、除尘及新能源领域。" : "With 20 years of experience in rotary valves/airlocks, screw conveyors and electric crushing valves for bulk material handling."}
             </p>
           </div>
 
           <div>
-            <h2 className="text-sm font-semibold text-foreground">Site</h2>
+            <h2 className="text-sm font-semibold text-foreground">{locale === "zh" ? "网站导航" : "Site"}</h2>
             <ul className="mt-4 space-y-2">
-              {navigation.map((item) => (
+              {items.map((item) => (
                 <li key={item.href}>
                   <Link href={item.href} className="text-sm text-muted-foreground hover:text-foreground">
                     {item.label}
@@ -42,7 +42,7 @@ export function SiteFooter() {
           </div>
 
           <div>
-            <h2 className="text-sm font-semibold text-foreground">Contact</h2>
+            <h2 className="text-sm font-semibold text-foreground">{locale === "zh" ? "联系方式" : "Contact"}</h2>
             <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <Phone className="mt-0.5 size-4 shrink-0 text-primary" aria-hidden="true" />
@@ -58,7 +58,7 @@ export function SiteFooter() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="mt-0.5 size-4 shrink-0 text-primary" aria-hidden="true" />
-                <span>{siteConfig.addressEn}</span>
+                <span>{locale === "zh" ? siteConfig.addressZh : siteConfig.addressEn}</span>
               </li>
             </ul>
           </div>
@@ -66,11 +66,11 @@ export function SiteFooter() {
 
         <div className="mt-10 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {year} {copyrightOwner}. All rights reserved.
+            {locale === "zh" ? `© ${year} ${siteConfig.legalNameZh}。保留所有权利。` : `© ${year} ${copyrightOwner}. All rights reserved.`}
           </p>
           <p className="text-muted-foreground/80">{siteConfig.legalNameZh}</p>
-          <Link href="/catalogue" className="text-muted-foreground/80 hover:text-foreground">
-            Selection catalogue
+          <Link href={locale === "zh" ? "/zh/catalogue" : "/catalogue"} className="text-muted-foreground/80 hover:text-foreground">
+            {locale === "zh" ? "选型手册" : "Selection catalogue"}
           </Link>
         </div>
       </div>
