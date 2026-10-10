@@ -34,7 +34,7 @@ export default async function ChineseHome() {
   return <>
     <HeroCarousel slides={slides} locale="zh" />
     <Reveal as="section" className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
-      <div className="flex items-end justify-between gap-6"><div><p className="text-sm font-semibold text-primary">产品系列</p><h2 className="mt-2 text-3xl font-semibold">大宗物料流量控制解决方案</h2></div><Link href="/zh/products" className="hidden font-medium sm:block">查看全部产品 →</Link></div>
+      <div className="flex items-end justify-between gap-6"><div><p className="text-sm font-semibold text-primary">产品系列</p><h2 className="mt-2 text-3xl font-semibold">大宗物料流量管控解决方案</h2></div><Link href="/zh/products" className="hidden font-medium sm:block">查看全部产品 →</Link></div>
       <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{products.slice(0, 6).map(p => <ProductCard key={p.slug} product={p} locale="zh" />)}</div>
     </Reveal>
     <Reveal as="section" className="border-y border-border bg-secondary/40"><div className="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:items-center lg:px-8"><div><p className="text-sm font-semibold text-primary">生产制造</p><h2 className="mt-2 text-3xl font-semibold">从机加工到最终检验的生产流程</h2><p className="mt-4 max-w-xl leading-7 text-muted-foreground">机加工、打磨焊接、装配、检验及仓储环节在常州生产场地有序衔接。</p><div className="mt-8 grid grid-cols-2 gap-4">{["5 个生产区域", "月产能 500 台", "6,000 平方米场地", "OEM / ODM"].map(label => <div key={label} className="rounded-sm border bg-background p-4 text-sm font-medium">{label}</div>)}</div></div><FactoryVideo src="/media/factory-tour-focused.mp4" poster="/images/ai-facility/production-floor-overview.png" posterAlt="常宏祥隆生产车间" locale="zh" /></div></Reveal>
