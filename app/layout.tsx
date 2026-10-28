@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   openGraph: { type: 'website', url: '/', siteName: siteConfig.brandName, title: 'Chanhong ShineLong | Rotary Valves, Screw Conveyors & Crushing Valves', description: 'Rotary valves, screw conveyors and electric crushing valves for overseas B2B material-handling applications.', images: [{ url: '/images/ai-banners/product-family-hero-v2.png', width: 1536, height: 1024, alt: 'Chanhong ShineLong rotary valve product family' }] },
   twitter: { card: 'summary_large_image', images: ['/images/ai-banners/product-family-hero-v2.png'] },
   icons: {
-    icon: [{ url: '/images/logo-transparent.png', type: 'image/png' }],
-    apple: [{ url: '/images/logo-transparent.png', type: 'image/png' }],
+    icon: [{ url: '/icon.png', type: 'image/png' }],
+    apple: [{ url: '/apple-icon.png', type: 'image/png' }],
   },
 }
 
