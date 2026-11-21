@@ -5,10 +5,11 @@
 export type LocalizedText = {
   en: string
   zh?: string
+  ru?: string
 }
 
-export function t(text: LocalizedText, _locale: "en" | "zh" = "en"): string {
-  return text[_locale] ?? text.en
+export function t(text: LocalizedText, locale: "en" | "zh" | "ru" = "en"): string {
+  return text[locale] || text.en
 }
 
 export type ProductImage = {

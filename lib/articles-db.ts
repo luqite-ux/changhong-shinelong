@@ -23,11 +23,11 @@ type ArticleRow = {
   updated_at?: string | null
 }
 
-function translated(value: Record<string, string> | null | undefined, locale: "en" | "zh", fallback: string) {
+function translated(value: Record<string, string> | null | undefined, locale: "en" | "zh" | "ru", fallback: string) {
   return value?.[locale] || value?.en || Object.values(value || {}).find(Boolean) || fallback
 }
 
-export async function getPublishedArticles(locale: "en" | "zh" = "en") {
+export async function getPublishedArticles(locale: "en" | "zh" | "ru" = "en") {
   const db = getSupabaseClient()
   const tenant = getTenantId()
   if (!db || !tenant) throw new Error("Supabase article configuration is missing")
@@ -48,6 +48,6 @@ export async function getPublishedArticles(locale: "en" | "zh" = "en") {
   })) satisfies Article[]
 }
 
-export async function getArticle(slug: string, locale: "en" | "zh" = "en") {
+export async function getArticle(slug: string, locale: "en" | "zh" | "ru" = "en") {
   return (await getPublishedArticles(locale)).find(article => article.slug === slug)
 }

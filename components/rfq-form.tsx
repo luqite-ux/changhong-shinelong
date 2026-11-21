@@ -27,7 +27,7 @@ type SubmitState = "idle" | "submitting" | "success" | "error"
  * verification after handoff, so the form honestly reports that state
  * instead of simulating success.
  */
-export function RfqForm({ defaultTopic, productOptions = [], locale = "en" }: { defaultTopic?: string; productOptions?: Array<{slug:string;label:string}>; locale?: "en" | "zh" }) {
+export function RfqForm({ defaultTopic, productOptions = [], locale = "en" }: { defaultTopic?: string; productOptions?: Array<{slug:string;label:string}>; locale?: "en" | "zh" | "ru" }) {
   const [status, setStatus] = useState<SubmitState>("idle")
   const [message, setMessage] = useState("")
   const [captchaRefreshKey, setCaptchaRefreshKey] = useState(0)
@@ -39,7 +39,7 @@ export function RfqForm({ defaultTopic, productOptions = [], locale = "en" }: { 
     setStatus("submitting");setMessage("")
     const response=await fetch('/api/inquiries',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({name:data.get('name'),company:data.get('company'),email:data.get('email'),phone:data.get('phone'),subject:data.get('product')?`Product inquiry: ${data.get('product')}`:'Website inquiry',message:[data.get('message'),data.get('material')&&`Material / application: ${data.get('material')}`,data.get('capacity')&&`Capacity / specification: ${data.get('capacity')}`].filter(Boolean).join('\n\n'),captchaScope:data.get('captchaScope'),captchaToken:data.get('captchaToken'),captchaAnswer:data.get('captchaAnswer')})}).catch(()=>null)
     const result=response?await response.json().catch(()=>({})):{}
-    if(response?.ok){setStatus('success');setMessage(locale === 'zh' ? `询盘已提交${result.reference?`，编号 ${result.reference}`:''}。` : `Inquiry submitted${result.reference?` — reference ${result.reference}`:''}.`);form.reset()}else{setStatus('error');setMessage(locale === 'zh' ? '提交失败，请检查信息并重试。' : (result.message??'Submission failed. Please try again.'))}
+    if(response?.ok){setStatus('success');setMessage(locale === 'zh' ? `询盘已提交${result.reference?`，编号 ${result.reference}`:''}。` : locale === 'ru' ? `Запрос отправлен${result.reference?` — номер ${result.reference}`:''}.` : `Inquiry submitted${result.reference?` — reference ${result.reference}`:''}.`);form.reset()}else{setStatus('error');setMessage(locale === 'zh' ? '提交失败，请检查信息并重试。' : locale === 'ru' ? 'Не удалось отправить запрос. Проверьте данные и повторите попытку.' : (result.message??'Submission failed. Please try again.'))}
     setCaptchaRefreshKey(x=>x+1)
   }
 
@@ -47,12 +47,12 @@ export function RfqForm({ defaultTopic, productOptions = [], locale = "en" }: { 
     <form onSubmit={handleSubmit} className="space-y-8" aria-describedby="rfq-status">
       <FieldGroup>
         <Field orientation="responsive">
-          <FieldLabel htmlFor="name">{locale === "zh" ? "姓名" : "Full name"}</FieldLabel>
+          <FieldLabel htmlFor="name">{locale === "zh" ? "姓名" : locale === "ru" ? "Имя" : "Full name"}</FieldLabel>
           <Input id="name" name="name" required autoComplete="name" />
         </Field>
 
         <Field orientation="responsive">
-          <FieldLabel htmlFor="company">{locale === "zh" ? "公司" : "Company"}</FieldLabel>
+          <FieldLabel htmlFor="company">{locale === "zh" ? "公司" : locale === "ru" ? "Компания" : "Company"}</FieldLabel>
           <Input id="company" name="company" required autoComplete="organization" />
         </Field>
 
@@ -62,15 +62,15 @@ export function RfqForm({ defaultTopic, productOptions = [], locale = "en" }: { 
         </Field>
 
         <Field orientation="responsive">
-          <FieldLabel htmlFor="phone">{locale === "zh" ? "电话" : "Phone / WhatsApp"}</FieldLabel>
+          <FieldLabel htmlFor="phone">{locale === "zh" ? "电话" : locale === "ru" ? "Телефон / WhatsApp" : "Phone / WhatsApp"}</FieldLabel>
           <Input id="phone" name="phone" type="tel" required autoComplete="tel" />
         </Field>
 
         <Field orientation="responsive">
-          <FieldLabel htmlFor="product">{locale === "zh" ? "意向产品" : "Target product"}</FieldLabel>
+          <FieldLabel htmlFor="product">{locale === "zh" ? "意向产品" : locale === "ru" ? "Интересующая продукция" : "Target product"}</FieldLabel>
           <Select name="product" defaultValue={defaultTopic}>
             <SelectTrigger id="product" className="w-full">
-              <SelectValue placeholder={locale === "zh" ? "选择产品系列（可选）" : "Select a product family (optional)"} />
+              <SelectValue placeholder={locale === "zh" ? "选择产品系列（可选）" : locale === "ru" ? "Выберите серию продукции (необязательно)" : "Select a product family (optional)"} />
             </SelectTrigger>
             <SelectContent>
               {productOptions.map((p) => (
@@ -78,27 +78,27 @@ export function RfqForm({ defaultTopic, productOptions = [], locale = "en" }: { 
                   {p.label}
                 </SelectItem>
               ))}
-              <SelectItem value="not-sure">{locale === "zh" ? "尚不确定，需要选型建议" : "Not sure — need selection support"}</SelectItem>
+              <SelectItem value="not-sure">{locale === "zh" ? "尚不确定，需要选型建议" : locale === "ru" ? "Нужна помощь с подбором" : "Not sure — need selection support"}</SelectItem>
             </SelectContent>
           </Select>
         </Field>
 
         <Field>
-          <FieldLabel htmlFor="material">{locale === "zh" ? "物料／应用场景" : "Material / application"}</FieldLabel>
+          <FieldLabel htmlFor="material">{locale === "zh" ? "物料／应用场景" : locale === "ru" ? "Материал / применение" : "Material / application"}</FieldLabel>
           <Input
             id="material"
             name="material"
-            placeholder={locale === "zh" ? "例如：食品粉料、锂电材料及其磨蚀性或粘性" : "e.g. stainless steel, food-grade powder, lithium battery material"}
+            placeholder={locale === "zh" ? "例如：食品粉料、锂电材料及其磨蚀性或粘性" : locale === "ru" ? "Например: пищевой порошок, материал для аккумуляторов, абразивность или липкость" : "e.g. stainless steel, food-grade powder, lithium battery material"}
           />
         </Field>
 
         <Field>
-          <FieldLabel htmlFor="capacity">{locale === "zh" ? "产能／规格要求" : "Capacity / specification requirements"}</FieldLabel>
-          <Input id="capacity" name="capacity" placeholder={locale === "zh" ? "例如：吞吐量、温度与压力、法兰尺寸、电机与减速机" : "e.g. throughput, temperature and pressure, flange size, motor and reducer"} />
+          <FieldLabel htmlFor="capacity">{locale === "zh" ? "产能／规格要求" : locale === "ru" ? "Производительность / требования" : "Capacity / specification requirements"}</FieldLabel>
+          <Input id="capacity" name="capacity" placeholder={locale === "zh" ? "例如：吞吐量、温度与压力、法兰尺寸、电机与减速机" : locale === "ru" ? "Например: производительность, температура, давление, размер фланца, двигатель и редуктор" : "e.g. throughput, temperature and pressure, flange size, motor and reducer"} />
         </Field>
 
         <Field>
-          <FieldLabel htmlFor="message">{locale === "zh" ? "需求说明" : "Message"}</FieldLabel>
+          <FieldLabel htmlFor="message">{locale === "zh" ? "需求说明" : locale === "ru" ? "Описание задачи" : "Message"}</FieldLabel>
           <Textarea id="message" name="message" rows={5} required />
         </Field>
 
@@ -110,10 +110,10 @@ export function RfqForm({ defaultTopic, productOptions = [], locale = "en" }: { 
           {status === "submitting" ? (
             <>
               <Loader2 className="size-4 animate-spin" aria-hidden="true" />
-              {locale === "zh" ? "提交中" : "Processing"}
+              {locale === "zh" ? "提交中" : locale === "ru" ? "Отправка" : "Processing"}
             </>
           ) : (
-            locale === "zh" ? "提交询盘" : "Submit inquiry"
+            locale === "zh" ? "提交询盘" : locale === "ru" ? "Отправить запрос" : "Submit inquiry"
           )}
         </Button>
       </div>

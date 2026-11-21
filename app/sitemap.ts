@@ -18,7 +18,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return paths.flatMap(({ path, lastModified }) => {
     const en = `${siteConfig.siteUrl}${localizedPath(path, "en")}`
     const zh = `${siteConfig.siteUrl}${localizedPath(path, "zh")}`
-    const alternates = { languages: { en, "zh-CN": zh } }
-    return [{ url: en, lastModified, alternates }, { url: zh, lastModified, alternates }]
+    const ru = `${siteConfig.siteUrl}${localizedPath(path, "ru")}`
+    const alternates = { languages: { en, "zh-CN": zh, ru, "x-default": en } }
+    return [{ url: en, lastModified, alternates }, { url: zh, lastModified, alternates }, { url: ru, lastModified, alternates }]
   })
 }

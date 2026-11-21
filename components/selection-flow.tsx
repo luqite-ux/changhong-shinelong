@@ -18,13 +18,21 @@ const stepsZh = [
   { label: "电机与减速机", detail: "电机与减速机规格、安装方式及控制要求" },
 ] as const
 
+const stepsRu = [
+  { label: "Задача", detail: "Выгрузка, дозирование или пневмотранспорт под положительным/отрицательным давлением" },
+  { label: "Материал", detail: "Тип сыпучего материала, размер частиц, абразивность и липкость" },
+  { label: "Производительность", detail: "Требуемая пропускная способность и рабочий цикл" },
+  { label: "Температура и давление", detail: "Рабочая температура, давление и требования к герметичности" },
+  { label: "Двигатель и редуктор", detail: "Характеристики, монтаж и способ управления" },
+] as const
+
 /**
  * Material-selection flow path (MOT-CHXL-03). Desktop lays the path out
  * horizontally, 390px stacks it vertically. The connecting line draws in
  * once the section enters the viewport; under reduced motion the complete
  * static path is shown immediately.
  */
-export function SelectionFlow({ locale = "en" }: { locale?: "en" | "zh" }) {
+export function SelectionFlow({ locale = "en" }: { locale?: "en" | "zh" | "ru" }) {
   const ref = useRef<HTMLOListElement | null>(null)
   const [isRevealed, setIsRevealed] = useState(false)
 
@@ -57,7 +65,7 @@ export function SelectionFlow({ locale = "en" }: { locale?: "en" | "zh" }) {
           isRevealed ? "scale-y-100 sm:scale-x-100" : "scale-y-0 sm:scale-x-0"
         }`}
       />
-      {(locale === "zh" ? stepsZh : steps).map((step, index) => (
+      {(locale === "zh" ? stepsZh : locale === "ru" ? stepsRu : steps).map((step, index) => (
         <li key={step.label} className="relative flex flex-1 gap-4 sm:flex-col sm:gap-3">
           <span
             className={`z-10 flex size-6 shrink-0 items-center justify-center rounded-full border-2 border-primary bg-background text-xs font-semibold text-primary transition-colors duration-300 ${

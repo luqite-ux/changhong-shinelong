@@ -6,20 +6,24 @@ import { usePathname } from "next/navigation"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { navigation } from "@/lib/site-config"
-import { navigationZh } from "@/lib/locale"
+import { localeFromPathname, localizedPath, navigationRu, navigationZh, stripLocalePrefix } from "@/lib/locale"
 
 export function MobileNav() {
   const [open, setOpen] = useState(false)
   const pathname = usePathname()
-  const locale = pathname === "/zh" || pathname.startsWith("/zh/") ? "zh" : "en"
-  const items = locale === "zh" ? navigationZh : navigation
+  const locale = localeFromPathname(pathname)
+  const items = locale === "zh" ? navigationZh : locale === "ru" ? navigationRu : navigation
+  const basePath = stripLocalePrefix(pathname)
+  const menuLabel = open
+    ? locale === "zh" ? "关闭导航菜单" : locale === "ru" ? "Закрыть меню" : "Close navigation menu"
+    : locale === "zh" ? "打开导航菜单" : locale === "ru" ? "Открыть меню" : "Open navigation menu"
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <Button
         variant="ghost"
         size="icon"
-        aria-label={open ? (locale === "zh" ? "关闭导航菜单" : "Close navigation menu") : (locale === "zh" ? "打开导航菜单" : "Open navigation menu")}
+        aria-label={menuLabel}
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
       >
@@ -46,12 +50,17 @@ export function MobileNav() {
               )
             })}
             <Link
-              href={locale === "zh" ? "/zh/contact#rfq" : "/contact#rfq"}
+              href={`${localizedPath("/contact", locale)}#rfq`}
               onClick={() => setOpen(false)}
               className="mt-2 rounded-sm bg-primary px-3 py-3 text-center text-base font-semibold text-primary-foreground"
             >
-              {locale === "zh" ? "获取报价" : "Request a Quote"}
+              {locale === "zh" ? "获取报价" : locale === "ru" ? "Запросить предложение" : "Request a Quote"}
             </Link>
+            <div className="mt-4 flex gap-2 border-t pt-4" aria-label="Language selector">
+              {[{ code: "en" as const, label: "EN", lang: "en" }, { code: "zh" as const, label: "中文", lang: "zh-CN" }, { code: "ru" as const, label: "RU", lang: "ru" }].map((item) => (
+                <a key={item.code} href={localizedPath(basePath, item.code)} hrefLang={item.lang} lang={item.lang} aria-current={locale === item.code ? "page" : undefined} className={`flex-1 rounded-sm border px-3 py-2 text-center text-sm font-medium ${locale === item.code ? "border-primary text-primary" : ""}`}>{item.label}</a>
+              ))}
+            </div>
           </nav>
         </div>
       )}

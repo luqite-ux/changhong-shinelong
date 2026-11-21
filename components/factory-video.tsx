@@ -14,7 +14,7 @@ type FactoryVideoProps = {
   src?: string
   poster: string
   posterAlt: string
-  locale?: "en" | "zh"
+  locale?: "en" | "zh" | "ru"
 }
 
 /**
@@ -78,7 +78,7 @@ export function FactoryVideo({ src, poster, posterAlt, locale = "en" }: FactoryV
           type="button"
           onClick={() => src && setHasStarted(true)}
           disabled={!src}
-          aria-label={src ? (locale === "zh" ? "播放工厂生产视频" : "Play factory manufacturing video") : (locale === "zh" ? "工厂视频即将上线" : "Factory video coming soon")}
+          aria-label={src ? (locale === "zh" ? "播放工厂生产视频" : locale === "ru" ? "Воспроизвести видео о производстве" : "Play factory manufacturing video") : (locale === "zh" ? "工厂视频即将上线" : locale === "ru" ? "Видео о производстве готовится" : "Factory video coming soon")}
           className="group relative flex h-full w-full items-center justify-center disabled:cursor-default"
         >
           <Image
@@ -94,7 +94,7 @@ export function FactoryVideo({ src, poster, posterAlt, locale = "en" }: FactoryV
           </span>
           {!src && (
             <span className="absolute bottom-3 left-3 rounded-sm bg-background/90 px-2.5 py-1 text-xs font-medium text-foreground">
-              {locale === "zh" ? "生产视频正在准备中" : "Manufacturing montage — integration in progress"}
+              {locale === "zh" ? "生产视频正在准备中" : locale === "ru" ? "Видео о производстве готовится" : "Manufacturing montage — integration in progress"}
             </span>
           )}
         </button>

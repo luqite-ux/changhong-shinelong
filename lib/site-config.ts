@@ -8,6 +8,7 @@ export const siteConfig = {
   email: "info@chxlglobal.com",
   addressZh: "常州市武进区牛塘镇大通西路197号2-101",
   addressEn: "No. 2-101, Datong West Road, Niutang Town, Wujin District, Changzhou City, Jiangsu, China",
+  addressRu: "Китай, провинция Цзянсу, г. Чанчжоу, район Уцзинь, пос. Нютан, ул. Датун Западная, д. 197, корп. 2-101",
   domesticSite: "http://www.chxljx.com/",
   siteAreaSqm: 6000,
   monthlyCapacityUnits: 500,
