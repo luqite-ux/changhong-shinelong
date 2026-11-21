@@ -12,7 +12,7 @@ export function SiteHeader() {
   const pathname = usePathname()
   const locale = localeFromPathname(pathname)
   const items = locale === "zh" ? navigationZh : locale === "ru" ? navigationRu : navigation
-  const basePath = stripLocalePrefix(pathname)
+  const basePath = pathname.startsWith("/admin") ? "/" : stripLocalePrefix(pathname)
   const quoteHref = `${localizedPath("/contact", locale)}#rfq`
 
   return (

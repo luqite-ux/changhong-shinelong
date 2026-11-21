@@ -13,7 +13,7 @@ export function MobileNav() {
   const pathname = usePathname()
   const locale = localeFromPathname(pathname)
   const items = locale === "zh" ? navigationZh : locale === "ru" ? navigationRu : navigation
-  const basePath = stripLocalePrefix(pathname)
+  const basePath = pathname.startsWith("/admin") ? "/" : stripLocalePrefix(pathname)
   const menuLabel = open
     ? locale === "zh" ? "关闭导航菜单" : locale === "ru" ? "Закрыть меню" : "Close navigation menu"
     : locale === "zh" ? "打开导航菜单" : locale === "ru" ? "Открыть меню" : "Open navigation menu"
