@@ -43,7 +43,9 @@ const technicalTermsRu: Record<string, string> = {
   "Titanium-alloy variants": "Исполнение из титанового сплава",
   "Rotary Valves / Airlocks": "Роторные питатели / шлюзовые затворы",
   "Screw Conveyors": "Шнековые конвейеры",
+  "Screw Conveyor": "Шнековый конвейер",
   "Electric Crushing Valves": "Электрические дробильные затворы",
+  "Electric Crushing Valve": "Электрический дробильный затвор",
   "Products": "Продукция",
 }
 

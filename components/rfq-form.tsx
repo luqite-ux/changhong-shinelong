@@ -18,6 +18,7 @@ import {
   FieldLabel,
 } from "@/components/ui/field"
 import { InquiryCaptchaField } from "@/components/inquiry-captcha-field"
+import { productOptionLabel } from "@/lib/product-content"
 
 type SubmitState = "idle" | "submitting" | "success" | "error"
 
@@ -69,13 +70,16 @@ export function RfqForm({ defaultTopic, productOptions = [], locale = "en" }: { 
         <Field orientation="responsive">
           <FieldLabel htmlFor="product">{locale === "zh" ? "意向产品" : locale === "ru" ? "Интересующая продукция" : "Target product"}</FieldLabel>
           <Select name="product" defaultValue={defaultTopic}>
-            <SelectTrigger id="product" className="w-full">
-              <SelectValue placeholder={locale === "zh" ? "选择产品系列（可选）" : locale === "ru" ? "Выберите серию продукции (необязательно)" : "Select a product family (optional)"} />
+            <SelectTrigger id="product" className="w-full min-w-0 overflow-hidden">
+              <SelectValue className="min-w-0 flex-1 truncate text-left" placeholder={locale === "zh" ? "选择产品系列（可选）" : locale === "ru" ? "Выберите серию продукции (необязательно)" : "Select a product family (optional)"} />
             </SelectTrigger>
             <SelectContent>
               {productOptions.map((p) => (
                 <SelectItem key={p.slug} value={p.slug}>
-                  {p.label}
+                  {(() => {
+                    const [code, ...nameParts] = p.label.split(" — ")
+                    return productOptionLabel(code, nameParts.join(" — ") || code, locale)
+                  })()}
                 </SelectItem>
               ))}
               <SelectItem value="not-sure">{locale === "zh" ? "尚不确定，需要选型建议" : locale === "ru" ? "Нужна помощь с подбором" : "Not sure — need selection support"}</SelectItem>

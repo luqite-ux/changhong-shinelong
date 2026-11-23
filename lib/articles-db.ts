@@ -1,4 +1,6 @@
+import { unstable_cache } from "next/cache"
 import { getSupabaseClient, getTenantId } from "@/lib/supabase"
+import { createPublicReadCache } from "@/lib/public-read-cache"
 
 export type Article = {
   slug: string
@@ -27,17 +29,33 @@ function translated(value: Record<string, string> | null | undefined, locale: "e
   return value?.[locale] || value?.en || Object.values(value || {}).find(Boolean) || fallback
 }
 
-export async function getPublishedArticles(locale: "en" | "zh" | "ru" = "en") {
+async function queryPublishedArticleRows(tenant: string) {
   const db = getSupabaseClient()
-  const tenant = getTenantId()
-  if (!db || !tenant) throw new Error("Supabase article configuration is missing")
+  if (!db) throw new Error("Supabase article configuration is missing")
   const { data, error } = await db.from("articles")
     .select("slug,title,title_i18n,excerpt,excerpt_i18n,content,content_i18n,featured_image,published_at,updated_at")
     .eq("tenant_id", tenant)
     .eq("is_published", true)
     .order("published_at", { ascending: false })
   if (error) throw error
-  return ((data ?? []) as ArticleRow[]).map(row => ({
+  return (data ?? []) as ArticleRow[]
+}
+
+const loadArticleRowsWithNextCache = unstable_cache(
+  queryPublishedArticleRows,
+  ["chxl-public-articles-v2"],
+  { revalidate: 300, tags: ["chxl-articles"] },
+)
+
+const articleReadCache = createPublicReadCache(async () => {
+  const tenant = getTenantId()
+  if (!tenant) throw new Error("Supabase article configuration is missing")
+  return loadArticleRowsWithNextCache(tenant)
+}, { ttlMs: 300_000, timeoutMs: 8_000 })
+
+export async function getPublishedArticles(locale: "en" | "zh" | "ru" = "en") {
+  const rows = await articleReadCache.read()
+  return rows.map(row => ({
     slug: row.slug,
     title: translated(row.title_i18n, locale, row.title || ""),
     excerpt: translated(row.excerpt_i18n, locale, row.excerpt || ""),

@@ -3,6 +3,7 @@ import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
 import type { ProductFamily } from "@/lib/types"
 import { t } from "@/lib/types"
+import { technicalRu } from "@/lib/technical-ru"
 
 export function ProductCard({ product, locale = "en" }: { product: ProductFamily; locale?: "en" | "zh" | "ru" }) {
   const cover = product.images[0]
@@ -27,7 +28,7 @@ export function ProductCard({ product, locale = "en" }: { product: ProductFamily
         )}
       </div>
       <div className="flex flex-1 flex-col gap-2 border-t border-border p-5">
-        <span className="text-xs font-semibold uppercase tracking-wide text-primary">{product.code}</span>
+        <span className="text-xs font-semibold uppercase tracking-wide text-primary">{locale === "ru" ? technicalRu(product.code) : product.code}</span>
         <h3 className="text-base font-semibold text-foreground">{t(product.name, locale)}</h3>
         <p className="line-clamp-2 text-sm text-muted-foreground">{t(product.summary, locale)}</p>
         <span className="mt-2 inline-flex items-center gap-1 text-sm font-medium text-foreground">

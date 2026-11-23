@@ -1,9 +1,83 @@
-import { getSupabaseClient,getTenantId } from '@/lib/supabase'
-import type { ProductFamily } from '@/lib/types'
-import { productFamilies as curatedProductFamilies } from '@/lib/products-data'
-import { technicalRu } from '@/lib/technical-ru'
+import { unstable_cache } from "next/cache"
+import { getSupabaseClient, getTenantId } from "@/lib/supabase"
+import type { ProductFamily } from "@/lib/types"
+import { productFamilies as curatedProductFamilies } from "@/lib/products-data"
+import { technicalRu } from "@/lib/technical-ru"
+import { createPublicReadCache } from "@/lib/public-read-cache"
 
-type DbProduct={slug:string;name_i18n?:Record<string,string>;name?:string;description_i18n?:Record<string,string>;description?:string;overview_i18n?:Record<string,string>;overview?:string;image_url?:string;category_slug?:ProductFamily['category'];category?:string;model?:string;features_i18n?:Record<string,string[]>;features?:string[];applications_i18n?:Record<string,string[]>;applications?:string[];specs?:Record<string,string>;extra_data?:{images?:string[];related_slugs?:string[];material_options?:string[];source_fields?:ProductFamily['sourceFields']}}
-function map(row:DbProduct):ProductFamily{const curated=curatedProductFamilies.find((product)=>product.slug===row.slug);const catEn=row.category||'Products';return {slug:row.slug,code:row.model||row.slug.toUpperCase(),name:{en:row.name_i18n?.en||row.name||row.slug,zh:row.name_i18n?.zh,ru:row.name_i18n?.ru},category:row.category_slug||'rotary-valve',categoryLabel:{en:catEn,zh:'产品',ru:technicalRu(catEn)},summary:{en:row.description_i18n?.en||row.description||'',zh:row.description_i18n?.zh,ru:row.description_i18n?.ru},description:[{en:row.overview_i18n?.en||row.overview||row.description||'',zh:row.overview_i18n?.zh,ru:row.overview_i18n?.ru}],industries:row.applications_i18n?.en||row.applications||[],materials:row.extra_data?.material_options||[],customization:row.features_i18n?.en||row.features||[],specs:Object.entries(row.specs||{}).map(([label,value])=>({label,value:String(value)})),images:curated?.images?.length?curated.images:(row.extra_data?.images?.length?row.extra_data.images:[row.image_url]).filter(Boolean).map((src)=>({src:src!,alt:`${row.name_i18n?.en||row.name||row.slug} product image`,status:'available' as const})),relatedSlugs:row.extra_data?.related_slugs||[],sourceFields:row.extra_data?.source_fields||[]}}
-export async function getProducts(){const db=getSupabaseClient(),tenant=getTenantId();if(!db||!tenant)throw new Error('Supabase product configuration is missing');const {data,error}=await db.from('products').select('slug,name,name_i18n,description,description_i18n,overview,overview_i18n,image_url,category,category_slug,model,features,features_i18n,applications,applications_i18n,specs,extra_data').eq('tenant_id',tenant).eq('is_active',true).order('sort_order');if(error)throw error;return (data as DbProduct[]).map(map)}
-export async function getProduct(slug:string){const products=await getProducts();return products.find(x=>x.slug===slug)}
+type DbProduct = {
+  slug: string
+  name_i18n?: Record<string, string>
+  name?: string
+  description_i18n?: Record<string, string>
+  description?: string
+  overview_i18n?: Record<string, string>
+  overview?: string
+  image_url?: string
+  category_slug?: ProductFamily["category"]
+  category?: string
+  model?: string
+  features_i18n?: Record<string, string[]>
+  features?: string[]
+  applications_i18n?: Record<string, string[]>
+  applications?: string[]
+  specs?: Record<string, string>
+  extra_data?: { images?: string[]; related_slugs?: string[]; material_options?: string[]; source_fields?: ProductFamily["sourceFields"] }
+}
+
+function map(row: DbProduct): ProductFamily {
+  const curated = curatedProductFamilies.find(product => product.slug === row.slug)
+  const categoryEn = row.category || "Products"
+  return {
+    slug: row.slug,
+    code: row.model || row.slug.toUpperCase(),
+    name: { en: row.name_i18n?.en || row.name || row.slug, zh: row.name_i18n?.zh, ru: row.name_i18n?.ru },
+    category: row.category_slug || "rotary-valve",
+    categoryLabel: { en: categoryEn, zh: "产品", ru: technicalRu(categoryEn) },
+    summary: { en: row.description_i18n?.en || row.description || "", zh: row.description_i18n?.zh, ru: row.description_i18n?.ru },
+    description: [{ en: row.overview_i18n?.en || row.overview || row.description || "", zh: row.overview_i18n?.zh, ru: row.overview_i18n?.ru }],
+    industries: row.applications_i18n?.en || row.applications || [],
+    materials: row.extra_data?.material_options || [],
+    customization: row.features_i18n?.en || row.features || [],
+    specs: Object.entries(row.specs || {}).map(([label, value]) => ({ label, value: String(value) })),
+    images: curated?.images?.length
+      ? curated.images
+      : (row.extra_data?.images?.length ? row.extra_data.images : [row.image_url])
+          .filter(Boolean)
+          .map(src => ({ src: src!, alt: `${row.name_i18n?.en || row.name || row.slug} product image`, status: "available" as const })),
+    relatedSlugs: row.extra_data?.related_slugs || [],
+    sourceFields: row.extra_data?.source_fields || [],
+  }
+}
+
+async function queryProducts(tenant: string) {
+  const db = getSupabaseClient()
+  if (!db) throw new Error("Supabase product configuration is missing")
+  const { data, error } = await db.from("products")
+    .select("slug,name,name_i18n,description,description_i18n,overview,overview_i18n,image_url,category,category_slug,model,features,features_i18n,applications,applications_i18n,specs,extra_data")
+    .eq("tenant_id", tenant)
+    .eq("is_active", true)
+    .order("sort_order")
+  if (error) throw error
+  return (data as DbProduct[]).map(map)
+}
+
+const loadProductsWithNextCache = unstable_cache(
+  queryProducts,
+  ["chxl-public-products-v2"],
+  { revalidate: 300, tags: ["chxl-products"] },
+)
+
+const productReadCache = createPublicReadCache(async () => {
+  const tenant = getTenantId()
+  if (!tenant) throw new Error("Supabase product configuration is missing")
+  return loadProductsWithNextCache(tenant)
+}, { ttlMs: 300_000, timeoutMs: 8_000 })
+
+export async function getProducts() {
+  return productReadCache.read()
+}
+
+export async function getProduct(slug: string) {
+  return (await getProducts()).find(product => product.slug === slug)
+}
