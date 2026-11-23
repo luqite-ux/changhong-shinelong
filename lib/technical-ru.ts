@@ -42,6 +42,7 @@ const technicalTermsRu: Record<string, string> = {
   "Ceramic lining": "Керамическая футеровка",
   "Titanium-alloy variants": "Исполнение из титанового сплава",
   "Rotary Valves / Airlocks": "Роторные питатели / шлюзовые затворы",
+  "Rotary Valve / Airlock": "Роторный питатель / шлюзовой затвор",
   "Screw Conveyors": "Шнековые конвейеры",
   "Screw Conveyor": "Шнековый конвейер",
   "Electric Crushing Valves": "Электрические дробильные затворы",
