@@ -34,6 +34,8 @@ test("public product and article reads use Next cross-request caching", async ()
 
 test("Russian product breadcrumbs include the singular product-family translation", async () => {
   const terms = await source("lib/technical-ru.ts")
+  const page = await source("app/ru/products/[slug]/page.tsx")
   assert.match(terms, /"Rotary Valve \/ Airlock": "Роторный питатель \/ шлюзовой затвор"/)
+  assert.match(page, /technicalRu\(product\.code\)/)
 })
 
